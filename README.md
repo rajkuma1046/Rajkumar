@@ -41,7 +41,7 @@ color:green;
 
 <section >
 <nav > <pre>
- <a href="#" target="_blank" id="1" > HOME </a>  <a href="#" target="_blank" id="1" > COURSES </a> <a href="#"  id="1"> NOTES</a> <a href="#" id="1"> BATCHES</a>
+ <a href="#" target="_blank" id="1" > HOME </a>  <a href="#" target="_blank" id="1" > COURSES </a> <a href="#"  id="1"> NOTES</a> <a href="https://github.com/rajkuma1046/rajkuma1046.github.io/blob/7072af332b91709ffeb6a197d57a83974b73eb24/Payment%20form" id="1"> payment form</a>
 </pre>
 </nav>
 </section>
