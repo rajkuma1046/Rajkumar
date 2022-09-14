@@ -37,6 +37,11 @@ ul li .a1{
 margin: 2px 2px;
 
 p}
+.h1{
+color:orange;
+
+
+}
 
 
 
@@ -63,7 +68,7 @@ p}
 <div class="main">
 <ul>
 <li class="a1"> <a  href="#" >HOME</a> </li>
-<li class="a2"> <a href="#" >INFOGRAPHICAL SHORT NOTES</a> </li>
+<li class="a2"> <a href="#" > ANIMATED SHORT NOTES</a> </li>
 <br>
 
 <li class="a3"> <a href="#" >MENTORSHIP</a> </li>
@@ -79,6 +84,14 @@ p}
 
 
 </header>
+
+<h1 class="h1"> physics short notes</h1>
+<ol>
+<li>electrostatic short notes</li>
+ 
+
+</ol>
+
 
 
 </body>
