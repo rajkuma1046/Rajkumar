@@ -63,7 +63,7 @@ p}
 <div class="main">
 <ul>
 <li class="a1"> <a  href="#" >HOME</a> </li>
-<li class="a2"> <a href="#" >GRAPHICAL SHORT NOTES</a> </li>
+<li class="a2"> <a href="#" >INFOGRAPHICAL SHORT NOTES</a> </li>
 <br>
 
 <li class="a3"> <a href="#" >MENTORSHIP</a> </li>
