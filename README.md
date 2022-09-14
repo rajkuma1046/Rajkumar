@@ -1,42 +1,89 @@
-import java.util.Scanner; // import the Scanner class 
+<html lang="en">
+<head>
+<title> free mentorship for jee</title>
+<style>
 
-class Main {
-  public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
-    System.out.print("enter a no.1");
-   int a  = sc.nextInt();
-   System.out.print("enter no.3");
-   int b = sc.nextInt();
-   
-    if(a==b) {System.out.println("both no. is equal");}
-    if(a>b) { System.out.println("a is greater than b");}
-    if(a<b) { System.out.println("a is less than b");}
-    
-    
-    
-    
-    
-    
-    
-        }
-import java.util.Scanner; // import the Scanner class 
 
-class Main {
-  public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
-    System.out.print("enter a no.1");
-   int a  = sc.nextInt();
-   System.out.print("enter no.3");
-   int b = sc.nextInt();
-   
-    if(a==b) {System.out.println("both no. is equal");}
-    if(a>b) { System.out.println("a is greater than b");}
-    if(a<b) { System.out.println("a is less than b");}
-    
-    
-    
-    
-    
-    
-    
-        
+
+
+ul{
+float:center;
+list-style-type:none;
+margin: 2px 2px 4px 4px;
+
+
+}
+
+ul li{
+display:inline-block;
+
+}
+
+ul li a{
+text-decoration:none;
+color:black;
+border: 1px solid black;
+transition: 0.6s ease;
+margin: 5px 5px 5px 5px
+
+}
+ul li a:hover{
+color:white;
+background-color:red;
+
+}
+
+ul li .a1{
+margin: 2px 2px;
+
+p}
+
+
+
+
+
+
+</style>
+
+
+
+
+</head>
+
+
+
+
+
+
+<body>
+<header>
+
+
+
+<div class="main">
+<ul>
+<li class="a1"> <a  href="#" >HOME</a> </li>
+<li class="a2"> <a href="#" >GRAPHICAL SHORT NOTES</a> </li>
+<br>
+
+<li class="a3"> <a href="#" >MENTORSHIP</a> </li>
+<li class="a4"> <a href="#" >ABOUT</a> </li>
+<li class="a5"> <a href="#" >CONTACT</a> </li>
+</ul>
+
+</div>
+
+
+
+
+
+
+</header>
+
+
+</body>
+
+
+
+
+</html>
