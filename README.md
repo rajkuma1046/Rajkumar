@@ -88,7 +88,7 @@ color:orange;
 <h1 class="h1"> physics short notes</h1>
 <ol>
 <li>electrostatic short notes</li>
- 
+ <img  width="50%" align="center" src="https://drive.google.com/file/d/1PO_PKM-B4Y_sfLDZQj4uWf6Wrbi2uctp/view?usp=drivesdk">
 
 </ol>
 
