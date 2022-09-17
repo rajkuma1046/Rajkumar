@@ -1,3 +1,4 @@
+
 <html lang="en">
 <head>
 <title> free mentorship for jee</title>
@@ -47,7 +48,6 @@ color:orange;
 
 
 
-
 </style>
 
 
@@ -68,7 +68,7 @@ color:orange;
 <div class="main">
 <ul>
 <li class="a1"> <a  href="#" >HOME</a> </li>
-<li class="a2"> <a href="#" > ANIMATED SHORT NOTES</a> </li>
+<li class="a2"> <a href="#" > SHORT NOTES</a> </li>
 <br>
 
 <li class="a3"> <a href="#" >MENTORSHIP</a> </li>
@@ -88,9 +88,12 @@ color:orange;
 <h1 class="h1"> physics short notes</h1>
 <ol>
 <li>electrostatic short notes</li>
- <img  width="50%" align="center" src="https://drive.google.com/file/d/1PO_PKM-B4Y_sfLDZQj4uWf6Wrbi2uctp/view?usp=drivesdk">
+ 
 
 </ol>
+<video width="full"  src="https://drive.google.com/file/d/1Rac66g033F_JGx6VUUIdQCotKP_HpcjV/view?usp=drivesdk" controls autoplay loops ></video>
+
+
 
 
 
