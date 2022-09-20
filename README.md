@@ -1,187 +1,693 @@
-# FREE-JEEMAIN-MENTORSHI
-theme: jekyll-theme-minimal
-title: Octocat's homepage
-description: Bookmark this to keep an eye on my project updates!
-_index.html
-<!doctype html>
-<html lang="en">
-<head> <title> pw</title>
+<html>
+<head>
+<!---This Theme Edited and Designed By Techno Vimal----->
+<!-- Google Analytics Code-->
 
 
-<style type="text/css">
 
-*{
-color:none;
-background-color:none;
-font-family:"serif";
-font-size:15px;
 
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"/>
+<title>Happy Ganesh Chaturthi to Your Friends</title>
+    <meta name="google" value="notranslate">
+    <meta property="og:type" content="Make your own wonderful wish for you loved once" />
+    <meta property="og:title" content="Sent Ganesh Chaturthi Wishes" />
+    <meta property="og:url" content="https://happy-navratri-2019-blog1.blogspot.com/">
+    <meta property="og:description" content="CLICK HERE" />
+    <meta property="og:site_name" content="Create Ganesh Chaturthi Wishes" />
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <link href='https://fonts.googleapis.com/css?family=Sofia:&effect=neon' rel='stylesheet'>
+	  <link rel="icon" type="image/png" sizes="32x32" href="https://i.imgur.com/fcqTtzV.png">
+
+<style>
+    i {
+        color:#f06414;
+    }
+input[type=name], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
-a:hover{
-color:red;
-text-decoration:none;
-}
-a:visited{
-color:blue;
-
-
-}
-
-
-
-#.1{
-color:green;
-
-
-}
-.video{
-height:600px;
-width: 300px;
-border: 1px solid green;
-display: float;
-float: center;
-
-
-}
-
-.H1{color:white;
-background-color:red;
-border: 1px solid black;
-
-}
-
+.footerbtn1 {
  
- </style>
+            display: block;
+            line-height: 15px;
+            position: fixed;
+            right:0px;
+            bottom:0px;
+            height:40px;
+            
+border-radius: 15px;
+  box-sizing: border-box;
+  padding: 5px;
+  background:#000099;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  width:45%;
+ margin-right:10px;
+            margin-right:30px;
+            box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .3);
+            animation: footer infinite linear 1s;
+            -webkit-transform: translate3d(30%,0,0);
+            transform: translate3d(30%,0,0);
+            position: fixed;
+           
+}
 
+.footerbtn1 :active {
+            box-shadow: none
+        }
+
+        @-webkit-keyframes footer {
+            from {
+                -webkit-transform: rotateZ(0)
+            }
+            25% {
+                -webkit-transform: rotateZ(1.5deg)
+            }
+            50% {
+                -webkit-transform: rotateZ(0deg)
+            }
+            75% {
+                -webkit-transform: rotateZ(-1.5deg)
+            }
+            to {
+                -webkit-transform: rotateZ(0)
+            }}
+.footerbtn {
+ 
+            display: block;
+            line-height: 15px;
+            position: fixed;
+            left:0px;
+            bottom:0px;
+            height:40px;
+            
+border-radius: 15px;
+  box-sizing: border-box;
+  padding: 5px;
+  background:#34af23;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  width:45%;
+ margin-left:10px;
+            margin-right:30px;
+            box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .3);
+            animation: footer infinite linear 1s;
+            -webkit-transform: translate3d(30%,0,0);
+            transform: translate3d(30%,0,0);
+            position: fixed;
+           
+}
+
+.footerbtn :active {
+            box-shadow: none
+        }
+
+        @-webkit-keyframes footer {
+            from {
+                -webkit-transform: rotateZ(0)
+            }
+            25% {
+                -webkit-transform: rotateZ(1.5deg)
+            }
+            50% {
+                -webkit-transform: rotateZ(0deg)
+            }
+            75% {
+                -webkit-transform: rotateZ(-1.5deg)
+            }
+            to {
+                -webkit-transform: rotateZ(0)
+            }}
+
+@-webkit-keyframes jello {  from, 11.1%, to {    transform: none;  }
+  22.2% {    transform: skewX(-12.5deg) skewY(-12.5deg);  }
+  33.3% {    transform: skewX(6.25deg) skewY(6.25deg);  }
+  44.4% {    transform: skewX(-3.125deg) skewY(-3.125deg);  }
+  55.5% {    transform: skewX(1.5625deg) skewY(1.5625deg);  }
+  66.6% {    transform: skewX(-0.78125deg) skewY(-0.78125deg);  }
+  77.7% {    transform: skewX(0.390625deg) skewY(0.390625deg);  }
+  88.8% {    transform: skewX(-0.1953125deg) skewY(-0.1953125deg);  }}
+.jello {  -webkit-animation: jello 3s infinite;  transform-origin: center; -webkit-animation-delay:6s}
+@-webkit-keyframes hue {
+  from {    -webkit-filter: hue-rotate(0deg);  }
+  to {    -webkit-filter: hue-rotate(-360deg);  }}
+    .m1{position:fixed;left:1%; width:auto;height:100%;top:1%;color:#000;}
+    .m2{position:fixed;right:1%; width:auto;height:100%;top:1%;color:#000;}
+.bubbles {
+font-family: arial;
+}
+
+.bubbles hi {
+font-family: 'Luckiest Guy', cursive;
+color: black;
+}
+
+hi {
+ font-size:2.5em;
+ user-select:none;
+}
+
+hi span { display:inline-block; animation:float .2s ease-in-out infinite; }
+ @keyframes float {
+  0%,100%{ transform:none; }
+  33%{ transform:translateY(-1px) rotate(-2deg); }
+  66%{ transform:translateY(1px) rotate(2deg); }
+}
+body:hover span { animation:bounce .6s; }
+@keyframes bounce {
+  0%,100%{ transform:translate(0); }
+  25%{ transform:rotateX(20deg) translateY(2px) rotate(-3deg); }
+  50%{ transform:translateY(-20px) rotate(3deg) scale(1.1);  }
+}
+
+@import url(http://fonts.googleapis.com/css?family=Concert+One);
+
+h1 {
+  animation:glow 10s ease-in-out infinite;
+}
+
+
+
+* { box-sizing:border-box; }
+
+figure {
+  animation:wobble 5s ease-in-out infinite;
+  transform-origin:center center;
+  transform-style:preserve-3d;
+}
+
+@keyframes wobble {
+  0%,100%{ transform:rotate3d(1,1,0,40deg); }
+  25%{ transform:rotate3d(-1,1,0,40deg); }
+  50%{ transform:rotate3d(-1,-1,0,40deg); }
+  75%{ transform:rotate3d(1,-1,0,40deg); }
+}
+
+h1 {
+  display:block;
+  width:90%;
+  line-height:1.5;
+  font:900 35px 'Concert One', sans-serif;
+  position:absolute;
+  color:#fff;
+}
+
+@keyframes glow {
+  0%,100%{ text-shadow:0 0 30px red; }
+  25%{ text-shadow:0 0 30px orange; }
+  50%{ text-shadow:0 0 30px forestgreen; }
+  75%{ text-shadow:0 0 30px cyan; }
+}
+
+h1:nth-child(2){ transform:translateZ(5px); }
+h1:nth-child(3){ transform:translateZ(10px);}
+h1:nth-child(4){ transform:translateZ(15px); }
+h1:nth-child(5){ transform:translateZ(20px); }
+h1:nth-child(6){ transform:translateZ(25px); }
+h1:nth-child(7){ transform:translateZ(30p.rock{animation:infinite 1s rock}
+@keyframes rock {  0% {    transform: rotate(-1deg);  }
+  50% {    transform: rotate(2deg);  }
+  100% {    transform: rotate(-1deg);  }}x); }
+h1:nth-child(8){ transform:translateZ(35px); }
+h1:nth-child(9){ transform:translateZ(40px); }
+h1:nth-child(10){ transform:translateZ(45px); }
+
+
+
+.rock{animation:infinite 1s rock}
+@keyframes rock {  0% {    transform: rotate(-1deg);  }
+  50% {    transform: rotate(2deg);  }
+  100% {    transform: rotate(-1deg);  }}
+
+.fuck{animation:infinite 1s fuck}
+@keyframes rock {  0% {    transform: rotate(-2deg);  }
+  50% {    transform: rotate(2deg);  }
+  100% {    transform: rotate(-2deg);  }}
+
+
+h2 {
+   font-size: 38px;
+    text-align: center;
+    color:#008000;
+    
+    animation: rock infinite 1s;
+    font-family: 'Indie Flower', cursive;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-size: 48px;
+    text-align: center;
+    padding:1px;
+    margin:1px;
+    color: #f06414;
+   
+    aanimation: fuck infinite 1s;
+    font-family: 'Indie Flower', cursive;
+    letter-spacing: 2px;
+	
+	
+	* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/11 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+	
+}
+
+.cssload-preloader {
+	position: absolute;
+	top: 0px;
+	left: px;
+	right: 40px;
+	bottom: 20px;
+	z-index: 10;
+}
+
+.cssload-preloader > .cssload-preloader-box {
+	position: absolute;
+	height: 16px;
+	top: 50%;
+	left: 50%;
+	margin: -8px 0 0 -82px;
+	perspective: 110px;
+		-o-perspective: 110px;
+		-ms-perspective: 110px;
+		-webkit-perspective: 110px;
+		-moz-perspective: 110px;
+}
+
+.cssload-preloader .cssload-preloader-box > div {
+	position: relative;
+	width: 16px;
+	height: 16px;
+	background: rgb(204,204,204);
+	float: left;
+	text-align: center;
+	line-height: 16px;
+	font-family: Verdana;
+	font-size: 11px;
+	color: rgb(255,255,255);
+}.cssload-preloader .cssload-preloader-box > div:nth-child(1) {
+	background: rgb(255,0,0);
+	margin-right: 8px;
+	animation: cssload-movement 690ms ease 0ms infinite alternate;
+		-o-animation: cssload-movement 690ms ease 0ms infinite alternate;
+		-ms-animation: cssload-movement 690ms ease 0ms infinite alternate;
+		-webkit-animation: cssload-movement 690ms ease 0ms infinite alternate;
+		-moz-animation: cssload-movement 690ms ease 0ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(2) {
+	background: rgb(255,0,0);
+	margin-right: 8px;
+	animation: cssload-movement 690ms ease 86.25ms infinite alternate;
+		-o-animation: cssload-movement 690ms ease 86.25ms infinite alternate;
+		-ms-animation: cssload-movement 690ms ease 86.25ms infinite alternate;
+		-webkit-animation: cssload-movement 690ms ease 86.25ms infinite alternate;
+		-moz-animation: cssload-movement 690ms ease 86.25ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(3) {
+	background: rgb(255,0,0);
+	margin-right: 8px;
+	animation: cssload-movement 690ms ease 172.5ms infinite alternate;
+		-o-animation: cssload-movement 690ms ease 172.5ms infinite alternate;
+		-ms-animation: cssload-movement 690ms ease 172.5ms infinite alternate;
+		-webkit-animation: cssload-movement 690ms ease 172.5ms infinite alternate;
+		-moz-animation: cssload-movement 690ms ease 172.5ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(4) {
+	background: rgb(204,255,0);
+	margin-right: 8px;
+	animation: cssload-movement 690ms ease 258.75ms infinite alternate;
+		-o-animation: cssload-movement 690ms ease 258.75ms infinite alternate;
+		-ms-animation: cssload-movement 690ms ease 258.75ms infinite alternate;
+		-webkit-animation: cssload-movement 690ms ease 258.75ms infinite alternate;
+		-moz-animation: cssload-movement 690ms ease 258.75ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(5) {
+	background: rgb(0,255,60);
+	margin-right: 8px;
+	animation: cssload-movement 690ms ease 345ms infinite alternate;
+		-o-animation: cssload-movement 690ms ease 345ms infinite alternate;
+		-ms-animation: cssload-movement 690ms ease 345ms infinite alternate;
+		-webkit-animation: cssload-movement 690ms ease 345ms infinite alternate;
+		-moz-animation: cssload-movement 690ms ease 345ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(6) {
+	background: rgb(0,185,252);
+	margin-right: 8px;
+	animation: cssload-movement 690ms ease 431.25ms infinite alternate;
+		-o-animation: cssload-movement 690ms ease 431.25ms infinite alternate;
+		-ms-animation: cssload-movement 690ms ease 431.25ms infinite alternate;
+		-webkit-animation: cssload-movement 690ms ease 431.25ms infinite alternate;
+		-moz-animation: cssload-movement 690ms ease 431.25ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(7) {
+	background: rgb(58,0,250);
+	margin-right: 8px;
+	animation: cssload-movement 690ms ease 517.5ms infinite alternate;
+		-o-animation: cssload-movement 690ms ease 517.5ms infinite alternate;
+		-ms-animation: cssload-movement 690ms ease 517.5ms infinite alternate;
+		-webkit-animation: cssload-movement 690ms ease 517.5ms infinite alternate;
+		-moz-animation: cssload-movement 690ms ease 517.5ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(8) {
+	background: rgb(255,255,0);
+	margin-right: 8px;
+	animation: cssload-movement 690ms ease 603.75ms infinite alternate;
+		-o-animation: cssload-movement 690ms ease 603.75ms infinite alternate;
+		-ms-animation: cssload-movement 690ms ease 603.75ms infinite alternate;
+		-webkit-animation: cssload-movement 690ms ease 603.75ms infinite alternate;
+		-moz-animation: cssload-movement 690ms ease 603.75ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(9) {
+	background: rgb(221,0,255);
+	margin-right: 8px;
+	animation: cssload-movement 690ms ease 690ms infinite alternate;
+		-o-animation: cssload-movement 690ms ease 690ms infinite alternate;
+		-ms-animation: cssload-movement 690ms ease 690ms infinite alternate;
+		-webkit-animation: cssload-movement 690ms ease 690ms infinite alternate;
+		-moz-animation: cssload-movement 690ms ease 690ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(10) {
+	background: rgb(51,102,255);
+	margin-right: 8px;
+	animation: cssload-movement 690ms ease 776.25ms infinite alternate;
+		-o-animation: cssload-movement 690ms ease 776.25ms infinite alternate;
+		-ms-animation: cssload-movement 690ms ease 776.25ms infinite alternate;
+		-webkit-animation: cssload-movement 690ms ease 776.25ms infinite alternate;
+		-moz-animation: cssload-movement 690ms ease 776.25ms infinite alternate;
+}
+</style>
 </head>
-<body><header   style="color:red;"   style=""> <div> <h1 align="center"> <em> india ka pw </em> </h1> </div>
+
+<body>
+<!-- Sidebar Sliding Images --->
+<marquee class="m1" behavior="scroll" direction="up" scrolldelay="5">  <br>
+<img src="https://1.bp.blogspot.com/-I79F0H9ZsPg/W1R1ufZS-2I/AAAAAAAABzA/IlPB_mELkyEt6CMrX784WTsVl7L2xvbOQCLcBGAs/s1600/b.png" height="129px" width="35px"/><br><br>
+<img src="https://4.bp.blogspot.com/-uRNrOzmisfk/W1R1uj9XpRI/AAAAAAAABzE/pSZVxDvorcg5kQfyUps6VGgerj8aQpkUACLcBGAs/s1600/a.png" height="129px" width="35px"/><br><br>
+<img src="https://1.bp.blogspot.com/-I79F0H9ZsPg/W1R1ufZS-2I/AAAAAAAABzA/IlPB_mELkyEt6CMrX784WTsVl7L2xvbOQCLcBGAs/s1600/b.png" height="129px" width="35px"/><br><br>
+<img src="https://4.bp.blogspot.com/-uRNrOzmisfk/W1R1uj9XpRI/AAAAAAAABzE/pSZVxDvorcg5kQfyUps6VGgerj8aQpkUACLcBGAs/s1600/a.png" height="129px" width="35px"/><br><br>
+<img src="https://1.bp.blogspot.com/-I79F0H9ZsPg/W1R1ufZS-2I/AAAAAAAABzA/IlPB_mELkyEt6CMrX784WTsVl7L2xvbOQCLcBGAs/s1600/b.png" height="129px" width="35px"/><br><br>
+<img src="https://4.bp.blogspot.com/-uRNrOzmisfk/W1R1uj9XpRI/AAAAAAAABzE/pSZVxDvorcg5kQfyUps6VGgerj8aQpkUACLcBGAs/s1600/a.png" height="129px" width="35px"/><br><br>
+<img src="https://1.bp.blogspot.com/-I79F0H9ZsPg/W1R1ufZS-2I/AAAAAAAABzA/IlPB_mELkyEt6CMrX784WTsVl7L2xvbOQCLcBGAs/s1600/b.png" height="129px" width="35px"/><br><br>
+<img src="https://4.bp.blogspot.com/-uRNrOzmisfk/W1R1uj9XpRI/AAAAAAAABzE/pSZVxDvorcg5kQfyUps6VGgerj8aQpkUACLcBGAs/s1600/a.png" height="129px" width="35px"/><br><br>
+<img src="https://1.bp.blogspot.com/-I79F0H9ZsPg/W1R1ufZS-2I/AAAAAAAABzA/IlPB_mELkyEt6CMrX784WTsVl7L2xvbOQCLcBGAs/s1600/b.png" height="129px" width="35px"/><br><br>
+<img src="https://4.bp.blogspot.com/-uRNrOzmisfk/W1R1uj9XpRI/AAAAAAAABzE/pSZVxDvorcg5kQfyUps6VGgerj8aQpkUACLcBGAs/s1600/a.png" height="129px" width="35px"/><br><br>
+<img src="https://1.bp.blogspot.com/-I79F0H9ZsPg/W1R1ufZS-2I/AAAAAAAABzA/IlPB_mELkyEt6CMrX784WTsVl7L2xvbOQCLcBGAs/s1600/b.png" height="129px" width="35px"/><br><br>
+<img src="https://4.bp.blogspot.com/-uRNrOzmisfk/W1R1uj9XpRI/AAAAAAAABzE/pSZVxDvorcg5kQfyUps6VGgerj8aQpkUACLcBGAs/s1600/a.png" height="129px" width="35px"/><br><br>
+<img src="https://1.bp.blogspot.com/-I79F0H9ZsPg/W1R1ufZS-2I/AAAAAAAABzA/IlPB_mELkyEt6CMrX784WTsVl7L2xvbOQCLcBGAs/s1600/b.png" height="129px" width="35px"/><br><br>
+<img src="https://4.bp.blogspot.com/-uRNrOzmisfk/W1R1uj9XpRI/AAAAAAAABzE/pSZVxDvorcg5kQfyUps6VGgerj8aQpkUACLcBGAs/s1600/a.png" height="129px" width="35px"/><br><br>
+<img src="https://1.bp.blogspot.com/-I79F0H9ZsPg/W1R1ufZS-2I/AAAAAAAABzA/IlPB_mELkyEt6CMrX784WTsVl7L2xvbOQCLcBGAs/s1600/b.png" height="129px" width="35px"/><br><br>
+<img src="https://4.bp.blogspot.com/-uRNrOzmisfk/W1R1uj9XpRI/AAAAAAAABzE/pSZVxDvorcg5kQfyUps6VGgerj8aQpkUACLcBGAs/s1600/a.png" height="129px" width="35px"/><br><br>
+<img src="https://1.bp.blogspot.com/-I79F0H9ZsPg/W1R1ufZS-2I/AAAAAAAABzA/IlPB_mELkyEt6CMrX784WTsVl7L2xvbOQCLcBGAs/s1600/b.png" height="129px" width="35px"/><br><br>
+<img src="https://4.bp.blogspot.com/-uRNrOzmisfk/W1R1uj9XpRI/AAAAAAAABzE/pSZVxDvorcg5kQfyUps6VGgerj8aQpkUACLcBGAs/s1600/a.png" height="129px" width="35px"/><br><br>
+<img src="https://1.bp.blogspot.com/-I79F0H9ZsPg/W1R1ufZS-2I/AAAAAAAABzA/IlPB_mELkyEt6CMrX784WTsVl7L2xvbOQCLcBGAs/s1600/b.png" height="129px" width="35px"/><br><br>
+<img src="https://4.bp.blogspot.com/-uRNrOzmisfk/W1R1uj9XpRI/AAAAAAAABzE/pSZVxDvorcg5kQfyUps6VGgerj8aQpkUACLcBGAs/s1600/a.png" height="129px" width="35px"/><br><br>
+<img src="https://1.bp.blogspot.com/-I79F0H9ZsPg/W1R1ufZS-2I/AAAAAAAABzA/IlPB_mELkyEt6CMrX784WTsVl7L2xvbOQCLcBGAs/s1600/b.png" height="129px" width="35px"/><br><br>
+
+</marquee>
+<marquee class="m2" behavior="scroll" direction="down" scrolldelay="5"><br>
+<img src="https://4.bp.blogspot.com/-uRNrOzmisfk/W1R1uj9XpRI/AAAAAAAABzE/pSZVxDvorcg5kQfyUps6VGgerj8aQpkUACLcBGAs/s1600/a.png" height="129px" width="35px"/><br><br>
+<img src="https://1.bp.blogspot.com/-I79F0H9ZsPg/W1R1ufZS-2I/AAAAAAAABzA/IlPB_mELkyEt6CMrX784WTsVl7L2xvbOQCLcBGAs/s1600/b.png" height="129px" width="35px"/><br><br>
+<img src="https://4.bp.blogspot.com/-uRNrOzmisfk/W1R1uj9XpRI/AAAAAAAABzE/pSZVxDvorcg5kQfyUps6VGgerj8aQpkUACLcBGAs/s1600/a.png" height="129px" width="35px"/><br><br>
+<img src="https://1.bp.blogspot.com/-I79F0H9ZsPg/W1R1ufZS-2I/AAAAAAAABzA/IlPB_mELkyEt6CMrX784WTsVl7L2xvbOQCLcBGAs/s1600/b.png" height="129px" width="35px"/><br><br>
+<img src="https://4.bp.blogspot.com/-uRNrOzmisfk/W1R1uj9XpRI/AAAAAAAABzE/pSZVxDvorcg5kQfyUps6VGgerj8aQpkUACLcBGAs/s1600/a.png" height="129px" width="35px"/><br><br>
+<img src="https://1.bp.blogspot.com/-I79F0H9ZsPg/W1R1ufZS-2I/AAAAAAAABzA/IlPB_mELkyEt6CMrX784WTsVl7L2xvbOQCLcBGAs/s1600/b.png" height="129px" width="35px"/><br><br>
+<img src="https://4.bp.blogspot.com/-uRNrOzmisfk/W1R1uj9XpRI/AAAAAAAABzE/pSZVxDvorcg5kQfyUps6VGgerj8aQpkUACLcBGAs/s1600/a.png" height="129px" width="35px"/><br><br>
+<img src="https://1.bp.blogspot.com/-I79F0H9ZsPg/W1R1ufZS-2I/AAAAAAAABzA/IlPB_mELkyEt6CMrX784WTsVl7L2xvbOQCLcBGAs/s1600/b.png" height="129px" width="35px"/><br><br>
+<img src="https://4.bp.blogspot.com/-uRNrOzmisfk/W1R1uj9XpRI/AAAAAAAABzE/pSZVxDvorcg5kQfyUps6VGgerj8aQpkUACLcBGAs/s1600/a.png" height="129px" width="35px"/><br><br>
+<img src="https://1.bp.blogspot.com/-I79F0H9ZsPg/W1R1ufZS-2I/AAAAAAAABzA/IlPB_mELkyEt6CMrX784WTsVl7L2xvbOQCLcBGAs/s1600/b.png" height="129px" width="35px"/><br><br>
+<img src="https://4.bp.blogspot.com/-uRNrOzmisfk/W1R1uj9XpRI/AAAAAAAABzE/pSZVxDvorcg5kQfyUps6VGgerj8aQpkUACLcBGAs/s1600/a.png" height="129px" width="35px"/><br><br>
+<img src="https://1.bp.blogspot.com/-I79F0H9ZsPg/W1R1ufZS-2I/AAAAAAAABzA/IlPB_mELkyEt6CMrX784WTsVl7L2xvbOQCLcBGAs/s1600/b.png" height="129px" width="35px"/><br><br>
+<img src="https://4.bp.blogspot.com/-uRNrOzmisfk/W1R1uj9XpRI/AAAAAAAABzE/pSZVxDvorcg5kQfyUps6VGgerj8aQpkUACLcBGAs/s1600/a.png" height="129px" width="35px"/><br><br>
+<img src="https://1.bp.blogspot.com/-I79F0H9ZsPg/W1R1ufZS-2I/AAAAAAAABzA/IlPB_mELkyEt6CMrX784WTsVl7L2xvbOQCLcBGAs/s1600/b.png" height="129px" width="35px"/><br><br>
+<img src="https://4.bp.blogspot.com/-uRNrOzmisfk/W1R1uj9XpRI/AAAAAAAABzE/pSZVxDvorcg5kQfyUps6VGgerj8aQpkUACLcBGAs/s1600/a.png" height="129px" width="35px"/><br><br>
+<img src="https://1.bp.blogspot.com/-I79F0H9ZsPg/W1R1ufZS-2I/AAAAAAAABzA/IlPB_mELkyEt6CMrX784WTsVl7L2xvbOQCLcBGAs/s1600/b.png" height="129px" width="35px"/><br><br>
+<img src="https://4.bp.blogspot.com/-uRNrOzmisfk/W1R1uj9XpRI/AAAAAAAABzE/pSZVxDvorcg5kQfyUps6VGgerj8aQpkUACLcBGAs/s1600/a.png" height="129px" width="35px"/><br><br>
+<img src="https://1.bp.blogspot.com/-I79F0H9ZsPg/W1R1ufZS-2I/AAAAAAAABzA/IlPB_mELkyEt6CMrX784WTsVl7L2xvbOQCLcBGAs/s1600/b.png" height="129px" width="35px"/><br><br>
+<img src="https://4.bp.blogspot.com/-uRNrOzmisfk/W1R1uj9XpRI/AAAAAAAABzE/pSZVxDvorcg5kQfyUps6VGgerj8aQpkUACLcBGAs/s1600/a.png" height="129px" width="35px"/><br><br>
+<img src="https://1.bp.blogspot.com/-I79F0H9ZsPg/W1R1ufZS-2I/AAAAAAAABzA/IlPB_mELkyEt6CMrX784WTsVl7L2xvbOQCLcBGAs/s1600/b.png" height="129px" width="35px"/><br><br>
+<img src="https://4.bp.blogspot.com/-uRNrOzmisfk/W1R1uj9XpRI/AAAAAAAABzE/pSZVxDvorcg5kQfyUps6VGgerj8aQpkUACLcBGAs/s1600/a.png" height="129px" width="35px"/><br><br>
+</marquee>
+<!---This Theme Edited and Designed By Khursheed Parray----->
+<body class="bg" id="rakhi" style="background: linear-gradient(to bottom right, #f6ff00, #e1e8e7, #00ffe9);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;">
+	
+	
+<center><span style="font-size: 20px;"color: #ff077a;">▅ ▆ ▇ █ HAPPY NAVRATRI █ ▇ ▆ ▅</center>	
+<center>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Wishing 2 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:50px"
+     data-ad-client="ca-pub-4696491179456446"
+     data-ad-slot="2568634816"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+</center>
+ <center> 
+<div class="container">
+    <div class="main-greeting">
+<div align="center html2canvas-ignore">
+     <div style="font-size: 20px; font-weight: 500; color: Black;">
+<p id="demo"></p>
+
+<center><span class="hny-txt" style="font-size: 42px;">
+<img src="https://i.imgur.com/PiM9zUg.png" width="35px"><b>
+<span style="color: red;">WELCOME</span> 
+<img src="https://i.imgur.com/PiM9zUg.png" width="35px"></b>
+</span></center>
+
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<div style="background-color:#00FFFF; border-radius: 17px; border: 0px solid rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.2) 5px 5px 5px; color: black; font-family: arial, sans-serif; font-size: 18px; font-stretch: normal; font-style: normal; font-variant: normal; line-height: normal; margin: 0px auto; padding: 4px 5px 3px; width: 70%;">
+<marquee behavior="alternate"><b>
+“माँ दुर्गा के आशीर्वाद से आपका जीवन सुखमय हो”
+</b></marquee>
+</div>
+<div style="background-color: #FF0000; border-radius: 17px; border: 0px solid rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.2) 5px 5px 5px; color: white; font-family: arial, sans-serif; font-size: 18px; font-stretch: normal; font-style: normal; font-variant: normal; line-height: normal; margin: 0px auto; padding: 4px 5px 3px; width: 70%;">
+<marquee behavior="alternate"><b>
+इस नवरात्री हमारी शुभकामनाएँ आपके साथ हैं
+</b></marquee>
+</div>
+<div style="background-color: #FFFF00; border-radius: 17px; border: 0px solid rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.2) 5px 5px 5px; color: black; font-family: arial, sans-serif; font-size: 18px; font-stretch: normal; font-style: normal; font-variant: normal; line-height: normal; margin: 0px auto; padding: 4px 5px 3px; width: 70%;">
+<marquee behavior="alternate"><b>
+|| नवरात्री की हार्दिक बधाई || 
+</b></marquee>
+</div>
+</div>
 
 
+<center>
+<figure>
+	<h1 style="text-transform: uppercase;"><script type="text/javascript" language="Javascript">
+                 var a=prompt("Please Enter Your Name\n\n👇👇👇👇👇");
+                 document.write(a);
+                </script> </h1>
+	<h1 style="text-transform: uppercase;"><script type="text/javascript" language="Javascript">
+                    
+                    document.write(a);
+                      </script> </h1>
+	<h1 style="text-transform: uppercase;"><script type="text/javascript" language="Javascript">
+                   
+                    document.write(a);
+                      </script> </h1>
+	<h1 style="text-transform: uppercase;"><script type="text/javascript" language="Javascript">
+                    
+                    document.write(a);
+                      </script></h1>
+    <h1 style="text-transform: uppercase;"><script type="text/javascript" language="Javascript">
+                   
+                    document.write(a);
+                      </script> </h1>
+    <h1 style="text-transform: uppercase;"><script type="text/javascript" language="Javascript">
+                   
+                    document.write(a);
+                      </script> </h1>
+    <h1 style="text-transform: uppercase;"><script type="text/javascript" language="Javascript">
+                    
+                    document.write(a);
+                      </script></h1>
 
+</figure>
+ </center>
+<div class="vi" style="text-align: center;">
 
-<section >
-<nav > <pre>
- <a href="#" target="_blank" id="1" > HOME </a>  <a href="#" target="_blank" id="1" > COURSES </a> <a href="#"  id="1"> NOTES</a> <a href="#" id="1"> BATCHES</a>
-</pre>
-</nav>
-</section>
+<img src="https://goo.gl/Qh4czs" alt="long.jpg" style="width: 100%; height:100px;"><br><br><br>
+<center>
+<img src="https://goo.gl/JaZr9F" width="60%" height="12%"style="animation: tada 4s infinite"><br><br>
+<img src="https://4.bp.blogspot.com/-lSNk6VavvXY/W5y-Mu7CuXI/AAAAAAAACoY/rtZ8b79ScQQuHnR0NJDWweBuvcrAOlU3gCLcBGAs/s1600/navratri06.gif" width="80%" height="120px"style="animation: pulse 1.5s infinite"><br><br>
+</center>
+<center>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Wishing -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:50px"
+     data-ad-client="ca-pub-4696491179456446"
+     data-ad-slot="5590491777"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
+</center>
+<p style="text-align: center;"><strong><span style="font-size: 21pt; font-family: 'comic sans ms', sans-serif; color: #ff7700;">✪ <span style="font-family: 'trebuchet ms', geneva;">Happy Navratri</span> ✪</span></strong></p>
 
+<!----- Wishing Poem Here ----->
+<p style="text-align: center;"><strong><span style="background-color: #ff0000; color: #ffffff; font-size: 16pt; font-family: tahoma, arial, helvetica, sans-serif;">&nbsp;सर्व मंगल मांगल्ये शिवे सर्वार्थ साधिके, </span></p>
+<p style="text-align: center;"><span style="background-color: #008000; color: #ffffff; font-size: 16pt; font-family: tahoma, arial, helvetica, sans-serif;">&nbsp;शरन्ये त्रयम्बिके गौरी नारायणी नमोस्तुते</span></p>
+<p style="text-align: center;"><span style="background-color: #ff00ff; color: #ffffff; font-size: 16pt; font-family: tahoma, arial, helvetica, sans-serif;">&nbsp;✪ माँ का आशिर्वाद सदैव आपके साथ रहे ✪</span></p>
 
+<img src="https://2.bp.blogspot.com/-kePCDRSjHQQ/W5zCI6v5nrI/AAAAAAAACos/UA_6C88e-psqAVM8iaxElpvFH6gmClYsQCLcBGAs/s320/Art-350.jpg"style="animation: pulse 1.5s infinite" class="swing2"  height="300px" width="320px"/>
+</center>
 
+<p style="text-align: center;"><span style="background-color: #663399; color: #FFFAFA; font-size: 15pt; font-family: tahoma, arial, helvetica, sans-serif;">&nbsp; यह msg नवरात्री तक सभी के मोबाइल में होना चाहिए यह आपका फर्ज हैं </span></p>
+<center>
+<div class="busi"><h4><p style="text-transform: uppercase;font-size: 26px;color:#ffffff;"> <script type="text/javascript" language="Javascript">                                       
+ document.write( "by - " +a);
+                      </script><br><br></p></h4></center>
+<center>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Link Ads -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4696491179456446"
+     data-ad-slot="1112298516"
+     data-ad-format="link"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
+</center>
+</div>
+        </div>
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("October 10, 2018 00:00:00").getTime();
 
-</header>
-<section>
-<main>
-       <h2> lord ram</h2>
-   <img align="right"  border="3"  width="100%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEaDfH9Si1nechNtUwaacnU82psPUECIxPNw&usqp=CAU">
+// Update the count down every 01 second
+var x = setInterval(function() {
 
- 
- 
- 
- </section>
- <p> 
- Maryada Purushottam Shri Rama was the seventh incarnation of Vishnu. Lord Rama is counted among the greatest gods of Hinduism. Lord Shri Ram was born in Treta Yuga in present day Ayodhya in Uttar Pradesh. Birthday of Shri Ram ji is celebrated on the Navami date of Chaitra month.
-</p>
-<hr> <p align="center" >  After one yug</p><hr>
-<section>
-<h2>  shree krishna  </h2>
-<img  width="90%" border="3"  align="right"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPEVfyyCyDDC5dKxhbJ4q32RNybO97eWt-Jg&usqp=CAU">
- <pre>     
- 
- 
+  // Get todays date and time
+  var now = new Date().getTime();
 
- 
- </pre>
- <p class="b"> Lord Krishna played various roles in his earthly form like a mentor, deity, teacher, friend, lover, and more. Lord Krishna holds a flute in his hand and wears the feather of a peacock on his forehead. He was born to kill the evil king of Mathura, known as Kansa, and freed the devotees from his dreadfulness.
-</p>
-</section>
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
 
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + "<i> Days,</i> " + hours + " <i>Hrs,</i> "
+  + minutes + "<i> Min,</i> " + seconds + "<i> Sec</i> ";
 
-
-
-
-<hr>
-
-
-<hr>
-
-
-
-
-<section>
-<pre>
-<h2> Read bhagwat Geeta online</h2>
-<iframe height="600" width="100%" src="https://jandan-helper.blogspot.com/2022/05/bhagwat-geeta-pdf-in-hindi-download.html"> </iframe>
-
-
-<h4 class="a"> if you want to buy bhagwat geeta 
-with special 34% discount </h4>
-<a href="https://www.amazon.in/-/hi/gp/aw/d/B07XQJJCL2/ref=tmm_pap_swatch_0?ie=UTF8&qid=&sr="> <img align="center" border="4"  width="80%" src="data:image/jpeg;base64,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"> </a>
-<p> click on image to buy book</p>
-
-
-
-</pre>
-</section>
-<hr>
-<section>
-
-<h3> sent your quaries </h3>
-<form><pre>
-NAME :  <input type="text" name="name" id="name"></input> <br>
-Gander: <input type="radio" name="g"> male <input type="radio" name="g"> female
-
-Mobile : <input type="number" name="mobile"  id="mobile">
-
-your comment:
-<textarea cols="40"  rows="7"> say hello </textarea>
-
-<button > send </button>   <input type="reset">
-</pre>
-</form>
-</section>
-
-
-
-
-
-<section>
-<h1 class="H1" align="center"> VIDEO</h1>
-<video poster="shree krishna.jpg" autoplay class="video" src="inshot/InShot_20220916_230027754.mp4" controls  >
-my video 
-</video>
-
-</section>
-
-
-<hr>
-<footer> <pre>  ©reserve all copyright <p> FAQ</p>  <a href="#" > Policy</a> <a href="#"  target="_blank"> @1999-2022</a>
- <p>contact: 8770767272 </p>
- </pre>
- 
- 
- </footer>
-
-
-
-
-
-
-
-</main>
-
-
-
-
-
-
-
-
-
-
-
+  // If the count down is finished, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "Started";
+  }
+}, 1000);
+</script>       
+            </div>
+        </div>
+		
+		
 </body>
-</html>
+ 
+<center>
+ <a class="footerbtn" href="whatsapp://send?text=*मुझसे पहले ऐसा संदेश आपके लिए किसी ने नही भेजा होगा निचे क्लिक करके देखो क्या है आपके लिए* 👉 https://mywishfree2.blogspot.com/" data-action="share/whatsapp/share">
+ <img width="22px" height="22px" src="https://goo.gl/ReKHXA"/>  
+ <b style="font-size: 26px;">Share</b>  
+</a>
+ <a class="footerbtn1" href="https://www.facebook.com/sharer/sharer.php?u= https://mywishfree2.blogspot.com/" target="_blank" title="Share this post on Facebook" class="facebook">
+	<img width="22px" height="22px" src="http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/social-facebook-icon.png"/>  
+ <b style="font-size: 26px;">Share</b>  
+ </a>
+</center>
+
+<!---This Theme Edited and Designed By Khursheed Parray----->
+</script>
+</html>        
