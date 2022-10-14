@@ -362,7 +362,7 @@
 
            <a class="pdf-link" href="https://uploadnow.io/f/cHZ3zCZ"> Click Here Atomic stracture</a>
  
- </section>
+ 
  
   <hr>    
   <pre>
@@ -385,7 +385,7 @@
                 
                 
                 
-                </div>
+                
                 <pre>
                 
                 
@@ -429,10 +429,9 @@
               
          
          
+       
          
-</main>         
-         
-      </body>
+      
       
       
   <br>
@@ -450,4 +449,4 @@
               <p>© all copyright reseve  | privacy policy</p>
               <i> ® Term & conditions</i>
       </footer>
-</html>
+
