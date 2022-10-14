@@ -1,8 +1,8 @@
 
-<!doctype html>
+
 <html>
 <head>
-   <title> my demo site for html | rajbkagyan</title>
+   <title> jeemains notes for 2023 | jeemain2023 exam dates</title>
    <meta name="viewport" content="width=device-width, initial-scale=1" />
          <style type="text/css">
          *{
@@ -340,12 +340,12 @@
          
   </div>
          
-        <selector class="sct">
+        <div class="sct">
         <h3 class="pro"> • Periodic table short notes for Jeemain</h3>
         <img class="pro-img "src="https://3c5.com/3d1y1" alt="https://3c5.com/3d1y1">
         <img class="pro-img "src="https://3c5.com/z3i5q" alt="https://3c5.com/z3i5q">
         
-        </selector>
+        </div>
          
  <br>
  <br>
