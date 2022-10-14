@@ -340,19 +340,19 @@
          
   </div>
          
-        <div class="sct">
-        <h3 class="pro"> • Periodic table short notes for Jeemain</h3>
-        <img class="pro-img "src="https://3c5.com/3d1y1" alt="https://3c5.com/3d1y1">
-        <img class="pro-img "src="https://3c5.com/z3i5q" alt="https://3c5.com/z3i5q">
+        <section class="sct">
+               <h3 class="pro"> • Periodic table short notes for Jeemain</h3> <br>
+               <img class="pro-img" src="https://3c5.com/3d1y1" alt="https://3c5.com/3d1y1">
+               <img class="pro-img" src="https://3c5.com/z3i5q" alt="https://3c5.com/z3i5q">
         
-        </div>
+        </section>
          
  <br>
  <br>
- 
+ <hr>
  <section>
         <h3 class="pdf-heading-atomic"> DOWNLOAD ATOMIC STRUCTURE NOTES PDF FOR JEEMAINS2023</h1>
-      <hr>
+      
       <h4 class="atomic-text"> To download ATOMIC STRACTURE short notes <br> pdf click downlod </h4>
       
               <button class="download-btn-atomic"> 
