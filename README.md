@@ -458,7 +458,7 @@
  <div class="container">
      <div class="row">
          <div class="col-md-12 text-center">
-             <h3 align="left" class="animate-charcter"> Target Jeemains 2023 </h3>
+             <h3 class="animate-charcter"> Target Jeemains 2023 </h3>
          </div>
      </div>
  </div>
@@ -612,7 +612,7 @@
          <div class="container">
          <div class="row">
          <div class="col-md-12 text-center">
-         <h3 text-align="left" class="animate-charcter">Follow Us ! </h3> 
+         <h3 class="animate-charcter">Follow Us ! </h3> 
          </div>
          </div>
          </div>
