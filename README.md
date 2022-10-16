@@ -119,7 +119,7 @@
         body header nav ul a:visited{
         
         color: red;
-        text-decoration: none;
+        text-decoration: underline;
         
         }
         
@@ -129,6 +129,8 @@
         height: auto;
         background-color:yellow;
         padding: 2px
+        padding-left: 0;
+        margin-left: 0px;
         overflow: auto;
         
         
@@ -509,7 +511,7 @@
                          </a>
               </button>
 
-           <a class="pdf-link" href="https://uploadnow.io/f/cHZ3zCZ"> Click Here Atomic stracture</a>
+          
  
  </section>
  
@@ -547,7 +549,7 @@
                 </pre>
                 
          <hr>
-         <h4 align="center" > FOLLOW US ! on social media</h4> <br>
+         <h4 align="center" style="text-decoration: underline" > FOLLOW US ! on social media</h4> <br>
          
 <div class="social-container">
           <pre>
@@ -626,7 +628,7 @@
   
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 3000); // Change image every 2 seconds
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
   }
   </script>.
   
