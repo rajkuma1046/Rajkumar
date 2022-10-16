@@ -326,7 +326,7 @@
                  <ul class="nav-ul">
                     <li class="nav-1"> <a href="https://jeementor.me" >Home </a></li>
                     <li class="nav-2"><a href="#" >Physics</a></li>
-                    <li class="nav-3"><a href="#" > Chemistry </a></li>
+                    <li class="nav-3"><a href="#" > Chemistry </a></li> <br>
                     <li class="nav-3"><a href="#" > Mathematics </a></li>
                     <li class="nav-3"><a href="#" > Strategy Videos </a></li>
                     <li class="nav-4"><a href="#" >contact </a></li>
