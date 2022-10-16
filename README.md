@@ -1,5 +1,10 @@
 <html lang="en"> 
 <head>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6738179060246081"
+     crossorigin="anonymous"></script>
+
+
+
    <title> jeemains 2023 short notes | jeemains2023 news updates  </title>
    <meta name="viewport" content="width=device-width, initial-scale=1" />
          <style type="text/css">
