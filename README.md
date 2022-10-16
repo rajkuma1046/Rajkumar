@@ -4,7 +4,7 @@
 <head>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6738179060246081"
      crossorigin="anonymous"></script>
-   <title> jeemains notes for 2023 | jeemain2023 exam dates</title>
+   <title> jeemains notes for 2023 | jeemains2023 exam dates</title>
    <meta name="viewport" content="width=device-width, initial-scale=1" />
          <style type="text/css">
          *{
