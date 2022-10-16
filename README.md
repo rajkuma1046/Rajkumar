@@ -1,8 +1,19 @@
 <html lang="en"> 
 <head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7K9CJ19V5B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7K9CJ19V5B');
+</script>
+
+<!-- adsen code -->
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6738179060246081"
      crossorigin="anonymous"></script>
-
 
 
    <title> jeemains 2023 short notes | jeemains2023 news updates  </title>
@@ -124,7 +135,7 @@
         body header nav ul a:visited{
         
         color: red;
-        text-decoration: underline;
+        text-decoration: none;
         
         }
         
@@ -134,8 +145,6 @@
         height: auto;
         background-color:yellow;
         padding: 2px
-        padding-left: 0;
-        margin-left: 0px;
         overflow: auto;
         
         
@@ -403,6 +412,35 @@
         }
         
         
+/* animation text*/        
+        .animate-charcter
+        {
+        text-transform: auto;
+        background-image: linear-gradient(
+        -225deg,
+        #231557 0%,
+        #44107a 29%,
+        #ff1361 67%,
+        #fff800 100%
+        );
+        background-size: auto auto;
+        background-clip: border-box;
+        background-size: 200% auto;
+        color: #fff;
+        background-clip: text;
+        text-fill-color: transparent;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: textclip 4s ease infinite;
+        display: inline-block;
+        font-size: 1.5rem;
+        }
+        
+        @keyframes textclip {
+        to {
+        background-position: 200% center;
+        }
+        }
         
          </style>
 </head>
@@ -410,7 +448,18 @@
     <body>
       <input  type="text" placeholder="search.."> <button id="search-icon"><img src="https://3c5.com/b8u1b"></button>
  
-
+ 
+ 
+ <div class="container">
+     <div class="row">
+         <div class="col-md-12 text-center">
+             <h3 align="center" class="animate-charcter"> Target Jeemains 2023 </h3>
+         </div>
+     </div>
+ </div>
+ 
+ 
+ 
 
 <div class="slideshow-container">
       
@@ -470,16 +519,16 @@
                  <ul class="nav-ul">
                     <li class="nav-1"> <a href="https://jeementor.me" >Home </a></li>
                     <li class="nav-2"><a href="#" >mentorship</a></li>
-                    <li class="nav-2"><a href="#" >Physics notes</a></li>
-                    <li class="nav-2"><a href="#" >Chemistry notes</a></li>
+                    <li class="nav-2"><a href="#" >Physics-notes</a></li>
+                    <li class="nav-2"><a href="#" >Chemistry-notes</a></li>
                    
-                    <li class="nav-2"><a href="#" >Mathematics notes</a></li>
+                    <li class="nav-2"><a href="#" >Mathematics-notes</a></li>
                     <li class="nav-3"><a href="#" > Jeemains2023 </a></li>
                     <li class="nav-3"><a href="#" > Jeeadvanced2023 </a></li>
-                    <li class="nav-3"><a href="#" > advanced PYQ Chapterwise </a></li>
-                    <li class="nav-3"><a href="#" > Jeemains PYQ chapterwise </a></li>
-                    <li class="nav-3"><a href="#" > HC verma  </a></li>
-                    <li class="nav-3"><a href="#" > S L loney </a></li>
+                    <li class="nav-3"><a href="#" > advanced-PYQ-Chapterwise </a></li>
+                    <li class="nav-3"><a href="#" > Jeemains-PYQ-chapterwise </a></li>
+                    <li class="nav-3"><a href="#" > HC-verma  </a></li>
+                    <li class="nav-3"><a href="#" > S L-loney </a></li>
                     <li class="nav-4"><a href="https://wa.me/+918770767272" >contact </a></li>
                     
             
@@ -496,8 +545,8 @@
          
         <section class="sct">
         <h3 class="pro"> • Periodic table short notes for Jeemain</h3>
-        <img class="pro-img" src="https://3c5.com/3d1y1" alt="https://3c5.com/3d1y1">
-        <img class="pro-img" src="https://3c5.com/z3i5q" alt="https://3c5.com/z3i5q">
+        <img class="pro-img "src="https://3c5.com/3d1y1" alt="https://3c5.com/3d1y1">
+        <img class="pro-img "src="https://3c5.com/z3i5q" alt="https://3c5.com/z3i5q">
         
         </section>
          
@@ -512,11 +561,12 @@
               <button class="download-btn-atomic"> 
                          
                          <a href="https://uploadnow.io/f/cHZ3zCZ" >
-                             <img class="download-icon" src="https://3c5.com/9q6k5">
+                            <img class="download-icon" src="https://3c5.com/9q6k5">
+                         
                          </a>
               </button>
 
-          
+           <
  
  </section>
  
@@ -536,15 +586,14 @@
                           <button class="download-btn-preodic"> 
                                       
                                             <a href="https://uploadnow.io/f/htLJ0wq" >
-                                                    <img class="download-icon" src="https://3c5.com/9q6k5">
-                                             </a>
+                                            <img class="download-icon" src="https://3c5.com/9q6k5">
+                                            </a>
                           </button>
                 
                 
                 
                 
                 </div>
-     <hr>
                 <pre>
                 
                 
@@ -555,12 +604,21 @@
                 </pre>
                 
          <hr>
-         <h4 align="center" style="text-decoration: underline" > FOLLOW US ! on social media</h4> <br>
+         <div class="container">
+         <div class="row">
+         <div class="col-md-12 text-center">
+         <h4 text-align="center" class="animate-charcter">Follow Us ! </h4> 
+         </div>
+         </div>
+         </div>
+         
+         
+         
          
 <div class="social-container">
           <pre>
 
-         
+
 </pre>
       <a id="linked" href="https://www.linkedin.com/in/raj-dagi1046" target="https://www.linkedin.com/in/raj-dagi1046" >
            <img src="https://3c5.com/wrull" alt="@raj-dagi1046">
@@ -634,8 +692,11 @@
   
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 5000); // Change image every 2 seconds
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
   }
   </script>
+  
+  
+  
   </body>
-</html>	
+</html>
