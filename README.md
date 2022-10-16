@@ -353,7 +353,7 @@
  <br>
  <hr>
  <section>
-        <h3 class="pdf-heading-atomic"> DOWNLOAD ATOMIC STRUCTURE NOTES PDF FOR JEEMAINS2023</h1>
+        <h3 class="pdf-heading-atomic"> DOWNLOAD ATOMIC STRUCTURE NOTES PDF FOR JEEMAINS2023</h3>
       
       <h4 class="atomic-text"> To download ATOMIC STRACTURE short notes <br> pdf click downlod </h4>
       
@@ -375,7 +375,7 @@
   
          <hr>
                 <div>
-                    <h3 class="pdf-heading-preodic"> DOWNLOAD PREODIC TABLE NOTES PDF FOR JEEMAINS2023</h1>
+                    <h3 class="pdf-heading-preodic"> DOWNLOAD PREODIC TABLE NOTES PDF FOR JEEMAINS2023</h2>
                     <h4 class="preodic-text"> To download preodic table short notes <br> pdf click downlod </h4>
                     
      
