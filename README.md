@@ -1,10 +1,79 @@
-<html>
+<html lang="en"> 
 <head>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6738179060246081"
-     crossorigin="anonymous"></script>
-   <title> jeemains notes for 2023 | jeemain2023 exam dates</title>
+   <title> jeemains 2023 short notes | jeemains2023 news updates  </title>
    <meta name="viewport" content="width=device-width, initial-scale=1" />
          <style type="text/css">
+  /*sticky-navbar*/       
+           
+         
+         
+ /*  slides show */
+           .mySlides {display: none;}
+           .mySlides a img {vertical-align: middle;}
+           
+           /* Slideshow container */
+           .slideshow-container {
+           max-width: 1000px;
+           position: relative;
+           margin: auto;
+           }
+           
+           /* Caption text */
+           .text {
+           color: #f2f2f2;
+           font-size: 15px;
+           padding: 8px 12px;
+           position: absolute;
+           bottom: 8px;
+           width: 100%;
+           text-align: center;
+           }
+           
+           /* Number text (1/3 etc) */
+           .numbertext {
+           color: black;
+           font-size: 12px;
+           padding: 8px 12px;
+           position: absolute;
+           top: 0;
+           }
+           
+           /* The dots/bullets/indicators */
+           .dot {
+           height: 15px;
+           width: 15px;
+           margin: 0 2px;
+           background-color: red;
+           border-radius: 50%;
+           display: inline-block;
+           transition: background-color 0.6s linear;
+           }
+           
+           .active {
+           background-color: green;
+           }
+           
+           /* Fading animation */
+           .fade {
+           animation-name: fade;
+           animation-duration: 2s;
+           }
+           
+           @keyframes fade {
+           from {opacity: .2} 
+           to {opacity: 2}
+           }
+           
+           /* On smaller screens, decrease text size */
+           @media only screen and (max-width: 300px) {
+           .text {font-size: 11px}
+           }
+         
+         
+ /*  slides show */
+         
+         
+         
          *{
          padding: 0;
          margin: 0;
@@ -21,31 +90,48 @@
        /*nav style*/
        .nav-ul{
        list-style: none;
-       display: float;
-       float: lift;
+       align: center;
+       background-color: none;
+       box-sizing: border-box;
        display: flex;
+       overflow: auto;
+       
        
        
         }
         body header nav ul a{
         text-decoration: none;
-        padding: 0.8rem;
-        border: 1px solid black
+        padding: 0.7rem;
+       
         margin: 0.1rem;
-        border-radius: 20px;
+        
         color: blue;
+        display: inline-block;
         
         
         }
         body header nav ul a:hover{
-        background-color: red;
-        color: black;
+        background-color: white;
+        color: green;
+        text-decoration: none;
+        
         }
+        body header nav ul a:visited{
+        
+        color: red;
+        text-decoration: none;
+        
+        }
+        
+        
         .nav{
         width: 100%;
         height: auto;
-        background-color: yellow;
-        padding: 10px;
+        background-color:yellow;
+        padding: 2px
+        overflow: auto;
+        
+        
         
         
         }
@@ -53,6 +139,7 @@
         border: 1px solid black;
         border-radius: 20px;
         padding: 5px;
+        padding-top: 0px;
         display: float;
         float: center;
         width: 80%;
@@ -62,12 +149,9 @@
      #search-icon:hover{
      color: yellow;
      background-color: white;
-     border: 3px solid blue;
+     border: 1px solid black;
      }   
    #search-icon{
-   
-       
-     
       width: 2.8rem;
       height: 2.8rem;
          }
@@ -75,6 +159,7 @@
        body button img{
        width: 2rem;
        height: 2rem;
+       
        }
        
        .as{
@@ -315,24 +400,86 @@
          </style>
 </head>
 
-      <body>
-      <input  type="text" placeholder="search.."> <button id="search-icon"><img src="https://3c5.com/b8u1b">  </button>
+    <body>
+      <input  type="text" placeholder="search.."> <button id="search-icon"><img src="https://3c5.com/b8u1b"></button>
+ 
+
+
+<div class="slideshow-container">
       
-         <img src="https://9k.gg/0wijk" width="100%" height="auto">
+      <div class="mySlides fade">
+      <div class="numbertext">1 / 4</div>
+      <a href="https://youtube.com/channel/UCL2jcP2qpuiWm4CO_m9ooNA" >
+      <img src="https://3c5.com/cbksb" style="width:100%">
+      </a>
+      <div class="text"></div>
+      </div>
       
       
-         <header class="header">
+      
+      <div class="mySlides fade">
+      <div class="numbertext">2 / 4</div>
+      <a href="#" > 
+      <img src="https://9k.gg/hnmou" style="width:100%"> 
+      </a>
+      <div class="text"></div>
+      </div>
+      
+      <div class="mySlides fade">
+      <div class="numbertext">3 / 4</div>
+      <img src="https://3c5.com/kq4uh" style="width:100%">
+      <div class="text"></div>
+      </div>
+      
+      
+      <div class="mySlides fade">
+      <div class="numbertext">4/4</div>
+      <img src="https://bitly.lc/aby5l" style="width:100%">
+      <div class="text"></div>
+      </div>
+      
+   
+      
+      
+      
+  
+</div>
+      <div align="center">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      
+      
+      
+      </div>
+      
+      
+      
+      
+   <header class="header">
+        <div id="sticky-navbar">
              <nav class="nav">
                  <ul class="nav-ul">
-                    <li class="nav-1"> <a href="https://jeementor.me" > 🏠 </a></li>
-                    <li class="nav-2"><a href="#" >Physics</a></li>
-                    <li class="nav-3"><a href="#" > Chemistry </a></li>
-                    <li class="nav-4"><a href="#" >contact </a></li>
+                    <li class="nav-1"> <a href="https://jeementor.me" >Home </a></li>
+                    <li class="nav-2"><a href="#" >mentorship</a></li>
+                    <li class="nav-2"><a href="#" >Physics notes</a></li>
+                    <li class="nav-2"><a href="#" >Chemistry notes</a></li>
+                   
+                    <li class="nav-2"><a href="#" >Mathematics notes</a></li>
+                    <li class="nav-3"><a href="#" > Jeemains2023 </a></li>
+                    <li class="nav-3"><a href="#" > Jeeadvanced2023 </a></li>
+                    <li class="nav-3"><a href="#" > advanced PYQ Chapterwise </a></li>
+                    <li class="nav-3"><a href="#" > Jeemains PYQ chapterwise </a></li>
+                    <li class="nav-3"><a href="#" > HC verma  </a></li>
+                    <li class="nav-3"><a href="#" > S L loney </a></li>
+                    <li class="nav-4"><a href="https://wa.me/+918770767272" >contact </a></li>
                     
             
                 </ul>
              </nav>
-         </header>
+         </div>
+    </header>
 <main>         
   <div class="atomic">
      <h3 class="atom"> • Atomic stracture short notes......</h3>
@@ -341,18 +488,18 @@
   </div>
          
         <section class="sct">
-               <h3 class="pro"> • Periodic table short notes for Jeemain</h3> <br>
-               <img class="pro-img" src="https://3c5.com/3d1y1" alt="https://3c5.com/3d1y1">
-               <img class="pro-img" src="https://3c5.com/z3i5q" alt="https://3c5.com/z3i5q">
+        <h3 class="pro"> • Periodic table short notes for Jeemain</h3>
+        <img class="pro-img "src="https://3c5.com/3d1y1" alt="https://3c5.com/3d1y1">
+        <img class="pro-img "src="https://3c5.com/z3i5q" alt="https://3c5.com/z3i5q">
         
         </section>
          
  <br>
  <br>
- <hr>
+ 
  <section>
         <h3 class="pdf-heading-atomic"> DOWNLOAD ATOMIC STRUCTURE NOTES PDF FOR JEEMAINS2023</h3>
-      
+      <hr>
       <h4 class="atomic-text"> To download ATOMIC STRACTURE short notes <br> pdf click downlod </h4>
       
               <button class="download-btn-atomic"> 
@@ -362,7 +509,7 @@
 
            <a class="pdf-link" href="https://uploadnow.io/f/cHZ3zCZ"> Click Here Atomic stracture</a>
  
- 
+ </section>
  
   <hr>    
   <pre>
@@ -373,7 +520,7 @@
   
          <hr>
                 <div>
-                    <h3 class="pdf-heading-preodic"> DOWNLOAD PREODIC TABLE NOTES PDF FOR JEEMAINS2023
+                    <h3 class="pdf-heading-preodic"> DOWNLOAD PREODIC TABLE NOTES PDF FOR JEEMAINS2023</h3>
                     <h4 class="preodic-text"> To download preodic table short notes <br> pdf click downlod </h4>
                     
      
@@ -385,7 +532,7 @@
                 
                 
                 
-                
+                </div>
                 <pre>
                 
                 
@@ -429,9 +576,10 @@
               
          
          
-       
          
-      
+</main>         
+         
+     
       
       
   <br>
@@ -440,13 +588,45 @@
       
       <br>
       
-    <pre>
-      
-      
-    </pre>
+   
       <hr>
       <footer>
               <p>© all copyright reseve  | privacy policy</p>
-              <i> ® Term & conditions</i>
+              <i> ® Term & conditions</i> <br>
+              <span align="center">  contacts : +91 8770767272</span>
+              
       </footer>
-
+      
+      
+      
+  <script>
+  let slideIndex = 0;
+  showSlides();
+  
+  function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+  slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+  dots[i].className = dots[i].className.replace(" active", "");
+  }
+  
+  
+  
+  
+  
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
+  }
+  </script>
+  
+  
+  
+  </body>
+</html>	
