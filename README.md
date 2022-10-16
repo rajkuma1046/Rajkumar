@@ -447,6 +447,16 @@
         
         }
         
+
+        .animate-charcter{
+        font-size: 1.8rem;
+        align: left;
+        }
+
+         
+
+   
+        
          </style>
 </head>
 
