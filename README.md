@@ -433,13 +433,18 @@
         -webkit-text-fill-color: transparent;
         animation: textclip 4s ease infinite;
         display: inline-block;
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         }
         
         @keyframes textclip {
         to {
         background-position: 200% center;
         }
+        }
+        
+        
+        .col-md-12 text-center h3{
+        
         }
         
          </style>
@@ -453,7 +458,7 @@
  <div class="container">
      <div class="row">
          <div class="col-md-12 text-center">
-             <h3 align="center" class="animate-charcter"> Target Jeemains 2023 </h3>
+             <h3 align="left" class="animate-charcter"> Target Jeemains 2023 </h3>
          </div>
      </div>
  </div>
@@ -545,17 +550,17 @@
          
         <section class="sct">
         <h3 class="pro"> • Periodic table short notes for Jeemain</h3>
-        <img class="pro-img "src="https://3c5.com/3d1y1" alt="https://3c5.com/3d1y1">
-        <img class="pro-img "src="https://3c5.com/z3i5q" alt="https://3c5.com/z3i5q">
+        <img class="pro-img" src="https://3c5.com/3d1y1" alt="https://3c5.com/3d1y1">
+        <img class="pro-img" src="https://3c5.com/z3i5q" alt="https://3c5.com/z3i5q">
         
         </section>
          
  <br>
  <br>
- 
+ <hr>
  <section>
         <h3 class="pdf-heading-atomic"> DOWNLOAD ATOMIC STRUCTURE NOTES PDF FOR JEEMAINS2023</h3>
-      <hr>
+      
       <h4 class="atomic-text"> To download ATOMIC STRACTURE short notes <br> pdf click downlod </h4>
       
               <button class="download-btn-atomic"> 
@@ -566,11 +571,11 @@
                          </a>
               </button>
 
-           <
+           
  
  </section>
  
-  <hr>    
+  
   <pre>
 
 
@@ -580,7 +585,7 @@
          <hr>
                 <div>
                     <h3 class="pdf-heading-preodic"> DOWNLOAD PREODIC TABLE NOTES PDF FOR JEEMAINS2023</h3>
-                    <h4 class="preodic-text"> To download preodic table short notes <br> pdf click downlod </h4>
+                    <h4 class="preodic-text"> To download preodic table short notes  pdf click downlod </h4>
                     
      
                           <button class="download-btn-preodic"> 
@@ -607,7 +612,7 @@
          <div class="container">
          <div class="row">
          <div class="col-md-12 text-center">
-         <h4 text-align="center" class="animate-charcter">Follow Us ! </h4> 
+         <h3 text-align="left" class="animate-charcter">Follow Us ! </h3> 
          </div>
          </div>
          </div>
@@ -699,4 +704,4 @@
   
   
   </body>
-</html>
+</html>	
