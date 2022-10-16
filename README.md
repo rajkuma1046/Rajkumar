@@ -554,7 +554,7 @@
 <div class="social-container">
           <pre>
 
-
+         
 </pre>
       <a id="linked" href="https://www.linkedin.com/in/raj-dagi1046" target="https://www.linkedin.com/in/raj-dagi1046" >
            <img src="https://3c5.com/wrull" alt="@raj-dagi1046">
@@ -630,9 +630,6 @@
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 5000); // Change image every 2 seconds
   }
-  </script>.
-  
-  
-  
+  </script>
   </body>
 </html>	
