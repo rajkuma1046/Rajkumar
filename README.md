@@ -452,16 +452,3 @@
               <i> ® Term & conditions</i>
       </footer>
 
-Footer
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
