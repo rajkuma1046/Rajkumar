@@ -1,5 +1,3 @@
-# jeemains2023-short-notes-free-mentorship
-
 <html>
 <head>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6738179060246081"
