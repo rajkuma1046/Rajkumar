@@ -448,11 +448,12 @@
         }
         
 
+
         .animate-charcter{
         font-size: 1.8rem;
-        align: left;
+        display: float;
+        float: left;
         }
-
          
 
    
