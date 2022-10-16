@@ -489,8 +489,8 @@
          
         <section class="sct">
         <h3 class="pro"> • Periodic table short notes for Jeemain</h3>
-        <img class="pro-img "src="https://3c5.com/3d1y1" alt="https://3c5.com/3d1y1">
-        <img class="pro-img "src="https://3c5.com/z3i5q" alt="https://3c5.com/z3i5q">
+        <img class="pro-img" src="https://3c5.com/3d1y1" alt="https://3c5.com/3d1y1">
+        <img class="pro-img" src="https://3c5.com/z3i5q" alt="https://3c5.com/z3i5q">
         
         </section>
          
@@ -526,7 +526,9 @@
      
                           <button class="download-btn-preodic"> 
                                       <img class="download-icon" src="https://3c5.com/9q6k5">
-                                            <a href="https://uploadnow.io/f/htLJ0wq" >Download</a>
+                                            <a href="https://uploadnow.io/f/htLJ0wq" >
+                                                    <img class="download-icon" src="https://3c5.com/9q6k5">
+                                             </a>
                           </button>
                 
                 
@@ -543,7 +545,7 @@
                 </pre>
                 
          <hr>
-         <h4 > FOLLOW US ! on social media</h4> <br>
+         <h4 align="center" > FOLLOW US ! on social media</h4> <br>
          
 <div class="social-container">
           <pre>
