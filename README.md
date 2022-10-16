@@ -503,8 +503,10 @@
       <h4 class="atomic-text"> To download ATOMIC STRACTURE short notes <br> pdf click downlod </h4>
       
               <button class="download-btn-atomic"> 
-                         <img class="download-icon" src="https://3c5.com/9q6k5">
-                         <a href="https://uploadnow.io/f/cHZ3zCZ" >Download</a>
+                         
+                         <a href="https://uploadnow.io/f/cHZ3zCZ" >
+                             <img class="download-icon" src="https://3c5.com/9q6k5">
+                         </a>
               </button>
 
            <a class="pdf-link" href="https://uploadnow.io/f/cHZ3zCZ"> Click Here Atomic stracture</a>
@@ -525,7 +527,7 @@
                     
      
                           <button class="download-btn-preodic"> 
-                                      <img class="download-icon" src="https://3c5.com/9q6k5">
+                                      
                                             <a href="https://uploadnow.io/f/htLJ0wq" >
                                                     <img class="download-icon" src="https://3c5.com/9q6k5">
                                              </a>
