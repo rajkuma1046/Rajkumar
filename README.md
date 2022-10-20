@@ -443,20 +443,244 @@
         }
         
         
-        .col-md-12 text-center h3{
-        
-        }
-        
-
-
         .animate-charcter{
         font-size: 1.8rem;
         display: float;
         float: left;
         }
-         
+        
+  /*animated #img1*/   
+         .slideshow-container .imgborder{
+           width:100%;
+           height:auto;
+           boeder: 10px solid;
+           margin: 10px;
+           border-image: linear-gradient(45deg, #231557 0%, #080cfc 100%, deeppink) 1;
+           clip-path: inset(0px round 10px);
+           animation: huerotate 4s infinite ease;
+           filter: hue-rotate(360deg);
+           overflow: hidden;
+           }
+           
+           @keyframes huerotate {
+           0% {
+           filter: hue-rotate(0deg);
+           }
+           100% {
+           filter: hue-rorate(360deg);
+           }
+           }
+        
+        
+/*my-canva-d-container*/        
+             
+             
+             .word
+             {
+             text-transform: auto;
+             background-image: linear-gradient(
+             -200deg,
+             #e84833 0%,
+             #fc7208 30%,
+             #fca308 0%,
+             #fcd408 30%,
+             #e4fc08 30%,
+             #abfc08 70%,
+             #82fc08 0%,
+             #08fc14 30%,
+             #08fc92 80%,
+             #08fce4 30%,
+             #08abfc 0%,
+             #0872fc 30%,
+             #080cfc 100%,
+             #7e08fc 0%,
+             #cb08fc 30%,
+             #fc08d0 0%,
+             #fc087a 0%,
+             #fc0830 30%,
+             #fc0808 40%,
+             #231557 100%,
+             #44107a 29%,
+             #ff1361 67%,
+             #fff800 100%
+             );
+             background-size: auto auto;
+             background-clip: border-box;
+             background-size: 200% auto;
+             color: #fff;
+             background-clip: text;
+             text-fill-color: transparent;
+             -webkit-background-clip: text;
+             -webkit-text-fill-color: transparent;
+             animation: textclip 4s ease infinite;
+             display: float;
+             font-size: 1.8rem;
+             }
+             
+             @keyframes textclip {
+             to {
+             background-position: 200% center;
+             }
+             }
+             
+             
+             .word{
+             font-size: 1.8rem;
+             text-align: center;
+             background-color: white;
+             border: 1px solid black;
+             }
 
-   
+            
+           
+           
+           }
+           .my-canva-d-container{
+           border: 2px solid black;
+           
+           }
+           
+           .my-canva-d-container #img1{
+           width: 45%;
+           height: auto;
+           display: float;
+           float: inline-blocks;
+           
+           
+           
+           
+           }
+           .my-canva-d-container #img2{
+           width: 100%;
+           height: auto;
+           }
+           .my-canva-d-container #img3{
+           width: 100%;
+           height: auto;
+           }
+           .my-canva-d-container #img4{
+           width: 100%;
+           height: auto;
+           }
+        
+        
+/*css text effect*/      
+             
+             
+             
+             h2 {
+             color: #333;
+             font-family: times new roman;
+             font-size: 2rem;
+             font-weight: 100;
+             line-height: 1.5;
+             text-transform: uppercase;
+             white-space: nowrap;
+             overflow: hidden;
+             position: relative;
+             width: 550px;
+             }
+             
+             h2 span {
+             font-size: 1.6rem;
+             margin-left: ;
+             }
+             
+             .message {
+             background-color: #fc08bb;
+             color: #333;
+             display: block;
+             font-weight: 900;
+             overflow: hidden;
+             position: absolute;
+             padding-left: 0.5rem;
+             top: 0.2rem;
+             left: 270px;
+             animation: openclose 5s linear infinite;
+             }
+             
+             .word1, .word2, .word3 {
+             font-family: times new roman;
+             }
+             
+            @keyframes openclose {
+             0% {
+             top: 0.2rem;
+             width: 0;
+             }
+             5% {
+             width: 0;
+             }
+             15% {
+             width: 50%;
+             }
+             30% {
+             top: 0.2rem;
+             width: 50%;
+             }
+             33% {
+             top: 0.2rem;
+             width: 0;
+             }
+             35% {
+             top: 0.2rem;
+             width: 0;
+             }
+             38% {
+             top: -4.0rem;
+             
+             }
+             48% {
+             top: -4.0rem;
+             width: 100%;
+             }
+             62% {
+             top: -4.0rem;
+             width: 100%;
+             }
+             66% {
+             top: -4.5rem;
+             width: 0;
+             text-indent: 0;
+             }
+             71% {
+             top: -6rem;
+             width: 0;
+             text-indent: 5px;
+             }
+             86% {
+             top: -6rem;
+             width: 100%;
+             }
+             95% {
+             top: -6rem;
+             width: 100%;
+             }
+             98% {
+             top: -6rem;
+             width: 0;
+             text-indent: 5px;
+             }
+             100% {
+             top: 0;
+             width: 0;
+             text-indent: 0;
+             }
+             }
+             
+             
+             
+             
+             svg {
+             position: absolute;
+             top: 0;
+             right: 0;
+             bottom: 0;
+             left: 0;
+             margin: auto;
+             }
+        
+        
         
          </style>
 </head>
@@ -469,7 +693,7 @@
  <div class="container">
      <div class="row">
          <div class="col-md-12 text-center">
-             <h3 class="animate-charcter"> Target Jeemains 2023 </h3>
+             <h3 align="left" class="animate-charcter"> Target Jeemains 2023 </h3>
          </div>
      </div>
  </div>
@@ -480,9 +704,9 @@
 <div class="slideshow-container">
       
       <div class="mySlides fade">
-      <div class="numbertext">1 / 4</div>
+      <div class="numbertext"></div>
       <a href="https://youtube.com/channel/UCL2jcP2qpuiWm4CO_m9ooNA" >
-      <img src="https://3c5.com/cbksb" style="width:100%">
+    <div class="imgborder">  <img id="img1" src="https://3c5.com/cbksb" style="width:100%"> </div>
       </a>
       <div class="text"></div>
       </div>
@@ -490,23 +714,23 @@
       
       
       <div class="mySlides fade">
-      <div class="numbertext">2 / 4</div>
+      <div class="numbertext"></div>
       <a href="#" > 
-      <img src="https://9k.gg/hnmou" style="width:100%"> 
+  <div class="imgborder">    <img src="https://9k.gg/hnmou" style="width:100%"> </div>
       </a>
       <div class="text"></div>
       </div>
       
       <div class="mySlides fade">
-      <div class="numbertext">3 / 4</div>
-      <img src="https://3c5.com/kq4uh" style="width:100%">
+      <div class="numbertext"></div>
+   <div class="imgborder">   <img src="https://3c5.com/kq4uh" style="width:100%"> </div>
       <div class="text"></div>
       </div>
       
       
       <div class="mySlides fade">
-      <div class="numbertext">4/4</div>
-      <img src="https://bitly.lc/aby5l" style="width:100%">
+      <div class="numbertext"></div>
+    <div class="imgborder">  <img src="https://bitly.lc/aby5l" style="width:100%"> </div>
       <div class="text"></div>
       </div>
       
@@ -552,7 +776,42 @@
              </nav>
          </div>
     </header>
+ <section>   
+    <h2 class="word"> My Designs
+    </h2>
+ 
+     
+ </section>
+ 
+ 
+ <!-- css text effect -->    
+ <h2>
+ <span>I am Raj & I like </span>
+ <div class="message">
+ <div class="word1">design</div>
+ <div class="word2">code</div>
+ <div class="word3">myself</div>
+ </div>
+ </h2>
+ 
+ 
+ 
+        <div class="my-canva-d-container">
+            <img id="img1" src="https://3c5.com/ew0f7">
+                
+                 <img id="img1" src="https://9k.gg/km6ft"> <br>
+                   <img id="img2" src="https://3c5.com/tpwp8">
+                        <img id="img3" src="https://9k.gg/v5ypk"> <br>
+                             <img id="img4" src="">
+            
+        
+        </div>
+
 <main>         
+
+
+
+
   <div class="atomic">
      <h3 class="atom"> • Atomic stracture short notes......</h3>
      <img class="as" src="https://3c5.com/xtshm">
@@ -623,13 +882,13 @@
          <div class="container">
          <div class="row">
          <div class="col-md-12 text-center">
-         <h3 class="animate-charcter">Follow Us ! </h3> 
+         <h3  class="animate-charcter">Follow Us ! </h3> 
          </div>
          </div>
          </div>
          
          
-         
+         <br>
          
 <div class="social-container">
           <pre>
