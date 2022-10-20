@@ -524,7 +524,7 @@
              }
              
              
-             .word{
+             .word{ width: 100%;
              font-size: 1.8rem;
              text-align: center;
              background-color: white;
@@ -639,7 +639,7 @@
              width: 100%;
              }
              66% {
-             top: -4.5rem;
+             top: -4.0rem;
              width: 0;
              text-indent: 0;
              }
@@ -832,7 +832,7 @@
         <h3 class="pdf-heading-atomic"> DOWNLOAD ATOMIC STRUCTURE NOTES PDF FOR JEEMAINS2023</h3>
       
       <h4 class="atomic-text"> To download ATOMIC STRACTURE short notes <br> pdf click downlod </h4>
-      
+      <br>
               <button class="download-btn-atomic"> 
                          
                          <a href="https://uploadnow.io/f/cHZ3zCZ" >
@@ -841,10 +841,10 @@
                          </a>
               </button>
 
-           
+           <br>
  
  </section>
- 
+ <hr>
   
   <pre>
 
@@ -891,7 +891,7 @@
          <br>
          
 <div class="social-container">
-          <pre>
+ <pre>
 
 
 </pre>
