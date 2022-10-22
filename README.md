@@ -480,7 +480,7 @@
              text-transform: auto;
              background-image: linear-gradient(
              -200deg,
-             #e84833 0%,
+             #white 100%,
              #fc7208 30%,
              #fca308 0%,
              #fcd408 30%,
@@ -502,7 +502,7 @@
              #231557 100%,
              #44107a 29%,
              #ff1361 67%,
-             #fff800 100%
+             #fffff 100%
              );
              background-size: auto auto;
              background-clip: border-box;
@@ -635,7 +635,7 @@
              width: 100%;
              }
              62% {
-             top: -4.0rem;
+             top: -4.5rem;
              width: 100%;
              }
              66% {
@@ -650,7 +650,7 @@
              }
              86% {
              top: -6rem;
-             width: 100%;
+             width: 80%;
              }
              95% {
              top: -6rem;
