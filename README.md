@@ -55,7 +55,7 @@
            }
            
            /* The dots/bullets/indicators */
-           .dot {
+           .dot{
            height: 15px;
            width: 15px;
            margin: 0 2px;
