@@ -177,7 +177,7 @@
        height: 2rem;
        
        }
-       
+     
        .as{
        width: 90%;
        height: auto;
