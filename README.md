@@ -1,7 +1,7 @@
-Ni<html lang="en"> 
+<html lang="en"> 
 <head>
 
-<!-- Google tag (gtag.js)-->
+<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-7K9CJ19V5B"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -11,7 +11,7 @@ Ni<html lang="en">
   gtag('config', 'G-7K9CJ19V5B');
 </script>
 
-<!--  adsen code  -->
+<!-- adsen code -->
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6738179060246081"
      crossorigin="anonymous"></script>
 
@@ -55,7 +55,7 @@ Ni<html lang="en">
            }
            
            /* The dots/bullets/indicators */
-           .dot{
+           .dot {
            height: 15px;
            width: 15px;
            margin: 0 2px;
@@ -177,7 +177,7 @@ Ni<html lang="en">
        height: 2rem;
        
        }
-     
+       
        .as{
        width: 90%;
        height: auto;
@@ -480,7 +480,7 @@ Ni<html lang="en">
              text-transform: auto;
              background-image: linear-gradient(
              -200deg,
-             #white 100%,
+             #e84833 0%,
              #fc7208 30%,
              #fca308 0%,
              #fcd408 30%,
@@ -502,7 +502,7 @@ Ni<html lang="en">
              #231557 100%,
              #44107a 29%,
              #ff1361 67%,
-             #fffff 100%
+             #fff800 100%
              );
              background-size: auto auto;
              background-clip: border-box;
@@ -524,7 +524,7 @@ Ni<html lang="en">
              }
              
              
-             .word{ width: 100%;
+             .word{
              font-size: 1.8rem;
              text-align: center;
              background-color: white;
@@ -635,11 +635,11 @@ Ni<html lang="en">
              width: 100%;
              }
              62% {
-             top: -4.5rem;
+             top: -4.0rem;
              width: 100%;
              }
              66% {
-             top: -4.0rem;
+             top: -4.5rem;
              width: 0;
              text-indent: 0;
              }
@@ -650,7 +650,7 @@ Ni<html lang="en">
              }
              86% {
              top: -6rem;
-             width: 80%;
+             width: 100%;
              }
              95% {
              top: -6rem;
@@ -758,12 +758,12 @@ Ni<html lang="en">
              <nav class="nav">
                  <ul class="nav-ul">
                     <li class="nav-1"> <a href="https://jeementor.me" >Home </a></li>
-                    <li class="nav-2"><a href="Rajkumar/Ram krishna" >mentorship</a></li>
+                    <li class="nav-2"><a href="#" >mentorship</a></li>
                     <li class="nav-2"><a href="#" >Physics-notes</a></li>
                     <li class="nav-2"><a href="#" >Chemistry-notes</a></li>
                    
                     <li class="nav-2"><a href="#" >Mathematics-notes</a></li>
-                    <li class="nav-3"><a href="4" > Jeemains2023 </a></li>
+                    <li class="nav-3"><a href="#" > Jeemains2023 </a></li>
                     <li class="nav-3"><a href="#" > Jeeadvanced2023 </a></li>
                     <li class="nav-3"><a href="#" > advanced-PYQ-Chapterwise </a></li>
                     <li class="nav-3"><a href="#" > Jeemains-PYQ-chapterwise </a></li>
@@ -832,7 +832,7 @@ Ni<html lang="en">
         <h3 class="pdf-heading-atomic"> DOWNLOAD ATOMIC STRUCTURE NOTES PDF FOR JEEMAINS2023</h3>
       
       <h4 class="atomic-text"> To download ATOMIC STRACTURE short notes <br> pdf click downlod </h4>
-      <br>
+      
               <button class="download-btn-atomic"> 
                          
                          <a href="https://uploadnow.io/f/cHZ3zCZ" >
@@ -841,10 +841,10 @@ Ni<html lang="en">
                          </a>
               </button>
 
-           <br>
+           
  
  </section>
- <hr>
+ 
   
   <pre>
 
@@ -891,7 +891,7 @@ Ni<html lang="en">
          <br>
          
 <div class="social-container">
- <pre>
+          <pre>
 
 
 </pre>
