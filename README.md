@@ -735,7 +735,7 @@
       </div>
       
    
-      <audio autoplay controls>
+      <audio controls autoplay>
   <source src="q1.mp3" type="audio/mp3">
   
 Your browser does not support the audio element.
