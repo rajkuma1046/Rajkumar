@@ -883,11 +883,6 @@ Your browser does not support the audio element.
                 <pre>
                 
                 
-                <img width="100%"  height="auto" src="download/colom.jpg">
-
-
-
-                <img width="100%"  height="auto"  src="download/colom.jpg">
                 
                 
                 
