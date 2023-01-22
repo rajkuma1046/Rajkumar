@@ -1,213 +1,977 @@
-# Rajkumar
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-<style>
-*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::-webkit-backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.container{width:100%}@media (min-width: 640px){.container{max-width:640px}}@media (min-width: 768px){.container{max-width:768px}}@media (min-width: 1024px){.container{max-width:1024px}}@media (min-width: 1280px){.container{max-width:1280px}}@media (min-width: 1536px){.container{max-width:1536px}}.my-6{margin-top:1.5rem;margin-bottom:1.5rem}.mx-2{margin-left:0.5rem;margin-right:0.5rem}.mb-6{margin-bottom:1.5rem}.mt-2{margin-top:0.5rem}.flex{display:flex}.hidden{display:none}.w-full{width:100%}.flex-row{flex-direction:row}.flex-col{flex-direction:column}.items-center{align-items:center}.justify-center{justify-content:center}.rounded{border-radius:0.25rem}.rounded-lg{border-radius:0.5rem}.border{border-width:1px}.border-zinc-50{--tw-border-opacity:1;border-color:rgb(250 250 250 / var(--tw-border-opacity))}.bg-\[\#e2e8f0\]{--tw-bg-opacity:1;background-color:rgb(226 232 240 / var(--tw-bg-opacity))}.bg-transparent{background-color:transparent}.bg-\[\#f60057\]{--tw-bg-opacity:1;background-color:rgb(246 0 87 / var(--tw-bg-opacity))}.p-3{padding:0.75rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.px-4{padding-left:1rem;padding-right:1rem}.text-center{text-align:center}.text-2xl{font-size:1.5rem;line-height:2rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-semibold{font-weight:600}.text-\[\#0f172a\]{--tw-text-opacity:1;color:rgb(15 23 42 / var(--tw-text-opacity))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}
-,</style>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="google-site-verification"
-      content="Jv--UBpg4BBy5PIFRAEHx1Tf0WFk0YmhNBXXGFzWoqI"
-    />
-    <title>Love Calculator</title>
-    <meta property="og:locale" content="en_US" />
-    <meta name="description" content="Love Calculator" />
-    <link
-      rel="canonical"
-      href="https://itsme-subid.github.io/Love-Calculator/"
-    />
-    <meta
-      name="twitter:card"
-      content="A Love Calculator using pure JS, CSS and HTML"
-    />
-    <meta property="twitter:title" content="Love Calculator" />
-    <meta
-      name="msapplication-TileImage"
-      content="https://itsme-subid.github.io/Love-Calculator/assets/preview.png"
-    />
 
-    <meta property="og:site_name" content="Love-Calculator" />
-    <meta property="og:title" content="Love Calculator" />
-    <meta
-      property="og:description"
-      content="Love Calculator shows accurate result using horoscopic parameters"
-    />
 
-    <meta property="og:image" itemprop="image" content="assets/preview.png" />
 
-    <meta property="og:type" content="website" />
-    <meta property="og:image:type" content="image/png" />
 
-    <meta property="og:image:width" content="300" />
-    <meta property="og:image:height" content="300" />
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="<$BlogLanguageDirection$>">
 
-    <meta
-      property="og:url"
-      content="https://itsme-subid.github.io/Love-Calculator/"
-    />
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="shortcut icon" href="./love.png" type="image/x-icon" />
-    <link rel="stylesheet" href="./assets/style.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./assets/custom-style.css" />
-  </head>
-  <body
-    class="container text-[#0f172a] bg-[#e2e8f0] flex items-center justify-center flex-col mb-6"
-  >
-    <section class="my-6">
-      <div class="text-2xl text-center font-bold">Find Love % Between</div>
-    </section>
-    <div class="calculator-wrapper w-full">
-      <form class="rounded p-3 font-semibold mb-6" id="my-form">
-        <div class="calculator-body">
-          <div>
-            <div class="first">
-              <div class="form-group">
-                <label class="control-label col-form-label" for="fin_person1"
-                  >Your Name</label
-                >
-                <div class="controls">
-                  <input
-                    type="text"
-                    name="user_name"
-                    id="fin_person1"
-                    class="form-control rounded-lg bg-transparent py-2 px-3"
-                    placeholder="Enter Your Name"
-                    pattern="[A-Za-z ]{3,}"
-                    title="Please enter at least 3 characters and only alphabets"
-                    required
-                  />
-                </div>
-              </div>
-              <div class="form-group" title="Enter Your gender">
-                <div class="controls flex flex-row mt-2">
-                  <div class="radio">
-                    <label
-                      ><input
-                        type="radio"
-                        name="user_gender"
-                        value="male"
-                        class="form-check-input"
-                        checked
-                      /><span>&nbsp;</span>Male</label
-                    >
-                  </div>
-                  <div class="radio mx-2">
-                    <label
-                      ><input
-                        type="radio"
-                        name="user_gender"
-                        class="form-check-input"
-                        value="female"
-                      /><span>&nbsp;</span>Female</label
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-            <span class="separator">&nbsp;</span>
-            <div class="second">
-              <div class="form-group">
-                <label class="control-label col-form-label" for="fin_person2"
-                  >Partner's Name</label
-                >
-                <div class="controls">
-                  <input
-                    type="text"
-                    name="partner_name"
-                    id="fin_person2"
-                    class="form-control rounded-lg bg-transparent py-2 px-3"
-                    placeholder="Enter Partner's Name"
-                    pattern="[A-Za-z ]{3,}"
-                    title="Please enter at least 3 characters and only alphabets"
-                    required
-                  />
-                </div>
-              </div>
-              <div class="form-group" title="Enter Partner's gender">
-                <div class="controls flex flex-row mb-6 mt-2">
-                  <div class="radio">
-                    <label
-                      ><input
-                        type="radio"
-                        name="partner_gender"
-                        class="form-check-input"
-                        value="male"
-                      /><span>&nbsp;</span>Male</label
-                    >
-                  </div>
-                  <div class="radio mx-2">
-                    <label
-                      ><input
-                        type="radio"
-                        name="partner_gender"
-                        value="female"
-                        class="form-check-input"
-                        checked
-                      /><span>&nbsp;</span>Female</label
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <button
-          type="submit"
-          class="bg-[#f60057] px-4 py-2 font-bold rounded-lg text-white"
-          title="Click to Calculate"
-        >
-          Calculate Love %
-        </button>
-      </form>
-      <div class="text-xs text-center text-black-60">
-        <p class="font-semibold">
-          Enter your name and your lover's name and hit 'Calculate'.
-        </p>
-      </div>
+              <title>M4tracker BLOG</title>
+
+                 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  
+  
+  
+  
+  
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6738179060246081"
+
+     crossorigin="anonymous"></script>
+  <title><$BlogPageTitle$></title>
+
+  <$BlogMetaData$>
+
+  <style type="text/css">
+/*
+-----------------------------------------------
+Blogger Template Style
+Name:     Rounders
+Date:     27 Feb 2004
+----------------------------------------------- */
+
+
+body {
+  
+  margin:1vh 1vh 1vh 1vh;
+  padding:20px 10px;
+  text-align:center;
+  font:1.4vh , times new romen ,Sans-serif;
+  color:#333;
+  font-size/* */:/**/small;
+  font-size: /**/small;
+  }
+    
+    
+   /*founder about*/        
+
+            .founder1046{
+
+            padding: 5vh 5vh 5vh;
+
+            background-color: black;
+
+            color: white;
+
+            }
+
+            body .founder{
+
+                width: 100%;
+
+                height: 8vh;
+
+                display: flex;
+              overflow: hidden;
+
+                justify-content: center;
+
+                }
+
+           body .founder img{
+
+                border-radius: 50%;
+
+                     }
+
+          .founder-social{
+
+                display: flex;
+
+             }        
+
+          .founder-social a{
+
+               display: inline-block;
+
+            }
+
+          .founder-social a img{
+
+              display: inline-block;
+
+              width: 7vh;
+
+              height: 7vh;
+
+                     }
+
+                     
+
+  
+
+ /*footer  */          
+
+      body .footer{
+
+       width:100%;
+
+       height: 9.3vh;
+
+        background-color: black;
+
+        }
+
+        #f-nav{
+
+        display: flex;
+
+        }
+
+        #f-nav a{
+
+        margin-left: 2.5vh;  
+
+  
+
+    
+
+       
+
+              *{
+
+              font-size: 1.5vh;
+
+              font-family: times new roman, sans serif;
+                background-color: white;
+
+              }
+
+              
+
+              
+
+              
+
+              #nav1046{
+
+              width: 100%;
+              height: 5vh;
+              position: fixed;
+
+              left:0;
+
+              top: 0;
+
+              border: 2px solid grey;
+            
+              
+
+              }
+     
+
+/* Page Structure
+----------------------------------------------- */
+/* The images which help create rounded corners depend on the 
+   following widths and measurements. If you want to change 
+   these measurements, the images will also need to change.
+   */
+@media all {
+  #content {
+    width:740px;
+    margin:0 auto;
+    text-align:left;
+    }
+  #main {
+    width:485px;
+    float:left;
+    background:#fff url("https://resources.blogblog.com/blogblog/data/rounders/corners_main_bot.gif") no-repeat left bottom;
+    margin:15px 0 0;
+    padding:0 0 10px;
+    color:#000;
+    font-size:97%;
+    line-height:1.5em;
+    }
+  #main2 {
+    float:left;
+    width:100%;
+    background:url("https://resources.blogblog.com/blogblog/data/rounders/corners_main_top.gif") no-repeat left top;
+    padding:10px 0 0;
+    }
+  #main3 {
+    background:url("https://resources.blogblog.com/blogblog/data/rounders/rails_main.gif") repeat-y;
+    padding:0;
+    }
+  #sidebar {
+    width:240px;
+    float:right;
+    margin:15px 0 0;
+    font-size:97%;
+    line-height:1.5em;
+    }
+  }
+@media handheld {
+  #content {
+    width:90%;
+    }
+  #main {
+    width:100%;
+    float:none;
+    background:#fff;
+    }
+  #main2 {
+    float:none;
+    background:none;
+    }
+  #main3 {
+    background:none;
+    padding:0;
+    }
+  #sidebar {
+    width:100%;
+    float:none;
+    }
+  }
+
+
+/* Links
+----------------------------------------------- */
+a:link {
+  color:#258;
+  }
+a:visited {
+  color:#666;
+  }
+a:hover {
+  color:#c63;
+  }
+a img {
+  border-width:0;
+  }
+
+
+/* Blog Header
+----------------------------------------------- */
+@media all {
+  #header {
+    background:#456 url("https://resources.blogblog.com/blogblog/data/rounders/corners_cap_top.gif") no-repeat left top;
+    margin:0 0 0;
+    padding:8px 0 0;
+    color:#fff;
+    }
+  #header div {
+    background:url("https://resources.blogblog.com/blogblog/data/rounders/corners_cap_bot.gif") no-repeat left bottom;
+    padding:0 15px 8px;
+    }
+  }
+@media handheld {
+  #header {
+    background:#456;
+    }
+  #header div {
+    background:none;
+    }
+  }
+#blog-title {
+  margin:0;
+  padding:10px 30px 5px;
+  font-size:200%;
+  line-height:1.2em;
+  }
+#blog-title a {
+  text-decoration:none;
+  color:#fff;
+  }
+#description {
+  margin:0;
+  padding:5px 30px 10px;
+  font-size:94%;
+  line-height:1.5em;
+  }
+
+
+/* Posts
+----------------------------------------------- */
+.date-header {
+  margin:0 28px 0 43px;
+  font-size:85%;
+  line-height:2em;
+  text-transform:uppercase;
+  letter-spacing:.2em;
+  color:#357;
+  }
+.post {
+  margin:.3em 0 25px;
+  padding:0 13px;
+  border:1px dotted #bbb;
+  border-width:1px 0;
+  }
+.post-title {
+  margin:0;
+  font-size:135%;
+  line-height:1.5em;
+  background:url("https://resources.blogblog.com/blogblog/data/rounders/icon_arrow.gif") no-repeat 10px .5em;
+  display:block;
+  border:1px dotted #bbb;
+  border-width:0 1px 1px;
+  padding:2px 14px 2px 29px;
+  color:#333;
+  }
+a.title-link, .post-title strong {
+  text-decoration:none;
+  display:block;
+  }
+a.title-link:hover {
+  background-color:#ded;
+  color:#000;
+  }
+.post-body {
+  border:1px dotted #bbb;
+  border-width:0 1px 1px;
+  border-bottom-color:#fff;
+  padding:10px 14px 1px 29px;
+  }
+html>body .post-body {
+  border-bottom-width:0;
+  }
+.post p {
+  margin:0 0 .75em;
+  }
+p.post-footer {
+  background:#ded;
+  margin:0;
+  padding:2px 14px 2px 29px;
+  border:1px dotted #bbb;
+  border-width:1px;
+  border-bottom:1px solid #eee;
+  font-size:100%;
+  line-height:1.5em;
+  color:#666;
+  text-align:right;
+  }
+html>body p.post-footer {
+  border-bottom-color:transparent;
+  }
+p.post-footer em {
+  display:block;
+  float:left;
+  text-align:left;
+  font-style:normal;
+  }
+a.comment-link {
+  /* IE5.0/Win doesn't apply padding to inline elements,
+     so we hide these two declarations from it */
+  background/* */:/**/url("https://resources.blogblog.com/blogblog/data/rounders/icon_comment.gif") no-repeat 0 45%;
+  padding-left:14px;
+  }
+html>body a.comment-link {
+  /* Respecified, for IE5/Mac's benefit */
+  background:url("https://resources.blogblog.com/blogblog/data/rounders/icon_comment.gif") no-repeat 0 45%;
+  padding-left:14px;
+  }
+.post img {
+  margin:0 0 5px 0;
+  padding:4px;
+  border:1px solid #ccc;
+  }
+blockquote {
+  margin:.75em 0;
+  border:1px dotted #ccc;
+  border-width:1px 0;
+  padding:5px 15px;
+  color:#666;
+  }
+.post blockquote p {
+  margin:.5em 0;
+  }
+
+
+/* Comments
+----------------------------------------------- */
+#comments {
+  margin:-25px 13px 0;
+  border:1px dotted #ccc;
+  border-width:0 1px 1px;
+  padding:20px 0 15px 0;
+  }
+#comments h4 {
+  margin:0 0 10px;
+  padding:0 14px 2px 29px;
+  border-bottom:1px dotted #ccc;
+  font-size:120%;
+  line-height:1.4em;
+  color:#333;
+  }
+#comments-block {
+  margin:0 15px 0 9px;
+  }
+.comment-data {
+  background:url("https://resources.blogblog.com/blogblog/data/rounders/icon_comment.gif") no-repeat 2px .3em;
+  margin:.5em 0;
+  padding:0 0 0 20px;
+  color:#666;
+  }
+.comment-poster {
+  font-weight:bold;
+  }
+.comment-body {
+  margin:0 0 1.25em;
+  padding:0 0 0 20px;
+  }
+.comment-body p {
+  margin:0 0 .5em;
+  }
+.comment-timestamp {
+  margin:0 0 .5em;
+  padding:0 0 .75em 20px;
+  color:#666;
+  }
+.comment-timestamp a:link {
+  color:#666;
+  }
+.deleted-comment {
+  font-style:italic;
+  color:gray;
+  }
+.paging-control-container {
+  float: right;
+  margin: 0px 6px 0px 0px;
+  font-size: 80%;
+}
+.unneeded-paging-control {
+  visibility: hidden;
+}
+
+
+/* Profile
+----------------------------------------------- */
+@media all {
+  #profile-container {
+    background:#cdc url("https://resources.blogblog.com/blogblog/data/rounders/corners_prof_bot.gif") no-repeat left bottom;
+    margin:0 0 15px;
+    padding:0 0 10px;
+    color:#345;
+    }
+  #profile-container h2 {
+    background:url("https://resources.blogblog.com/blogblog/data/rounders/corners_prof_top.gif") no-repeat left top;
+    padding:10px 15px .2em;
+    margin:0;
+    border-width:0;
+    font-size:115%;
+    line-height:1.5em;
+    color:#234;
+    }
+  }
+@media handheld {
+  #profile-container {
+    background:#cdc;
+    }
+  #profile-container h2 {
+    background:none;
+    }
+  }
+.profile-datablock {
+  margin:0 15px .5em;
+  border-top:1px dotted #aba;
+  padding-top:8px;
+  }
+.profile-img {display:inline;}
+.profile-img img {
+  float:left;
+  margin:0 10px 5px 0;
+  border:4px solid #fff;
+  }
+.profile-data strong {
+  display:block;
+  }
+#profile-container p {
+  margin:0 15px .5em;
+  }
+#profile-container .profile-textblock {
+  clear:left;
+  }
+#profile-container a {
+  color:#258;
+  }
+.profile-link a {
+  background:url("https://resources.blogblog.com/blogblog/data/rounders/icon_profile.gif") no-repeat 0 .1em;
+  padding-left:15px;
+  font-weight:bold;
+  }
+ul.profile-datablock {
+  list-style-type:none;
+  }
+
+
+/* Sidebar Boxes
+----------------------------------------------- */
+@media all {
+  .box {
+    background:#fff url("https://resources.blogblog.com/blogblog/data/rounders/corners_side_top.gif") no-repeat left top;
+    margin:0 0 15px;
+    padding:10px 0 0;
+    color:#666;
+    }
+  .box2 {
+    background:url("https://resources.blogblog.com/blogblog/data/rounders/corners_side_bot.gif") no-repeat left bottom;
+    padding:0 13px 8px;
+    }
+  }
+@media handheld {
+  .box {
+    background:#fff;
+    }
+  .box2 {
+    background:none;
+    }
+  }
+.sidebar-title {
+  margin:0;
+  padding:0 0 .2em;
+  border-bottom:1px dotted #9b9;
+  font-size:115%;
+  line-height:1.5em;
+  color:#333;
+  }
+.box ul {
+  margin:.5em 0 1.25em;
+  padding:0 0px;
+  list-style:none;
+  }
+.box ul li {
+  background:url("https://resources.blogblog.com/blogblog/data/rounders/icon_arrow_sm.gif") no-repeat 2px .25em;
+  margin:0;
+  padding:0 0 3px 16px;
+  margin-bottom:3px;
+  border-bottom:1px dotted #eee;
+  line-height:1.4em;
+  }
+.box p {
+  margin:0 0 .6em;
+  }
+
+
+/* Footer
+----------------------------------------------- */
+#footer {
+  clear:both;
+  margin:0;
+  padding:15px 0 0;
+  }
+@media all {
+  #footer div {
+    background:#456 url("https://resources.blogblog.com/blogblog/data/rounders/corners_cap_top.gif") no-repeat left top;
+    padding:8px 0 0;
+    color:#fff;
+    }
+  #footer div div {
+    background:url("https://resources.blogblog.com/blogblog/data/rounders/corners_cap_bot.gif") no-repeat left bottom;
+    padding:0 15px 8px;
+    }
+  }
+@media handheld {
+  #footer div {
+    background:#456;
+    }
+  #footer div div {
+    background:none;
+    }
+  }
+#footer hr {display:none;}
+#footer p {margin:0;}
+#footer a {color:#fff;}
+
+
+/* Feeds
+----------------------------------------------- */
+#blogfeeds {
+  }
+#postfeeds {
+  padding:0 15px 0;
+  }
+  </style>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6738179060246081"
+
+     crossorigin="anonymous"></script>
+</head>
+
+
+
+<body style="background-color: white;">
+
+ <h1>joint entrance examination admit card. |jee main admit card 2023 release date| sbi po mains admit card 2022 </h1>
+
+<!-- Begin #content - Centers all content and provides edges for floated columns -->
+
+<div id="content">
+
+
+
+<!-- Blog Header -->
+<header id="nav1046">
+
+   
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+    <div class="container-fluid">
+
+       <a href="https://mp9wale.blogspot.com/" > <img id="logoimg" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKAmcOeE7Ke34i-Kn-oas1LY6BHaNE5rJZ8JDWJYd0g28ZSRlMIvTSSK9q5b8_rucbrGWauDUtzNqbgCnZbBVy1o8G9TgfSMFv3cs9v03gSXkhwbYSzRKfQUdks-VR__nqh3Yrm3qsFlKyb-4jMsRD4htOYCsmM8P4rpBR_Hp_OrVPPINxvhhki9UmpQ/s180/20230116_001935_0000.png"
+         ></a>
+
+   
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+    <span class="navbar-toggler-icon"></span>
+
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+    <li class="nav-item">
+
+    <a class="nav-link active" aria-current="page" href="https://jandan-helper.blogspot.com/">Home</a>
+
+    </li>
+
+    <li class="nav-item">
+
+    <a class="nav-link" href="https://mp9wale.blogspot.com/p/about-us.html">about us</a>
+
+    </li>
+
+    <li class="nav-item">
+
+    <a class="nav-link" href="https://mp9wale.blogspot.com/p/contact-us.html">contact us</a>
+
+    </li>
+
+    <li class="nav-item">
+
+    <a class="nav-link" href="https://mp9wale.blogspot.com/p/privacy-policy.html">privacy</a>
+
+    </li>
+
+    <li class="nav-item dropdown">
+
+    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+
+    content topics
+
+    </a>
+
+    <ul class="dropdown-menu">
+
+    <li><a class="dropdown-item" href="https://jandan-helper.blogspot.com/p/jeemain-2nd-season-admit-card-jeemain.html">jeemain</a></li>
+
+    <li><a class="dropdown-item" href="http://jandan-helper.blogspot.com/2022/11/join-army-ssc-gd-apply-notification.html">Govt. jobs updates</a></li>
+
+    <li><a class="dropdown-item" href="https://jandan-helper.blogspot.com/p/9-class-9th-mp-board-blueprint.html">Boards Exam</a></li>
+
+    <li><a class="dropdown-item" href="#">technology</a></li>
+
+    
+
+    
+
+    
+
+    <li><hr class="dropdown-divider"></li>
+
+    <i style="color: grey;" class="mx-3"> powered by <a href="https://mp9wale.blogspot.com">Bharat Read </a></i>
+
+    <li><a class="dropdown-item" href="#"></a></li>
+
+    </ul>
+
+    </li>
+
+    
+
+    </ul>
+
+    <form class="d-flex" role="search">
+
+    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+
+    <button class="btn btn-outline-success" type="submit">Search</button>
+
+    </form>
+
     </div>
-    <div class="percentage hidden">
-      <div id="result-heading"></div>
-      <div class="wrapper">
-        <div class="outer">
-          <div class="inner">
-            <div id="number"></div>
-          </div>
-        </div>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          version="1.1"
-          width="160px"
-          height="160px"
-        >
-          <defs>
-            <linearGradient id="GradientColor">
-              <stop offset="0%" stop-color="#e91e63" />
-              <stop offset="100%" stop-color="#673ab7" />
-            </linearGradient>
-          </defs>
-          <circle
-            class="graph circle transition animate"
-            cx="80"
-            cy="80"
-            r="70"
-            stroke-linecap="round"
-          />
-        </svg>
-      </div>
+
     </div>
-    <script type="text/javascript">
-var _0x15f803=_0x3e74;(function(_0x345874,_0x26ac37){var _0x5658a5=_0x3e74,_0x2c57a8=_0x345874();while(!![]){try{var _0x5a884f=-parseInt(_0x5658a5(0x192))/0x1+-parseInt(_0x5658a5(0x1a8))/0x2+-parseInt(_0x5658a5('0x1b0'))/0x3+-parseInt(_0x5658a5(0x1de))/0x4+parseInt(_0x5658a5('0x169'))/0x5+parseInt(_0x5658a5('0x1f0'))/0x6+parseInt(_0x5658a5(0x16c))/0x7*(parseInt(_0x5658a5('0x1d1'))/0x8);if(_0x5a884f===_0x26ac37)break;else _0x2c57a8['push'](_0x2c57a8['shift']());}catch(_0x4c0ab6){_0x2c57a8['push'](_0x2c57a8['shift']());}}}(_0x5596,0xc1604),function(){'use strict';var _0x434f99=_0x3e74;var _0x41d4c1={'function':!0x0,'object':!0x0},_0x3700aa=_0x41d4c1[typeof window]&&window||this,_0x3f34b=_0x41d4c1[typeof exports]&&exports,_0x474cc1=_0x41d4c1[typeof module]&&module&&!module[_0x434f99('0x16e')]&&module,_0x597ab5=_0x3f34b&&_0x474cc1&&'object'==typeof global&&global;!_0x597ab5||_0x597ab5['global']!==_0x597ab5&&_0x597ab5[_0x434f99('0x180')]!==_0x597ab5&&_0x597ab5[_0x434f99('0x18c')]!==_0x597ab5||(_0x3700aa=_0x597ab5);var _0x57484e=Math['pow'](0x2,0x35)-0x1,_0x26c5b8=/\bOpera/,_0x39364b=Object[_0x434f99('0x18f')],_0x2188a9=_0x39364b[_0x434f99('0x1d6')],_0x1ef44f=_0x39364b['toString'];function _0x5a71d5(_0x44e769){var _0x4de12d=_0x434f99;return(_0x44e769=String(_0x44e769))[_0x4de12d('0x22c')](0x0)[_0x4de12d(0x1df)]()+_0x44e769[_0x4de12d('0x1f5')](0x1);}function _0x481bdd(_0x3337fc){var _0x40ce15=_0x434f99;return _0x3337fc=_0x21e1bb(_0x3337fc),/^(?:webOS|i(?:OS|P))/[_0x40ce15(0x1c0)](_0x3337fc)?_0x3337fc:_0x5a71d5(_0x3337fc);}function _0x11e45f(_0x339ac8,_0x2da95c){var _0x30b140=_0x434f99;for(var _0x4fc352 in _0x339ac8)_0x2188a9[_0x30b140('0x234')](_0x339ac8,_0x4fc352)&&_0x2da95c(_0x339ac8[_0x4fc352],_0x4fc352,_0x339ac8);}function _0x5a4743(_0x1b65c5){var _0x25833f=_0x434f99;return null==_0x1b65c5?_0x5a71d5(_0x1b65c5):_0x1ef44f[_0x25833f('0x234')](_0x1b65c5)['slice'](0x8,-0x1);}function _0x5882b6(_0x1d6d77){var _0x552cf5=_0x434f99;return String(_0x1d6d77)[_0x552cf5(0x22f)](/([ -])(?!$)/g,_0x552cf5('0x17c'));}function _0x2c3888(_0x39b051,_0x3c46a6){var _0x408b0a=null;return function(_0x68cb97,_0x3dde6c){var _0x391fa4=_0x3e74,_0x1c3a66=-0x1,_0x405d0d=_0x68cb97?_0x68cb97[_0x391fa4('0x144')]:0x0;if(_0x391fa4('0x212')==typeof _0x405d0d&&-0x1<_0x405d0d&&_0x405d0d<=_0x57484e){for(;++_0x1c3a66<_0x405d0d;)_0x3dde6c(_0x68cb97[_0x1c3a66],_0x1c3a66,_0x68cb97);}else _0x11e45f(_0x68cb97,_0x3dde6c);}(_0x39b051,function(_0x2fe5f0,_0x5e9d57){_0x408b0a=_0x3c46a6(_0x408b0a,_0x2fe5f0,_0x5e9d57,_0x39b051);}),_0x408b0a;}function _0x21e1bb(_0x421440){var _0x46dbfd=_0x434f99;return String(_0x421440)[_0x46dbfd(0x22f)](/^ +| +$/g,'');}function _0x2d74f0(_0x420060){var _0x22958a=_0x434f99,_0x76221a=_0x3700aa,_0x508cff=_0x420060&&_0x22958a('0x204')==typeof _0x420060&&_0x22958a(0x157)!=_0x5a4743(_0x420060);_0x508cff&&(_0x76221a=_0x420060,_0x420060=null);var _0xd4af23=_0x76221a[_0x22958a(0x186)]||{},_0x3f6171=_0xd4af23[_0x22958a('0x1d8')]||'';_0x420060=_0x420060||_0x3f6171;var _0x408bfa,_0x187f3e,_0x265f02,_0x50681b,_0x574ee8,_0x4eb16c=_0x508cff?!!_0xd4af23[_0x22958a('0x199')]:/\bChrome\b/[_0x22958a('0x1c0')](_0x420060)&&!/internal|\n/i[_0x22958a('0x1c0')](_0x1ef44f['toString']()),_0x4f2cd2='Object',_0x1c1262=_0x508cff?_0x4f2cd2:'ScriptBridgingProxyObject',_0x3311a5=_0x508cff?_0x4f2cd2:_0x22958a('0x13e'),_0x4f806f=_0x508cff&&_0x76221a[_0x22958a(0x1c8)]?_0x22958a('0x1d5'):_0x5a4743(_0x76221a[_0x22958a('0x1c8')]),_0x1cab7a=_0x508cff?_0x4f2cd2:'RuntimeObject',_0x1fda97=/\bJava/['test'](_0x4f806f)&&_0x76221a['java'],_0x4e8fc6=_0x1fda97&&_0x5a4743(_0x76221a['environment'])==_0x3311a5,_0x2c8913=_0x1fda97?'a':'α',_0x3b49d7=_0x1fda97?'b':'β',_0x25d9d9=_0x76221a[_0x22958a('0x17f')]||{},_0xa6fae5=_0x76221a['operamini']||_0x76221a[_0x22958a(0x166)],_0x2c8c2d=_0x26c5b8[_0x22958a(0x1c0)](_0x2c8c2d=_0x508cff&&_0xa6fae5?_0xa6fae5['[[Class]]']:_0x5a4743(_0xa6fae5))?_0x2c8c2d:_0xa6fae5=null,_0x3381d7=_0x420060,_0x113b47=[],_0x478e33=null,_0x2f0038=_0x420060==_0x3f6171,_0x30db2e=_0x2f0038&&_0xa6fae5&&_0x22958a('0x1c7')==typeof _0xa6fae5['version']&&_0xa6fae5[_0x22958a('0x1f4')](),_0x5524c9=_0x2c3888([{'label':_0x22958a('0x1c2'),'pattern':_0x22958a(0x19f)},_0x22958a(0x21f),{'label':_0x22958a('0x19e'),'pattern':_0x22958a('0x1ba')},_0x22958a('0x224'),_0x22958a(0x21e),_0x22958a(0x219),'Tasman','KHTML',_0x22958a(0x1f1)],function(_0x38d470,_0x401fb6){var _0x19faae=_0x22958a;return _0x38d470||RegExp('\x5cb'+(_0x401fb6[_0x19faae(0x188)]||_0x5882b6(_0x401fb6))+'\x5cb','i')[_0x19faae('0x13d')](_0x420060)&&(_0x401fb6[_0x19faae(0x22e)]||_0x401fb6);}),_0x10f02e=_0x2c3888(['Adobe\x20AIR',_0x22958a('0x15d'),_0x22958a('0x1a4'),'Breach',_0x22958a(0x14c),_0x22958a('0x1fb'),'Epiphany',_0x22958a('0x183'),_0x22958a('0x1d2'),'Galeon',_0x22958a('0x216'),'iCab',_0x22958a(0x1e8),_0x22958a('0x1b6'),_0x22958a('0x20f'),_0x22958a('0x197'),'Maxthon',{'label':'Microsoft\x20Edge','pattern':_0x22958a('0x174')},_0x22958a('0x1fc'),_0x22958a(0x1f2),'PaleMoon',_0x22958a('0x225'),_0x22958a('0x1fe'),_0x22958a(0x1ed),'RockMelt',{'label':'Samsung\x20Internet','pattern':_0x22958a('0x150')},_0x22958a(0x1b1),{'label':_0x22958a('0x1cf'),'pattern':_0x22958a('0x1bf')},_0x22958a(0x1b5),_0x22958a('0x18d'),{'label':_0x22958a(0x18b),'pattern':'Iron'},_0x22958a('0x232'),_0x22958a('0x230'),_0x22958a(0x210),_0x22958a(0x153),_0x22958a('0x195'),{'label':'Yandex\x20Browser','pattern':_0x22958a(0x1b8)},{'label':_0x22958a('0x221'),'pattern':_0x22958a('0x142')},'Opera\x20Mini',{'label':_0x22958a('0x209'),'pattern':_0x22958a('0x1e6')},'Opera',{'label':_0x22958a(0x1c1),'pattern':'OPR'},_0x22958a(0x203),_0x22958a('0x200'),{'label':_0x22958a(0x200),'pattern':_0x22958a('0x187')},{'label':'Chrome\x20Mobile','pattern':_0x22958a('0x20b')},{'label':_0x22958a(0x18a),'pattern':_0x22958a(0x14a)},{'label':_0x22958a('0x1ef'),'pattern':_0x22958a(0x19b)},{'label':'IE','pattern':_0x22958a(0x198)},{'label':'IE','pattern':'MSIE'},'Safari'],function(_0x29455d,_0x4ab078){var _0x47fbf0=_0x22958a;return _0x29455d||RegExp('\x5cb'+(_0x4ab078[_0x47fbf0(0x188)]||_0x5882b6(_0x4ab078))+'\x5cb','i')[_0x47fbf0(0x13d)](_0x420060)&&(_0x4ab078[_0x47fbf0('0x22e')]||_0x4ab078);}),_0x2622b4=_0x141a0f([{'label':_0x22958a('0x168'),'pattern':_0x22958a('0x1c3')},_0x22958a('0x168'),{'label':_0x22958a(0x1d0),'pattern':_0x22958a('0x143')},{'label':_0x22958a(0x1a9),'pattern':_0x22958a('0x156')},{'label':'Galaxy\x20S3','pattern':'GT-I9300'},{'label':_0x22958a(0x21b),'pattern':_0x22958a('0x1aa')},{'label':_0x22958a('0x152'),'pattern':_0x22958a('0x181')},{'label':'Galaxy\x20S6','pattern':_0x22958a(0x172)},{'label':_0x22958a('0x231'),'pattern':_0x22958a(0x1a3)},{'label':_0x22958a(0x1e7),'pattern':_0x22958a('0x1d3')},{'label':_0x22958a(0x202),'pattern':_0x22958a('0x13f')},'Google\x20TV',_0x22958a(0x15f),_0x22958a(0x211),_0x22958a(0x161),'iPhone',_0x22958a(0x22a),{'label':_0x22958a('0x206'),'pattern':'(?:Cloud9|Silk-Accelerated)'},'Nexus',_0x22958a('0x17b'),_0x22958a('0x226'),'PlayStation\x20Vita',_0x22958a(0x1a5),_0x22958a(0x1a1),_0x22958a(0x14f),{'label':_0x22958a('0x13b'),'pattern':_0x22958a(0x148)},'Wii',_0x22958a(0x13a),{'label':_0x22958a('0x217'),'pattern':'Xbox'},_0x22958a('0x205')]),_0x1c5ee0=_0x2c3888({'Apple':{'iPad':0x1,'iPhone':0x1,'iPod':0x1},'Alcatel':{},'Archos':{},'Amazon':{'Kindle':0x1,'Kindle\x20Fire':0x1},'Asus':{'Transformer':0x1},'Barnes\x20&\x20Noble':{'Nook':0x1},'BlackBerry':{'PlayBook':0x1},'Google':{'Google\x20TV':0x1,'Nexus':0x1},'HP':{'TouchPad':0x1},'HTC':{},'Huawei':{},'Lenovo':{},'LG':{},'Microsoft':{'Xbox':0x1,'Xbox\x20One':0x1},'Motorola':{'Xoom':0x1},'Nintendo':{'Wii\x20U':0x1,'Wii':0x1},'Nokia':{'Lumia':0x1},'Oppo':{},'Samsung':{'Galaxy\x20S':0x1,'Galaxy\x20S2':0x1,'Galaxy\x20S3':0x1,'Galaxy\x20S4':0x1},'Sony':{'PlayStation':0x1,'PlayStation\x20Vita':0x1},'Xiaomi':{'Mi':0x1,'Redmi':0x1}},function(_0x2977b7,_0x31f512,_0x308f90){var _0x182459=_0x22958a;return _0x2977b7||(_0x31f512[_0x2622b4]||_0x31f512[/^[a-z]+(?: +[a-z]+\b)*/i['exec'](_0x2622b4)]||RegExp('\x5cb'+_0x5882b6(_0x308f90)+_0x182459('0x1cb'),'i')['exec'](_0x420060))&&_0x308f90;}),_0x3565bd=_0x2c3888(['Windows\x20Phone',_0x22958a(0x1be),_0x22958a('0x1b7'),'CentOS',{'label':_0x22958a('0x151'),'pattern':'CrOS'},_0x22958a('0x1da'),{'label':_0x22958a(0x170),'pattern':_0x22958a('0x1a2')},_0x22958a('0x1b9'),_0x22958a(0x1e0),_0x22958a('0x163'),_0x22958a(0x1ca),_0x22958a('0x1c6'),'Linux\x20Mint',_0x22958a('0x1e4'),_0x22958a('0x1bc'),_0x22958a(0x1dd),_0x22958a(0x17e),_0x22958a('0x1c4'),_0x22958a(0x233),_0x22958a(0x1ec),'hpwOS',_0x22958a(0x1e9),'webOS',_0x22958a(0x145),_0x22958a('0x1d9'),'Linux','Mac\x20OS\x20X',_0x22958a('0x177'),_0x22958a('0x1fa'),_0x22958a(0x15a),'Windows\x20'],function(_0x42be5a,_0x311d23){var _0x26d9e2=_0x22958a,_0x2139b3,_0x1070e1,_0x4f43c3,_0x209c95,_0x134ebe=_0x311d23['pattern']||_0x5882b6(_0x311d23);return!_0x42be5a&&(_0x42be5a=RegExp('\x5cb'+_0x134ebe+_0x26d9e2(0x1f3),'i')[_0x26d9e2(0x13d)](_0x420060))&&(_0x2139b3=_0x42be5a,_0x1070e1=_0x134ebe,_0x4f43c3=_0x311d23[_0x26d9e2('0x22e')]||_0x311d23,_0x209c95={'10.0':'10',6.4:'10\x20Technical\x20Preview',6.3:_0x26d9e2(0x1f7),6.2:'8',6.1:'Server\x202008\x20R2\x20/\x207','6.0':_0x26d9e2('0x1bb'),5.2:_0x26d9e2(0x1db),5.1:'XP',5.01:_0x26d9e2(0x193),'5.0':_0x26d9e2(0x162),'4.0':'NT','4.90':'ME'},_0x1070e1&&_0x4f43c3&&/^Win/i[_0x26d9e2('0x1c0')](_0x2139b3)&&!/^Windows Phone /i[_0x26d9e2(0x1c0)](_0x2139b3)&&(_0x209c95=_0x209c95[/[\d.]+$/[_0x26d9e2('0x13d')](_0x2139b3)])&&(_0x2139b3=_0x26d9e2('0x138')+_0x209c95),_0x2139b3=String(_0x2139b3),_0x1070e1&&_0x4f43c3&&(_0x2139b3=_0x2139b3[_0x26d9e2('0x22f')](RegExp(_0x1070e1,'i'),_0x4f43c3)),_0x42be5a=_0x2139b3=_0x481bdd(_0x2139b3[_0x26d9e2(0x22f)](/ ce$/i,_0x26d9e2(0x214))[_0x26d9e2('0x22f')](/\bhpw/i,_0x26d9e2(0x173))[_0x26d9e2('0x22f')](/\bMacintosh\b/,_0x26d9e2('0x1e2'))[_0x26d9e2(0x22f)](/_PowerPC\b/i,_0x26d9e2(0x1e3))['replace'](/\b(OS X) [^ \d]+/i,'$1')[_0x26d9e2(0x22f)](/\bMac (OS X)\b/,'$1')[_0x26d9e2(0x22f)](/\/(\d)/,'\x20$1')['replace'](/_/g,'.')[_0x26d9e2('0x22f')](/(?: BePC|[ .]*fc[ \d.]+)$/i,'')[_0x26d9e2(0x22f)](/\bx86\.64\b/gi,_0x26d9e2('0x1e5'))[_0x26d9e2('0x22f')](/\b(Windows Phone) OS\b/,'$1')['replace'](/\b(Chrome OS \w+) [\d.]+\b/,'$1')['split'](_0x26d9e2('0x175'))[0x0])),_0x42be5a;});function _0x141a0f(_0x43cf7e){return _0x2c3888(_0x43cf7e,function(_0x94e999,_0x4fe011){var _0x11a57e=_0x3e74,_0x5a6214=_0x4fe011['pattern']||_0x5882b6(_0x4fe011);return!_0x94e999&&(_0x94e999=RegExp('\x5cb'+_0x5a6214+_0x11a57e(0x19a),'i')[_0x11a57e('0x13d')](_0x420060)||RegExp('\x5cb'+_0x5a6214+_0x11a57e('0x22b'),'i')[_0x11a57e(0x13d)](_0x420060)||RegExp('\x5cb'+_0x5a6214+_0x11a57e('0x1e1'),'i')[_0x11a57e('0x13d')](_0x420060))&&((_0x94e999=String(_0x4fe011['label']&&!RegExp(_0x5a6214,'i')[_0x11a57e('0x1c0')](_0x4fe011[_0x11a57e(0x22e)])?_0x4fe011[_0x11a57e('0x22e')]:_0x94e999)[_0x11a57e('0x1f9')]('/'))[0x1]&&!/[\d.]+/[_0x11a57e('0x1c0')](_0x94e999[0x0])&&(_0x94e999[0x0]+='\x20'+_0x94e999[0x1]),_0x4fe011=_0x4fe011[_0x11a57e('0x22e')]||_0x4fe011,_0x94e999=_0x481bdd(_0x94e999[0x0][_0x11a57e(0x22f)](RegExp(_0x5a6214,'i'),_0x4fe011)['replace'](RegExp(_0x11a57e('0x235')+_0x4fe011+'[_-])?','i'),'\x20')[_0x11a57e(0x22f)](RegExp('('+_0x4fe011+_0x11a57e('0x15e'),'i'),_0x11a57e(0x1fd)))),_0x94e999;});}function _0x5aecf0(_0x22f09d){return _0x2c3888(_0x22f09d,function(_0x119e42,_0x9e7ffd){var _0x5118c3=_0x3e74;return _0x119e42||(RegExp(_0x9e7ffd+'(?:-[\x5cd.]+/|(?:\x20for\x20[\x5cw-]+)?[\x20/-])([\x5cd.]+[^\x20();/_-]*)','i')[_0x5118c3('0x13d')](_0x420060)||0x0)[0x1]||null;});}if(_0x5524c9=_0x5524c9&&[_0x5524c9],/\bAndroid\b/[_0x22958a(0x1c0)](_0x3565bd)&&!_0x2622b4&&(_0x408bfa=/\bAndroid[^;]*;(.*?)(?:Build|\) AppleWebKit)\b/i[_0x22958a(0x13d)](_0x420060))&&(_0x2622b4=_0x21e1bb(_0x408bfa[0x1])[_0x22958a('0x22f')](/^[a-z]{2}-[a-z]{2};\s*/i,'')||null),_0x1c5ee0&&!_0x2622b4?_0x2622b4=_0x141a0f([_0x1c5ee0]):_0x1c5ee0&&_0x2622b4&&(_0x2622b4=_0x2622b4[_0x22958a(0x22f)](RegExp('^('+_0x5882b6(_0x1c5ee0)+_0x22958a(0x179),'i'),_0x1c5ee0+'\x20')[_0x22958a('0x22f')](RegExp('^('+_0x5882b6(_0x1c5ee0)+_0x22958a(0x15e),'i'),_0x1c5ee0+_0x22958a(0x16d))),(_0x408bfa=/\bGoogle TV\b/[_0x22958a(0x13d)](_0x2622b4))&&(_0x2622b4=_0x408bfa[0x0]),/\bSimulator\b/i[_0x22958a('0x1c0')](_0x420060)&&(_0x2622b4=(_0x2622b4?_0x2622b4+'\x20':'')+'Simulator'),_0x22958a('0x209')==_0x10f02e&&/\bOPiOS\b/[_0x22958a('0x1c0')](_0x420060)&&_0x113b47[_0x22958a('0x185')]('running\x20in\x20Turbo/Uncompressed\x20mode'),'IE'==_0x10f02e&&/\blike iPhone OS\b/[_0x22958a('0x1c0')](_0x420060)?(_0x1c5ee0=(_0x408bfa=_0x2d74f0(_0x420060['replace'](/like iPhone OS/,'')))[_0x22958a(0x139)],_0x2622b4=_0x408bfa[_0x22958a('0x1ae')]):/^iP/[_0x22958a('0x1c0')](_0x2622b4)?(_0x10f02e=_0x10f02e||_0x22958a('0x218'),_0x3565bd=_0x22958a(0x1ff)+((_0x408bfa=/ OS ([\d_]+)/i[_0x22958a(0x13d)](_0x420060))?'\x20'+_0x408bfa[0x1][_0x22958a(0x22f)](/_/g,'.'):'')):_0x22958a(0x20f)==_0x10f02e&&/^Linux\b/i[_0x22958a('0x1c0')](_0x3565bd)?_0x3565bd=_0x22958a(0x1c6):_0x1c5ee0&&'Google'!=_0x1c5ee0&&(/Chrome/[_0x22958a('0x1c0')](_0x10f02e)&&!/\bMobile Safari\b/i[_0x22958a(0x1c0)](_0x420060)||/\bVita\b/[_0x22958a(0x1c0)](_0x2622b4))||/\bAndroid\b/[_0x22958a(0x1c0)](_0x3565bd)&&/^Chrome/['test'](_0x10f02e)&&/\bVersion\//i['test'](_0x420060)?(_0x10f02e=_0x22958a('0x196'),_0x3565bd=/\bAndroid\b/[_0x22958a(0x1c0)](_0x3565bd)?_0x3565bd:_0x22958a('0x1b7')):'Silk'==_0x10f02e?(/\bMobi/i[_0x22958a('0x1c0')](_0x420060)||(_0x3565bd='Android',_0x113b47['unshift']('desktop\x20mode')),/Accelerated *= *true/i[_0x22958a('0x1c0')](_0x420060)&&_0x113b47[_0x22958a('0x1b4')](_0x22958a(0x189))):'UC\x20Browser'==_0x10f02e&&/\bUCWEB\b/[_0x22958a('0x1c0')](_0x420060)?_0x113b47['push']('speed\x20mode'):_0x22958a('0x1d7')==_0x10f02e&&(_0x408bfa=/\bFirefox\/([\d.]+)\b/[_0x22958a(0x13d)](_0x420060))?_0x113b47[_0x22958a(0x185)](_0x22958a('0x220')+_0x408bfa[0x1]):_0x22958a(0x18a)==_0x10f02e&&(_0x408bfa=/\b(Mobile|Tablet|TV)\b/i[_0x22958a('0x13d')](_0x420060))?(_0x3565bd=_0x3565bd||'Firefox\x20OS',_0x2622b4=_0x2622b4||_0x408bfa[0x1]):!_0x10f02e||(_0x408bfa=!/\bMinefield\b/i[_0x22958a(0x1c0)](_0x420060)&&/\b(?:Firefox|Safari)\b/['exec'](_0x10f02e))?(_0x10f02e&&!_0x2622b4&&/[\/,]|^[^(]+?\)/[_0x22958a(0x1c0)](_0x420060['slice'](_0x420060['indexOf'](_0x408bfa+'/')+0x8))&&(_0x10f02e=null),(_0x408bfa=_0x2622b4||_0x1c5ee0||_0x3565bd)&&(_0x2622b4||_0x1c5ee0||/\b(?:Android|Symbian OS|Tablet OS|webOS)\b/[_0x22958a(0x1c0)](_0x3565bd))&&(_0x10f02e=/[a-z]+(?: Hat)?/i[_0x22958a('0x13d')](/\bAndroid\b/[_0x22958a(0x1c0)](_0x3565bd)?_0x3565bd:_0x408bfa)+_0x22958a('0x20d'))):'Electron'==_0x10f02e&&(_0x408bfa=(/\bChrome\/([\d.]+)\b/[_0x22958a(0x13d)](_0x420060)||0x0)[0x1])&&_0x113b47['push'](_0x22958a(0x1bd)+_0x408bfa),_0x30db2e=_0x30db2e||_0x5aecf0(['(?:Cloud9|CriOS|CrMo|Edge|Edg|EdgA|EdgiOS|FxiOS|HeadlessChrome|IEMobile|Iron|Opera\x20?Mini|OPiOS|OPR|Raven|SamsungBrowser|Silk(?!/[\x5cd.]+$)|UCBrowser|YaBrowser)','Version',_0x5882b6(_0x10f02e),_0x22958a('0x208')]),(_0x408bfa=(_0x22958a('0x224')==_0x5524c9&&0x3<parseFloat(_0x30db2e)?'WebKit':/\bOpera\b/[_0x22958a(0x1c0)](_0x10f02e)&&(/\bOPR\b/[_0x22958a('0x1c0')](_0x420060)?'Blink':'Presto'))||/\b(?:Midori|Nook|Safari)\b/i[_0x22958a(0x1c0)](_0x420060)&&!/^(?:Trident|EdgeHTML)$/[_0x22958a(0x1c0)](_0x5524c9)&&_0x22958a(0x19e)||!_0x5524c9&&/\bMSIE\b/i['test'](_0x420060)&&('Mac\x20OS'==_0x3565bd?_0x22958a('0x1af'):'Trident')||_0x22958a(0x19e)==_0x5524c9&&/\bPlayStation\b(?! Vita\b)/i[_0x22958a(0x1c0)](_0x10f02e)&&_0x22958a('0x219'))&&(_0x5524c9=[_0x408bfa]),'IE'==_0x10f02e&&(_0x408bfa=(/; *(?:XBLWP|ZuneWP)(\d+)/i[_0x22958a(0x13d)](_0x420060)||0x0)[0x1])?(_0x10f02e+=_0x22958a(0x15c),_0x3565bd='Windows\x20Phone\x20'+(/\+$/['test'](_0x408bfa)?_0x408bfa:_0x408bfa+'.x'),_0x113b47[_0x22958a(0x1b4)](_0x22958a('0x17d'))):/\bWPDesktop\b/i['test'](_0x420060)?(_0x10f02e='IE\x20Mobile',_0x3565bd=_0x22958a(0x215),_0x113b47[_0x22958a(0x1b4)](_0x22958a(0x17d)),_0x30db2e=_0x30db2e||(/\brv:([\d.]+)/[_0x22958a('0x13d')](_0x420060)||0x0)[0x1]):'IE'!=_0x10f02e&&'Trident'==_0x5524c9&&(_0x408bfa=/\brv:([\d.]+)/[_0x22958a('0x13d')](_0x420060))&&(_0x10f02e&&_0x113b47[_0x22958a('0x185')](_0x22958a('0x1b2')+_0x10f02e+(_0x30db2e?'\x20'+_0x30db2e:'')),_0x10f02e='IE',_0x30db2e=_0x408bfa[0x1]),_0x2f0038){if(_0x50681b='global',_0x574ee8=null!=(_0x265f02=_0x76221a)?typeof _0x265f02[_0x50681b]:_0x22958a(0x212),/^(?:boolean|number|string|undefined)$/['test'](_0x574ee8)||_0x22958a('0x204')==_0x574ee8&&!_0x265f02[_0x50681b])_0x5a4743(_0x408bfa=_0x76221a[_0x22958a(0x16b)])==_0x1c1262?(_0x10f02e=_0x22958a('0x1ce'),_0x3565bd=_0x408bfa['flash']['system']['Capabilities']['os']):_0x5a4743(_0x408bfa=_0x76221a[_0x22958a(0x1cd)])==_0x1cab7a?(_0x10f02e=_0x22958a(0x225),_0x30db2e=(_0x408bfa=_0x408bfa[_0x22958a('0x1f4')]||null)&&_0x408bfa[_0x22958a('0x1a7')]+'.'+_0x408bfa['minor']+'.'+_0x408bfa[_0x22958a('0x182')]):_0x22958a('0x212')==typeof _0x25d9d9[_0x22958a('0x14d')]&&(_0x408bfa=/\bTrident\/(\d+)/i['exec'](_0x420060))?(_0x30db2e=[_0x30db2e,_0x25d9d9[_0x22958a(0x14d)]],(_0x408bfa=+_0x408bfa[0x1]+0x4)!=_0x30db2e[0x1]&&(_0x113b47[_0x22958a('0x185')]('IE\x20'+_0x30db2e[0x1]+_0x22958a(0x1ab)),_0x5524c9&&(_0x5524c9[0x1]=''),_0x30db2e[0x1]=_0x408bfa),_0x30db2e='IE'==_0x10f02e?String(_0x30db2e[0x1][_0x22958a('0x13c')](0x1)):_0x30db2e[0x0]):'number'==typeof _0x25d9d9[_0x22958a('0x14d')]&&/^(?:Chrome|Firefox)\b/[_0x22958a('0x1c0')](_0x10f02e)&&(_0x113b47[_0x22958a(0x185)]('masking\x20as\x20'+_0x10f02e+'\x20'+_0x30db2e),_0x10f02e='IE',_0x30db2e=_0x22958a('0x223'),_0x5524c9=[_0x22958a('0x21f')],_0x3565bd=_0x22958a(0x21a));else{if(_0x1fda97&&(_0x3381d7=(_0x408bfa=_0x1fda97[_0x22958a('0x154')][_0x22958a(0x146)])[_0x22958a('0x1c5')]('os.arch'),_0x3565bd=_0x3565bd||_0x408bfa[_0x22958a(0x1c5)](_0x22958a(0x141))+'\x20'+_0x408bfa[_0x22958a('0x1c5')](_0x22958a(0x222))),_0x4e8fc6){try{_0x30db2e=_0x76221a[_0x22958a(0x228)]('ringo/engine')['version'][_0x22958a(0x207)]('.'),_0x10f02e=_0x22958a('0x213');}catch(_0x17626){(_0x408bfa=_0x76221a[_0x22958a(0x159)])&&_0x408bfa[_0x22958a(0x1dc)][_0x22958a('0x159')]==_0x76221a[_0x22958a(0x159)]&&(_0x10f02e=_0x22958a(0x136),_0x3565bd=_0x3565bd||(_0x408bfa[0x0]['os']||null));}_0x10f02e=_0x10f02e||_0x22958a('0x178');}else _0x22958a('0x204')==typeof _0x76221a[_0x22958a('0x22d')]&&!_0x76221a[_0x22958a(0x22d)][_0x22958a(0x155)]&&(_0x408bfa=_0x76221a[_0x22958a(0x22d)])&&(_0x22958a('0x204')==typeof _0x408bfa['versions']&&(_0x22958a(0x20e)==typeof _0x408bfa[_0x22958a(0x19d)][_0x22958a('0x229')]?(_0x113b47[_0x22958a(0x185)](_0x22958a('0x140')+_0x408bfa['versions'][_0x22958a(0x1a6)]),_0x10f02e=_0x22958a(0x1fb),_0x30db2e=_0x408bfa[_0x22958a(0x19d)][_0x22958a(0x229)]):_0x22958a(0x20e)==typeof _0x408bfa[_0x22958a(0x19d)]['nw']&&(_0x113b47['push'](_0x22958a('0x1bd')+_0x30db2e,_0x22958a('0x140')+_0x408bfa['versions'][_0x22958a('0x1a6')]),_0x10f02e='NW.js',_0x30db2e=_0x408bfa[_0x22958a('0x19d')]['nw'])),_0x10f02e||(_0x10f02e=_0x22958a(0x158),_0x3381d7=_0x408bfa[_0x22958a('0x194')],_0x3565bd=_0x408bfa[_0x22958a('0x1ea')],_0x30db2e=(_0x30db2e=/[\d.]+/[_0x22958a(0x13d)](_0x408bfa[_0x22958a(0x1f4)]))?_0x30db2e[0x0]:null));}_0x3565bd=_0x3565bd&&_0x481bdd(_0x3565bd);}if(_0x30db2e&&(_0x408bfa=/(?:[ab]|dp|pre|[ab]\d+pre)(?:\d+\+?)?$/i[_0x22958a(0x13d)](_0x30db2e)||/(?:alpha|beta)(?: ?\d)?/i[_0x22958a('0x13d')](_0x420060+';'+(_0x2f0038&&_0xd4af23[_0x22958a('0x17a')]))||/\bMinefield\b/i['test'](_0x420060)&&'a')&&(_0x478e33=/b/i['test'](_0x408bfa)?_0x22958a('0x171'):_0x22958a(0x160),_0x30db2e=_0x30db2e['replace'](RegExp(_0x408bfa+_0x22958a('0x1f8')),'')+(_0x22958a('0x171')==_0x478e33?_0x3b49d7:_0x2c8913)+(/\d+\+?/[_0x22958a(0x13d)](_0x408bfa)||'')),_0x22958a('0x183')==_0x10f02e||_0x22958a(0x18a)==_0x10f02e&&/\b(?:Android|Firefox OS|KaiOS)\b/[_0x22958a(0x1c0)](_0x3565bd))_0x10f02e='Firefox\x20Mobile';else{if(_0x22958a(0x18e)==_0x10f02e&&_0x30db2e)_0x30db2e=_0x30db2e[_0x22958a(0x22f)](/\.[\d.]+/,'.x');else{if(/\bXbox\b/i['test'](_0x2622b4))_0x22958a(0x217)==_0x2622b4&&(_0x3565bd=null),'Xbox\x20360'==_0x2622b4&&/\bIEMobile\b/[_0x22958a('0x1c0')](_0x420060)&&_0x113b47[_0x22958a(0x1b4)]('mobile\x20mode');else{if(!/^(?:Chrome|IE|Opera)$/[_0x22958a(0x1c0)](_0x10f02e)&&(!_0x10f02e||_0x2622b4||/Browser|Mobi/[_0x22958a('0x1c0')](_0x10f02e))||_0x22958a('0x16a')!=_0x3565bd&&!/Mobi/i[_0x22958a(0x1c0)](_0x420060)){if('IE'==_0x10f02e&&_0x2f0038)try{null===_0x76221a[_0x22958a('0x1ee')]&&_0x113b47[_0x22958a('0x1b4')](_0x22958a(0x1cc));}catch(_0x42f845){_0x113b47['unshift'](_0x22958a(0x227));}else(/\bBlackBerry\b/[_0x22958a('0x1c0')](_0x2622b4)||/\bBB10\b/['test'](_0x420060))&&(_0x408bfa=(RegExp(_0x2622b4[_0x22958a('0x22f')](/ +/g,'\x20*')+_0x22958a('0x1a0'),'i')[_0x22958a(0x13d)](_0x420060)||0x0)[0x1]||_0x30db2e)?(_0x3565bd=((_0x408bfa=[_0x408bfa,/BB10/[_0x22958a('0x1c0')](_0x420060)])[0x1]?(_0x2622b4=null,_0x1c5ee0=_0x22958a('0x168')):_0x22958a('0x165'))+'\x20'+_0x408bfa[0x0],_0x30db2e=null):this!=_0x11e45f&&_0x22958a(0x1eb)!=_0x2622b4&&(_0x2f0038&&_0xa6fae5||/Opera/[_0x22958a('0x1c0')](_0x10f02e)&&/\b(?:MSIE|Firefox)\b/i['test'](_0x420060)||_0x22958a('0x18a')==_0x10f02e&&/\bOS X (?:\d+\.){2,}/['test'](_0x3565bd)||'IE'==_0x10f02e&&(_0x3565bd&&!/^Win/['test'](_0x3565bd)&&5.5<_0x30db2e||/\bWindows XP\b/[_0x22958a('0x1c0')](_0x3565bd)&&0x8<_0x30db2e||0x8==_0x30db2e&&!/\bTrident\b/[_0x22958a(0x1c0)](_0x420060)))&&!_0x26c5b8[_0x22958a(0x1c0)](_0x408bfa=_0x2d74f0[_0x22958a(0x234)](_0x11e45f,_0x420060['replace'](_0x26c5b8,'')+';'))&&_0x408bfa[_0x22958a('0x190')]&&(_0x408bfa=_0x22958a(0x1d4)+_0x408bfa[_0x22958a(0x190)]+((_0x408bfa=_0x408bfa[_0x22958a(0x1f4)])?'\x20'+_0x408bfa:''),_0x26c5b8[_0x22958a('0x1c0')](_0x10f02e)?(/\bIE\b/[_0x22958a('0x1c0')](_0x408bfa)&&_0x22958a('0x1e2')==_0x3565bd&&(_0x3565bd=null),_0x408bfa=_0x22958a('0x19c')+_0x408bfa):(_0x408bfa=_0x22958a('0x184')+_0x408bfa,_0x10f02e=_0x2c8c2d?_0x481bdd(_0x2c8c2d[_0x22958a(0x22f)](/([a-z])([A-Z])/g,_0x22958a('0x1fd'))):_0x22958a(0x1c1),/\bIE\b/[_0x22958a(0x1c0)](_0x408bfa)&&(_0x3565bd=null),_0x2f0038||(_0x30db2e=null)),_0x5524c9=[_0x22958a('0x21e')],_0x113b47[_0x22958a('0x185')](_0x408bfa));}else _0x10f02e+=_0x22958a('0x15c');}}}(_0x408bfa=(/\bAppleWebKit\/([\d.]+\+?)/i['exec'](_0x420060)||0x0)[0x1])&&(_0x408bfa=[parseFloat(_0x408bfa[_0x22958a(0x22f)](/\.(\d)$/,_0x22958a('0x20a'))),_0x408bfa],_0x22958a('0x218')==_0x10f02e&&'+'==_0x408bfa[0x1]['slice'](-0x1)?(_0x10f02e=_0x22958a('0x1f6'),_0x478e33='alpha',_0x30db2e=_0x408bfa[0x1][_0x22958a('0x1f5')](0x0,-0x1)):_0x30db2e!=_0x408bfa[0x1]&&_0x30db2e!=(_0x408bfa[0x2]=(/\bSafari\/([\d.]+\+?)/i['exec'](_0x420060)||0x0)[0x1])||(_0x30db2e=null),_0x408bfa[0x1]=(/\b(?:Headless)?Chrome\/([\d.]+)/i[_0x22958a(0x13d)](_0x420060)||0x0)[0x1],537.36==_0x408bfa[0x0]&&537.36==_0x408bfa[0x2]&&0x1c<=parseFloat(_0x408bfa[0x1])&&'WebKit'==_0x5524c9&&(_0x5524c9=['Blink']),_0x408bfa=_0x2f0038&&(_0x4eb16c||_0x408bfa[0x1])?(_0x5524c9&&(_0x5524c9[0x1]=_0x22958a('0x20c')),_0x408bfa[0x1]||((_0x408bfa=_0x408bfa[0x0])<0x212?0x1:_0x408bfa<0x214?0x2:_0x408bfa<532.05?0x3:_0x408bfa<0x215?0x4:_0x408bfa<534.03?0x5:_0x408bfa<534.07?0x6:_0x408bfa<534.1?0x7:_0x408bfa<534.13?0x8:_0x408bfa<534.16?0x9:_0x408bfa<534.24?0xa:_0x408bfa<534.3?0xb:_0x408bfa<535.01?0xc:_0x408bfa<535.02?'13+':_0x408bfa<535.07?0xf:_0x408bfa<535.11?0x10:_0x408bfa<535.19?0x11:_0x408bfa<536.05?0x12:_0x408bfa<536.1?0x13:_0x408bfa<537.01?0x14:_0x408bfa<537.11?_0x22958a(0x15b):_0x408bfa<537.13?0x17:_0x408bfa<537.18?0x18:_0x408bfa<537.24?0x19:_0x408bfa<537.36?0x1a:'Blink'!=_0x5524c9?'27':'28')):(_0x5524c9&&(_0x5524c9[0x1]=_0x22958a(0x201)),(_0x408bfa=_0x408bfa[0x0])<0x190?0x1:_0x408bfa<0x1f4?0x2:_0x408bfa<0x20e?0x3:_0x408bfa<0x215?0x4:_0x408bfa<0x216?'4+':_0x408bfa<0x217?0x5:_0x408bfa<0x219?0x6:_0x408bfa<0x21a?0x7:_0x408bfa<0x259?0x8:_0x408bfa<0x25a?0x9:_0x408bfa<0x25c?0xa:_0x408bfa<0x25e?0xb:_0x408bfa<0x260?0xc:'12'),_0x5524c9&&(_0x5524c9[0x1]+='\x20'+(_0x408bfa+='number'==typeof _0x408bfa?'.x':/[.+]/[_0x22958a(0x1c0)](_0x408bfa)?'':'+')),_0x22958a(0x218)==_0x10f02e&&(!_0x30db2e||0x2d<parseInt(_0x30db2e))?_0x30db2e=_0x408bfa:'Chrome'==_0x10f02e&&/\bHeadlessChrome/i[_0x22958a('0x1c0')](_0x420060)&&_0x113b47['unshift']('headless')),_0x22958a('0x1c1')==_0x10f02e&&(_0x408bfa=/\bzbov|zvav$/['exec'](_0x3565bd))?(_0x10f02e+='\x20',_0x113b47[_0x22958a(0x1b4)](_0x22958a('0x17d')),_0x22958a(0x1ac)==_0x408bfa?(_0x10f02e+=_0x22958a(0x149),_0x30db2e=null):_0x10f02e+=_0x22958a('0x21c'),_0x3565bd=_0x3565bd['replace'](RegExp('\x20*'+_0x408bfa+'$'),'')):_0x22958a('0x218')==_0x10f02e&&/\bChrome\b/['exec'](_0x5524c9&&_0x5524c9[0x1])?(_0x113b47[_0x22958a('0x1b4')]('desktop\x20mode'),_0x10f02e=_0x22958a(0x176),_0x30db2e=null,_0x3565bd=/\bOS X\b/[_0x22958a('0x1c0')](_0x3565bd)?(_0x1c5ee0='Apple',_0x22958a('0x14b')):null):/\bSRWare Iron\b/[_0x22958a('0x1c0')](_0x10f02e)&&!_0x30db2e&&(_0x30db2e=_0x5aecf0(_0x22958a(0x200))),_0x30db2e&&0x0==_0x30db2e[_0x22958a('0x164')](_0x408bfa=/[\d.]+$/[_0x22958a('0x13d')](_0x3565bd))&&-0x1<_0x420060['indexOf']('/'+_0x408bfa+'-')&&(_0x3565bd=_0x21e1bb(_0x3565bd[_0x22958a(0x22f)](_0x408bfa,''))),_0x3565bd&&-0x1!=_0x3565bd[_0x22958a(0x164)](_0x10f02e)&&!RegExp(_0x10f02e+'\x20OS')[_0x22958a(0x1c0)](_0x3565bd)&&(_0x3565bd=_0x3565bd[_0x22958a('0x22f')](RegExp('\x20*'+_0x5882b6(_0x10f02e)+'\x20*'),'')),_0x5524c9&&!/\b(?:Avant|Nook)\b/[_0x22958a('0x1c0')](_0x10f02e)&&(/Browser|Lunascape|Maxthon/['test'](_0x10f02e)||'Safari'!=_0x10f02e&&/^iOS/[_0x22958a(0x1c0)](_0x3565bd)&&/\bSafari\b/[_0x22958a('0x1c0')](_0x5524c9[0x1])||/^(?:Adobe|Arora|Breach|Midori|Opera|Phantom|Rekonq|Rock|Samsung Internet|Sleipnir|SRWare Iron|Vivaldi|Web)/[_0x22958a('0x1c0')](_0x10f02e)&&_0x5524c9[0x1])&&(_0x408bfa=_0x5524c9[_0x5524c9[_0x22958a(0x144)]-0x1])&&_0x113b47[_0x22958a(0x185)](_0x408bfa),_0x113b47['length']&&(_0x113b47=['('+_0x113b47[_0x22958a(0x207)](';\x20')+')']),_0x1c5ee0&&_0x2622b4&&_0x2622b4[_0x22958a(0x164)](_0x1c5ee0)<0x0&&_0x113b47[_0x22958a('0x185')](_0x22958a(0x147)+_0x1c5ee0),_0x2622b4&&_0x113b47[_0x22958a(0x185)]((/^on /[_0x22958a('0x1c0')](_0x113b47[_0x113b47[_0x22958a('0x144')]-0x1])?'':_0x22958a('0x147'))+_0x2622b4),_0x3565bd&&(_0x408bfa=/ ([\d.+]+)$/[_0x22958a('0x13d')](_0x3565bd),_0x187f3e=_0x408bfa&&'/'==_0x3565bd[_0x22958a('0x22c')](_0x3565bd[_0x22958a(0x144)]-_0x408bfa[0x0][_0x22958a('0x144')]-0x1),_0x3565bd={'architecture':0x20,'family':_0x408bfa&&!_0x187f3e?_0x3565bd['replace'](_0x408bfa[0x0],''):_0x3565bd,'version':_0x408bfa?_0x408bfa[0x1]:null,'toString':function(){var _0x47fe9b=_0x22958a,_0x3e9174=this[_0x47fe9b(0x1f4)];return this[_0x47fe9b(0x1c9)]+(_0x3e9174&&!_0x187f3e?'\x20'+_0x3e9174:'')+(0x40==this[_0x47fe9b(0x191)]?_0x47fe9b('0x16f'):'');}}),(_0x408bfa=/\b(?:AMD|IA|Win|WOW|x86_|x)64\b/i['exec'](_0x3381d7))&&!/\bi686\b/i[_0x22958a(0x1c0)](_0x3381d7)?(_0x3565bd&&(_0x3565bd[_0x22958a('0x191')]=0x40,_0x3565bd[_0x22958a('0x1c9')]=_0x3565bd[_0x22958a('0x1c9')]['replace'](RegExp('\x20*'+_0x408bfa),'')),_0x10f02e&&(/\bWOW64\b/i[_0x22958a('0x1c0')](_0x420060)||_0x2f0038&&/\w(?:86|32)$/[_0x22958a('0x1c0')](_0xd4af23[_0x22958a('0x137')]||_0xd4af23[_0x22958a('0x1ea')])&&!/\bWin64; x64\b/i[_0x22958a(0x1c0)](_0x420060))&&_0x113b47[_0x22958a('0x1b4')](_0x22958a('0x14e'))):_0x3565bd&&/^OS X/[_0x22958a('0x1c0')](_0x3565bd['family'])&&'Chrome'==_0x10f02e&&0x27<=parseFloat(_0x30db2e)&&(_0x3565bd['architecture']=0x40),_0x420060=_0x420060||null;var _0x57e9de={};return _0x57e9de['description']=_0x420060,_0x57e9de['layout']=_0x5524c9&&_0x5524c9[0x0],_0x57e9de[_0x22958a('0x139')]=_0x1c5ee0,_0x57e9de['name']=_0x10f02e,_0x57e9de[_0x22958a(0x167)]=_0x478e33,_0x57e9de[_0x22958a('0x1ae')]=_0x2622b4,_0x57e9de['ua']=_0x420060,_0x57e9de['version']=_0x10f02e&&_0x30db2e,_0x57e9de['os']=_0x3565bd||{'architecture':null,'family':null,'version':null,'toString':function(){var _0x5e2e70=_0x22958a;return _0x5e2e70(0x1ad);}},_0x57e9de['parse']=_0x2d74f0,_0x57e9de['toString']=function(){return this['description']||'';},_0x57e9de['version']&&_0x113b47['unshift'](_0x30db2e),_0x57e9de['name']&&_0x113b47[_0x22958a(0x1b4)](_0x10f02e),_0x3565bd&&_0x10f02e&&(_0x3565bd!=String(_0x3565bd)[_0x22958a('0x1f9')]('\x20')[0x0]||_0x3565bd!=_0x10f02e[_0x22958a('0x1f9')]('\x20')[0x0]&&!_0x2622b4)&&_0x113b47[_0x22958a('0x185')](_0x2622b4?'('+_0x3565bd+')':_0x22958a('0x147')+_0x3565bd),_0x113b47[_0x22958a(0x144)]&&(_0x57e9de[_0x22958a(0x21d)]=_0x113b47[_0x22958a('0x207')]('\x20')),_0x57e9de;}var _0x4bd4d2=_0x2d74f0();_0x434f99('0x1c7')==typeof define&&_0x434f99('0x204')==typeof define[_0x434f99('0x1b3')]&&define['amd']?(_0x3700aa[_0x434f99('0x1ea')]=_0x4bd4d2,define(function(){return _0x4bd4d2;})):_0x3f34b&&_0x474cc1?_0x11e45f(_0x4bd4d2,function(_0x3d5c7d,_0x108ae4){_0x3f34b[_0x108ae4]=_0x3d5c7d;}):_0x3700aa[_0x434f99(0x1ea)]=_0x4bd4d2;}[_0x15f803('0x234')](this));function _0x3e74(_0xbca93f,_0x5a8768){var _0x559664=_0x5596();return _0x3e74=function(_0x3e74d8,_0x4672ce){_0x3e74d8=_0x3e74d8-0x136;var _0x3af1c0=_0x559664[_0x3e74d8];return _0x3af1c0;},_0x3e74(_0xbca93f,_0x5a8768);}function _0x5596(){var _0xe90127=['identifying\x20as\x20Firefox\x20','UC\x20Browser','os.version','11.0','iCab','PhantomJS','PlayBook','embedded','require','electron','Kindle','\x20*\x5cw+-[\x5cw]*','charAt','process','label','replace','Swiftfox','Galaxy\x20S6\x20Edge','Sunrise','Cygwin','call',';\x20*(?:','Narwhal','cpuClass','Windows\x20','manufacturer','Xbox\x20One','Wii\x20U','toFixed','exec','Environment','SM-G935','Node\x20','os.name','UCBrowser','GT-I9000','length','Tablet\x20OS','System','on\x20','WiiU','Mini','(?:Firefox|Minefield)','iOS\x204.3+','Camino','documentMode','32-bit','Transformer','SamsungBrowser','Chrome\x20OS','Galaxy\x20S5','Waterfox','lang','browser','GT-I9100','String','Node.js','system','Windows\x2098;','21+','\x20Mobile','Arora',')[-_.]?(\x5cw)','Lumia','alpha','iPod','2000','Gentoo','indexOf','Device\x20Software','opera','prerelease','BlackBerry','5766780yqgKtD','Windows\x20CE','runtime','826PiPpnl','\x20$2','nodeType','\x2064-bit','DragonFly\x20BSD','beta','SM-G920','web','(?:Edge|Edg|EdgA|EdgiOS)','\x20on\x20','Chrome\x20Mobile','Macintosh','Rhino',')[-_.\x5cs]','appMinorVersion','Nook','$1?','desktop\x20mode','Ubuntu','document','window','SM-G900','patch','Fennec','mask','push','navigator','(?:HeadlessChrome)','pattern','accelerated','Firefox','SRWare\x20Iron','self','SlimBrowser','Maxthon','prototype','name','architecture','173123kmjMoR','2000\x20SP1','arch','WebPositive','Android\x20Browser','Lunascape','IEMobile','likeChrome','\x20*\x5cd+[.\x5cw_]*','FxiOS','identify','versions','WebKit','Edge','/([.\x5cd]+)','TouchPad','DragonFly','SM-G925','Avant\x20Browser','PlayStation','node','major','1986608xQxLAb','Galaxy\x20S2','GT-I9500','\x20mode','zvav','null','product','Tasman','1848225UmaJot','SeaMonkey','identifying\x20as\x20','amd','unshift','Sleipnir','K-Meleon','Android','YaBrowser','Fedora','AppleWebKit','Server\x202008\x20/\x20Vista','Red\x20Hat','Chromium\x20','KaiOS','(?:Cloud9|Silk-Accelerated)','test','Opera','EdgeHTML','BB10','Xubuntu','getProperty','Kubuntu','function','java','family','Haiku','(?:\x5cb|\x5cw*\x5cd)','platform\x20preview','phantom','Adobe\x20AIR','Silk','Galaxy\x20S','51320LIDMev','Flock','SM-G930','ing\x20as\x20','JavaPackage','hasOwnProperty','PaleMoon','userAgent','Tizen','Debian','Server\x202003\x20/\x20XP\x2064-bit','global','SuSE','1172656VeWLLi','toUpperCase','FreeBSD','(?:;\x20*(?:[a-z]+[_-])?[a-z]+\x5cd+|[^\x20();-]*)','Mac\x20OS','\x20OS','OpenBSD','x86_64','OPiOS','Galaxy\x20S7','Iceweasel','webOS\x20','platform','Wii','Symbian\x20OS','Rekonq','external','Firefox\x20for\x20iOS','5744448zrVKyU','Gecko','Nook\x20Browser','(?:/[\x5cd.]+|[\x20\x5cw.]*)','version','slice','WebKit\x20Nightly','8.1','\x5c+?$','split','Mac','Electron','Midori','$1\x20$2','Raven','iOS','Chrome','like\x20Safari','Galaxy\x20S7\x20Edge','Chromium','object','Xoom','Kindle\x20Fire','join','(?:Firefox|Minefield|NetFront)','Opera\x20Mini','.0$1','(?:CriOS|CrMo)','like\x20Chrome','\x20Browser','string','Konqueror','Vivaldi','iPad','number','RingoJS','\x20CE','Windows\x20Phone\x208.x','GreenBrowser','Xbox\x20360','Safari','NetFront','Windows','Galaxy\x20S4','Mobile','description','Presto','Trident'];_0x5596=function(){return _0xe90127;};return _0x5596();}export let desc=platform[_0x15f803(0x21d)];
-</script>
+
+    </nav>
+
+</header>    
+<a href="https://jandan-helper.blogspot.com/"><img width="100%" height="50vh" id="gif" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiK5JkiftQnS6hrw4jAwDjoUIPiRJg61sOPnLOlPqggcK6CoS9Ev-ndaUnP4PQ05uGEtawWHbFr6uQtUofSByLLxjsFRmYY_3oaoXopA5x3JsDKzTGCCPYDppMG0Fd6w6FeI3Yr6lc2rMIPrPBB0Tgjva_e933UDFkhe4i0TZ2kJ4HIxkPkjMZpecCnlw/s640/InShot_20221212_043356708.gif"/></a>
+
+         
+ 
+
+
+
+
+
+<!-- Begin #main - Contains main-column blog content -->
+
+<div id="main"><div id="main2"><div id="main3">
+
+<Blogger>
+
+    <BlogDateHeader>
+  <h2 class="date-header"><$BlogDateHeaderDate$></h2>
+  </BlogDateHeader>
+
+         <!-- Begin .post -->
+
+  <div class="post"><a name="<$BlogItemNumber$>"></a>
+
+     <BlogItemTitle>
+ <BlogItemUrl><a href="<$BlogItemUrl$>" title="external link" class="title-link"></BlogItemUrl>
+    <h3 class="post-title">
+ <$BlogItemTitle$>
+    </h3>
+ <BlogItemUrl></a></BlogItemUrl>
+    </BlogItemTitle>
+
+         <div class="post-body">
+
+          <p>
+      <$BlogItemBody$>
+    </p>
+
+        </div>
+
+        <p class="post-footer">
+
+      <em><$I18NPostedByAuthorNickname$> @ <a href="<$BlogItemPermalinkUrl$>" title="permanent link"><$BlogItemDateTime$></a></em> &nbsp;
+      <BlogItemCommentsEnabled>
+         <a class="comment-link" href="<$BlogItemCommentCreate$>"<$BlogItemCommentFormOnclick$>><span style="text-transform:lowercase"><$I18NNumComments$></span></a>
+      </BlogItemCommentsEnabled>
+ <$BlogItemControl$>
+    </p>
+
+    </div>
+
+  <!-- End .post -->
+
+        <!-- Begin #comments -->
+ <ItemPage>
+
+  <div id="comments">
+
+<BlogItemCommentsEnabled><a name="comments"></a>
+
+        <h4><$I18NNumComments$>:</h4>
+
+        <dl id="comments-block">
+          <$CommentPager$>
+      <BlogItemComments>
+
+      <dt class="comment-data" id="<$BlogCommentAnchorName$>"><a name="<$BlogCommentAnchorName$>"></a>
+
+        <$I18NAtCommentTimeWithPermalink$>,
+
+        <$I18NCommentAuthorSaid$>
+
+      </dt>
+
+      <dd class="comment-body">
+
+        <p><$BlogCommentBody$></p>
+  <$BlogCommentDeleteIcon$>
+
+      </dd>
+
+  </BlogItemComments>
+    <$CommentPager$>
+
+    </dl>
+<p class="comment-timestamp">
+    <$BlogItemCreate$>
+    </p>
+    <p id="postfeeds"><$BlogItemFeedLinks$></p>
+    </BlogItemCommentsEnabled>    
+
+
+<p style="padding-left:20px;">
+<a href="<$BlogURL$>">&lt;&lt; <$I18NHome$></a>
+    </p>
+    </div>
+
+</ItemPage>
+
+  <!-- End #comments -->
+
+</Blogger>
+
+
+
+</div></div></div>
+
+<!-- End #main -->
+
+
+
+
+
+
+
+
+
+<!-- Begin #sidebar -->
+
+<div id="sidebar">
+
+    <!-- Begin #profile-container -->
+
+   <$BlogMemberProfile$>
+
+  <!-- End #profile -->
+
+
+
+    <!-- Begin .box -->
+
+  <div class="box"><div class="box2"><div class="box3">
+    
+        <MainOrArchivePage>
+  <h2 class="sidebar-title"><$I18NLinks$></h2>
+    <ul>
+    <li><a href="https://news.google.com/">Google News</a></li>
+    <li><a href="https://support.google.com/blogger/answer/41427">Edit-Me</a></li>
+    <li><a href="https://support.google.com/blogger/answer/41427">Edit-Me</a></li>
+  </ul>
+  </MainOrArchivePage>
+
+      <h2 class="sidebar-title"><$I18NPreviousPosts$></h2>
+    <ul id="recently">
+    <BloggerPreviousItems>
+        <li><a href="<$BlogItemPermalinkURL$>"><$BlogPreviousItemTitle$></a></li>
+     </BloggerPreviousItems>
+  </ul>
+
+    <MainOrArchivePage>
+  <h2 class="sidebar-title"><$I18NArchives$></h2>
+    <ul class="archive-list">
+     <BloggerArchives>
+    <li><a href="<$BlogArchiveURL$>"><$BlogArchiveName$></a></li>
+  </BloggerArchives>
+      <ArchivePage><li><a href="<$BlogURL$>"><$I18NCurrentPosts$></a></li></ArchivePage>
+
+  </ul>
+  </MainOrArchivePage>
+      <p id="powered-by"><a href="https://www.blogger.com"><img src="//buttons.blogger.com/bloggerbutton1.gif" alt="Powered by Blogger" /></a></p>
+      <p id="blogfeeds"><$BlogFeedsVertical$></p>
+
+        <!--
+
+    <p>This is a paragraph of text that could go in the sidebar.</p>
+
+    -->
+
+    </div></div></div>
+
+  <!-- End .box -->
+
+
+
+
+</div>
+
+<!-- End #sidebar -->
+
+</div>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
-  </body>
+
+
+
+
+
+
+<!-- Begin #footer -->
+<div class="founder1046">
+
+      <div class="founder">
+
+          <img style="box-shadow: 0vh 0vh 2vh 2vh white;" width="100vh" heigh="100vh" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOueyhmjPGcss19I6-ZmeJUGIe5bu60eNAw-T0DRImAorAb2_6YU19tbGAuHXGHnKBM9AOn9r7KNExlrXRylNgkCWZ-Th4jtTaMW3dmQTQEkhUSoxpgMB1tKFjkdMYonPf95H2P5oYt8VedXZwme3LnT86Ad6eSIOd_OppQ5d3S6D8Ps-wgPCz2lJx/s4096/InShot_20230116_124436498%20%281%29.jpg">
+
+     </div> 
+
+    
+
+         <div class="founder-social">
+
+            <a  href="https://www.facebook.com/profile.php?id=100089256051176&mibextid=ZbWKwL" ><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcFrLsGEPydtx8UroawEvFfHYaiyoTfRyD6fVS4yZQss_iwmy1HCkGjw4HQDP7KWxyUajfZFs2xmE9jZn2kvAu3xsYDbn7l2Jytuz016_yRXA7bT0AObTigjp0Z9scPW-dR3y9YoO4nVio6ye6JJm2RjUuPjI4bBWgouvfRobK4FEvZWwFS6c4QYTI1Q/s1024/InShot_20230116_044200616.jpg"/></a>
+
+              <a  href="https://youtube.com/@bharatreadblog" ><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTVKin50drXu31dBrVm3o5Fr7GHpkfvkvJ6mBp7h3QiRDIYp8yWtTy-V2I8SNFfN0FUs4L4YjXZUgTa1BvCXHB5G6BXA9P3cGszAyFNtqa-6cdPSLX8gc4p40riv6RB_GGxTFuQS-aJp1i-It3NYciejLxjDR2vSEktu0mt40DBUqr3l31hXkeizlIBA/s4096/InShot_20230116_044404073.jpg"/></a>
+
+                 <a  href="https://wa.me/+917509602463" ><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZWBGWsPYub30X8MyomnVtYd2-uKYXahsa0RyA6AoPxvEBKA0X7UBaz0s6oYFchQgslr35VscdcKKSs-hjeArOJcmG1noD_VYsPLk9OXMpKxeQhj0bEyHMYWKc9P-XQQGQj1LNfzDkVb-ifdeTjKVr3n9QJaIP6N1BOXk9YaRKBVnyub-IEFEz8Xx0JQ/s1024/InShot_20230116_044327589.jpg"/></a>
+
+                      <a  href="https://www.linkedin.com/in/raj-dagi1046" ><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOJ9fXS-yiq7lHkGn9K_Mi82Tsh9vPPjsQL9FC35KSQZ6g6xrH5IAlbUm8ivq6uAwRCY4SiLCTI3orLnhSRET_dqvsqhHwnc2mLim2AldG7H2RQMhvIJffC5X0-QzdEWNTQ21ETAcUdT6M00ThwRqx8xE50SLDPlIu4BzygNgSm7gmiOuwGJi95vckkg/s1024/InShot_20230116_044301722.jpg"/></a>
+
+                          <a  href="#" ><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiISyoeEU7QHkbh36s2FkiKrmMpFjCo_xoRHk870-4cz8l5xiYkIsk_Gc-gHm3LSk6kYPyfyg3xjG8Uy4w42cb0JoGlhczUNmN8Fs1xR_Np5SBQ4twVoEriBUq44mC7-7D5VuJFQDcDifSH-YqlMSzeFjO3XAYoazKw6tckkTmCW37ApL-KEnzUfE3aZQ/s1024/InShot_20230116_044344427.jpg"/></a>
+
+                             <a href="https://t.me/jeemain12" ><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyUA23W9vujTqUQZ41_-_LxnRtIwa6lacgZLsCmuWnv8Hlb6G7vm0hS8lgpKQa2j0MMAXk8TSNFExt7AgBgEx255zDwFGU-pwuzbnwr2mAZgBF6_nPq8v0qM1DMQTB7q7vxkcSgysKWpfx-ylpQJ1xqX2pLIV7Fi_Aofv8dCtHlZCbjYducjUAyoFLxQ/s960/InShot_20230116_050904527.jpg"/></a>
+
+         </div>
+
+           <h1 align="center">Rajkumar Prajapati</h1>
+
+               <h6 align="center"> Hellow friends !! I am founder & writer of 'BHARAT READ'
+
+                    I always try to gave quality content and right to inform.
+
+                      "I focus on depth not width".
+
+              </h6>
+
+   </div>
+
+   
+
+   
+
+<!--foter -->  
+
+   
+
+  <footer class="footer">
+
+      
+
+     <div id="f-nav">
+
+        <a style="color: white;" href="mailto: bharatread1@gmail.com" ><h3>Feedbak</h3></a>
+
+          <a style="color: white;" href="https://mp9wale.blogspot.com/p/contact-us.html" ><h3> contact</h3></a>
+
+         
+
+                 <a style="color: white;" href="https://mp9wale.blogspot.com/p/privacy-policy.html" ><h3>Privacy policy</h3></a>
+
+     </div>
+
+   
+
+ <h6 align="center" style="color: white;"> © All copyrights reserve @M4tracker Blog</h6>
+
+  </footer>
+
+<!-- End #footer -->
+
+
+
+
+
+
+
+
+    
+
+<!-- End #content -->
+
+
+
+</body>
+
 </html>
