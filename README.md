@@ -1,255 +1,226 @@
 
 <html>
 <head>
-<title></title>
+<meta charset="utf-8" />
+<meta name="description" content="squares from 1 to 30 1²  = 1, 2²=4, 3²= 9, 4²=16, 
+5²=25, 6² =36 ,.........18²=324, 19²=361." />
 
-
+<meta http-equiv="Content-Type" content="text/html; " />
+<meta name="keywords" content="squares from 1 to 30,cubes from 1 to 30" />
+<title>squares from 1 to 30 |cubes from 1 to 30 | 1 se 30 ke squares ✓ </title>
 
 <style type="text/css">
+*{
+font-family: serif;
 
 
+}
 
-/**header style start**/
-body header{
+h1{
+background-color: #fcd0ae;
+color: #144082;
+text-shadow: 1px 0px 1px black;
 
-background-ime: gradient(to left red, yellow, green);
+}
+
+body .sto30{
+display: flex;
+border: 2px dashed black;
+background-image: linear-gradient(to right, orange , yellow);
 width: 100%;
-height: 100px;
-background-color: black;
-border-radius: 0vh;
+height: auto;
+
+}
+
+body .cto30{
 display: flex;
-position: fixed;
-top: 7px;
-left: 0px;
+border: 2px dashed black;
+background-image: linear-gradient(to right, pink , violet);
+width: 100%;
+
+color:
+
+}
+body h3{
+text-shadow: 1px 0px 1px blue ;
+
+background-color: pink ;
+color: #fbffb8;
+border-radius: 10px;
+padding-left: 5px;
+}
+body h3:hover{
+text-shadow: 1px 0px 1px blue ;
+outline: 2px solid white;
+background-color: white;
+color: #850d0d;
+border-radius: 10px;
+padding-left: 5px;
 }
 
 
-body header nav{
-overflow: auto;
-
+body #s1{
+margin-left: 20px;
 }
-
-body header nav ul{
-
-list-style: none;
-display: flex;
+body #s2{
+margin-left: 20px;
 }
-body header nav ul li{
-margin-top: 20px;
-margin-left: 0px;
+body #s3{
+margin-left: 20px;
 }
-body header nav ul li a{
-text-decoration: none;
-padding: 20px 20px 15px 20px;
-color: white;
-font-size: 1.3vh;
-font-weight: bold;
-}
-
-body header nav ul li a:hover{
-text-decoration: none;
-background-color: white ; 
-color: red;
-font-weight: bold;
-font-size: auto;
-border-radius: 1vh;
-}
-/**header style end **/
-
-/** social media 
-body .social-links{
-
-margin-top: 300px;
-}
- #sm-c-1{
-overflow: hidden;
-display: flex;
-}  **/
-body .main-container{
-
-display: flex;
-left: 40px;
-}
-body div h3{
-
-color: white;
-background-color: red;
-
-}
-
-
-
-body div .admit-card{
-width: 30%;
-height: 800px;
-margin-left: 10px;
-border: 1px solid  red;
-margin-top: 0px;
-
-}
-
 
 
 </style>
 
 
 
+
+
 </head>
 <body>
-<header>
-           <!-- logo image -->
-           
-           <a href="#" > <img
-              style=" border-radius: 50%;"
-                     src="img/m4tracker-logo.png" width="100" height="100">
-                  </a>
- 
- <nav>
-  <ul>
-    <li><a href="#" >Home</a></li>
-       <li><a href="#" >About</a></li>
-            <li><a href="#" >Education </a></li>
-                  <li><a href="#" >Projects</a></li>
-                        <li><a href="#" >contact</a></li>
-                             <li><a href="#" >Resume</a></li>
-                       
-         </ul>
-     </nav>
-</header>
-
-<div style="margin-top: 200px;" class="main-container">
-
-
-         <div class="admit-card">
-              <h3 align="center">results</h3>
-              <ul>
-                 <li><a href="#" >BSF Head Constable RO/RM Final Additional Result 2023</a></li>
-                 <br>
-                 <li><a href="#" >NTA JEEMAIN Session II Result 2023</a> <i style="color: black; text-decoration: none;">declared</i></li>
-                 <br>
-                 <li><a href="#" >Allahabad High Court Group C, D Final Result 2023</a></li>
-              
-              </ul>
-              
-              
-              
-              
-              
-              
-              
-              
-              
-                    <a  href="#" >view more</a>
-         </div>
-
-
-              <div class="admit-card">
-              <h3 align="center">admit cards</h3>
-              
-              
-              
-              
-              
-              <a  href="#" >view more</a>
-              </div>
-              
-              
-              
-              
-              
-              
-              <div class="admit-card">
-              <h3 align="center">lastest jobs</h3>
-              
-              
-              
-              
-              
-              
-              
-              
-              <a  href="#" >view more</a>
-              </div>
-
-
-
-
-
-
-
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--<div class="social-links">
-
-<center><h2 style="text-decoration: underline;"> social media</h2></center>
-        
-    <div id="sm-c-1"    >
-        <a href="#" > <img
-              style=" border-radius: 50%;
-              margin-left: 5px;"
-                  src="img/m4tracker-logo.png" width="100" height="100">
-                     </a>
-         
-       <a href="#" > <img
-       style=" border-radius: 50%;
-       margin-left: 5px;"
-       src="img/m4tracker-logo.png" width="100" height="100">
-       </a>
-       
-       <a href="#" > <img
-       style=" border-radius: 50%;
-       margin-left: 5px;"
-       src="img/m4tracker-logo.png" width="100" height="100">
-       </a>
-       
-       
-       <a href="#" > <img
-       style=" border-radius: 50%;
-       margin-left: 5px;"
-       src="img/m4tracker-logo.png" width="100" height="100">
-       </a>
-      
- </div> 
-  
-  -->
-  
-  
-
-
-<div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_Lk7LBrCpJcifCP/view" data-text="Pay Now" data-color="#528FF0" data-size="large">
-  <script>
-    (function(){
-      var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
-      if(x){ var s=d.createElement('script'); s.defer=!0;s.id='razorpay-embed-btn-js';
-      s.src='https://cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['__rzp__'];
-      rzp && rzp.init && rzp.init()}})();
-  </script>
-</div>
+    <center><h1 style="text-decoration: underline; color: #2461c9;">squares from 1 to 30 </h1></center>
+     
+ <div class="sto30" >
     
+ <div id="s1" >
+     <h3>1²=1</h3>
+     <h3>2²=4</h3>
+     <h3>3²=9</h3>
+     <h3>4²=16</h3>
+     <h3>5²=25</h3>
+     <h3>6²=36</h3>
+     <h3>7²=49</h3>
+     <h3>8²=64</h3>
+     <h3>9²=81</h3>
+     <h3>10²=100</h3>
+</div>
+     
+     
+   <div id="s2" >   
+     <h3>11²=121</h3>
+     <h3>12²=144</h3>
+     <h3>13²=169</h3>
+     <h3>14²=196</h3>
+     <h3>15²=225</h3>
+     <h3>16²=256</h3>
+     <h3>17²=289</h3>
+     <h3>18²=324</h3>
+     <h3>19²=361</h3>
+     <h3>20²=400</h3>
+  </div>   
+   
+ <div id="s3" >  
+     <h3>21²=441</h3>
+     <h3>22²=484</h3>
+     <h3>23²=529</h3>
+     <h3>24²=576</h3>
+     <h3>25²=625</h3>
+     <h3>26²=676</h3>
+     <h3>27²=729</h3>
+     <h3>28²=784</h3>
+     <h3>29²=841</h3>
+     <h3>30²=900</h3>
+  </div>   
+ 
   
+</div>     
+<br>
+<br>
+<!--cubes-->
+
+<center><h1 style="text-decoration: underline; color: #2461c9;">cubes from 1 to 30</h1></center>
+     
+<div class="cto30" >
+    
+ <div id="s1" >
+     <h3>1³=1</h3>
+     <h3>2³=8</h3>
+     <h3>3³=27</h3>
+     <h3>4³=64</h3>
+     <h3>5³=125</h3>
+     <h3>6³=216</h3>
+     <h3>7³=343</h3>
+     <h3>8³=512</h3>
+     <h3>9³=729</h3>
+     <h3>10³=1000</h3>
+</div>
+     
+     
+   <div id="s2" >   
+     <h3>11³=1331</h3>
+     <h3>12³=1728</h3>
+     <h3>13³=2197</h3>
+     <h3>14³=2744</h3>
+     <h3>15³=3375</h3>
+     <h3>16³=4096</h3>
+     <h3>17³=4913</h3>
+     <h3>18³=5852</h3>
+     <h3>19³=6859</h3>
+     <h3>20³=8000</h3>
+  </div>   
+   
+ <div id="s3" >  
+     <h3>21³=9261</h3>
+     <h3>22³=10648</h3>
+     <h3>23³=12167</h3>
+     <h3>24³=13824</h3>
+     <h3>25³=15625</h3>
+     <h3>26³=17576</h3>
+     <h3>27³=19683</h3>
+     <h3>28³=21952</h3>
+     <h3>29³=24389</h3>
+     <h3>30³=27000</h3>
+  </div>   
+ 
+  
+</div>     
+
+
+
+
+
+<br>
+<br>
+<!--   pecentage fraction 
+
+<center><h2 style=" background-color: #fcd0ae;
+color: #144082; text-decoration: underline; "> percentage to fraction from 1 to 20</h2></center>
+     
+<div style="background-color: grey; padding: 5px 5px 5px 5px;" class="pto20" >
+    
+ <div id="s1" >
+   <center>  <h3>1/1=100%</h3>
+     <h3>1/2=50%</h3>
+     <h3>1/3=33.33%</h3>
+     <h3>1/4= 25%</h3>
+     <h3>1/5=20%</h3>
+     <h3>1/6=16.66%</h3>
+     <h3>1/7= 14.28%</h3>
+     <h3>1/8= 12.5%</h3>
+     <h3>1/9= 100/9%</h3>
+     <h3>1/10=10%</h3></center>
+</div>
+     
+     
+   <div id="s2" >   
+   <center>
+     <h3>1/11= 100/11%</h3>
+     <h3>1/12= 25/3%</h3>
+     <h3>1/13= </h3>
+     <h3>14³=2744</h3>
+     <h3>15³=3375</h3>
+     <h3>16³=4096</h3>
+     <h3>17³=4913</h3>
+     <h3>18³=5852</h3>
+     <h3>19³=6859</h3>
+     <h3>1/20= 5%</h3></center>
+  </div>   
+   
+ 
+  
+</div>     
+
+-->
+
 </body>
 </html>
