@@ -47,14 +47,14 @@ text-shadow: 1px 0px 1px blue ;
 
 color: black;
 border-radius: 10px;
-padding-left: 3px;
+padding-left: 5px;
 }
 body h3:hover{
 text-shadow: 1px 0px 1px blue ;
 background-color: white;
 color: #850d0d;
 border-radius: 10px;
-padding-left: 3px;
+padding-left: 5px;
 }
 
 
