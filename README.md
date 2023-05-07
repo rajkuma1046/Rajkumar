@@ -44,29 +44,28 @@ color:
 body h3{
 text-shadow: 1px 0px 1px blue ;
 
-background-color: pink ;
-color: #fbffb8;
+
+color: black;
 border-radius: 10px;
-padding-left: 5px;
+padding-left: 3px;
 }
 body h3:hover{
 text-shadow: 1px 0px 1px blue ;
-outline: 2px solid white;
 background-color: white;
 color: #850d0d;
 border-radius: 10px;
-padding-left: 5px;
+padding-left: 3px;
 }
 
 
 body #s1{
-margin-left: 20px;
+margin-left: 0px;
 }
 body #s2{
-margin-left: 20px;
+margin-left: 10px;
 }
 body #s3{
-margin-left: 20px;
+margin-left: 10px;
 }
 
 
