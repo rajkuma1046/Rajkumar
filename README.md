@@ -4,6 +4,9 @@
 <meta charset="utf-8" />
 <meta name="description" content="squares from 1 to 30 1²  = 1, 2²=4, 3²= 9, 4²=16, 
 5²=25, 6² =36 ,.........18²=324, 19²=361." />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6738179060246081"
+
+     crossorigin="anonymous"></script>
 
 <meta http-equiv="Content-Type" content="text/html; " />
 <meta name="keywords" content="squares from 1 to 30,cubes from 1 to 30" />
