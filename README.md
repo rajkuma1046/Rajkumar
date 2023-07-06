@@ -7,7 +7,7 @@
     <!-- FontAweome CDN Link for Icons-->
   <!--  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 -->
-<style type="text/css">
+<style>
 /* importing google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
@@ -18,7 +18,7 @@
 }
 
 body{
-    background: #007bff;
+       background: #007bff;
 }
 
 ::selection{
@@ -62,8 +62,7 @@ body{
 .info_box{
     width: 400px;
     background: #fff;
-    border-radius: 5px;
-    
+    border-radius: 56px;
     opacity: 0;
     pointer-events: none;
     transition: all 0.3s ease;
@@ -451,7 +450,6 @@ margin-top: 200px;
 margin-left: 115px;
 margin-bottom: 70px;
 }
-
 </style>
 
 
@@ -540,7 +538,7 @@ function showImage() {
 a.style.display = "block";
 }
 
-</script>
+
 
    <!--Inside this JavaScript file I've inserted Questions and Options only-->
     
@@ -614,9 +612,9 @@ a.style.display = "block";
     // },
     ];
     
-  </script>
+  
     
- <script>
+ 
 
     // Inside this JavaScript file I've coded all Quiz Codes 
   
@@ -888,8 +886,6 @@ a.style.display = "block";
     
     
     
-    
-    </script>
 
 
 </script>
