@@ -1,228 +1,109 @@
 
-<html>
+<html lang="hi">
 <head>
-<meta charset="utf-8" />
-<meta name="description" content="squares from 1 to 30 1²  = 1, 2²=4, 3²= 9, 4²=16, 
-5²=25, 6² =36 ,.........18²=324, 19²=361." />
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6738179060246081"
-
-     crossorigin="anonymous"></script>
-
-<meta http-equiv="Content-Type" content="text/html; " />
-<meta name="keywords" content="squares from 1 to 30,cubes from 1 to 30" />
-<title>squares from 1 to 30 |cubes from 1 to 30 | 1 se 30 ke squares ✓ </title>
-
-<style type="text/css">
-*{
-font-family: serif;
-
-
-}
-
-h1{
-background-color: #fcd0ae;
-color: #144082;
-text-shadow: 1px 0px 1px black;
-
-}
-
-body .sto30{
-display: flex;
-border: 2px dashed black;
-background-image: linear-gradient(to right, orange , yellow);
-width: 100%;
-height: auto;
-
-}
-
-body .cto30{
-display: flex;
-border: 2px dashed black;
-background-image: linear-gradient(to right, pink , violet);
-width: 100%;
-
-color:
-
-}
-body h3{
-text-shadow: 1px 0px 1px blue ;
-
-
-color: black;
-border-radius: 10px;
-padding-left: 5px;
-}
-body h3:hover{
-text-shadow: 1px 0px 1px blue ;
-background-color: white;
-color: #850d0d;
-border-radius: 10px;
-padding-left: 5px;
-}
-
-
-body #s1{
-margin-left: 0px;
-}
-body #s2{
-margin-left: 10px;
-}
-body #s3{
-margin-left: 10px;
-}
-
-
-</style>
-
-
-
-
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale= 0.8">
+    <title>Get 5 GB data free | by mathe quiz</title>
+    <!-- FontAweome CDN Link for Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
 <body>
-    <center><h1 style="text-decoration: underline; color: #2461c9;">squares from 1 to 30 </h1></center>
-     
- <div class="sto30" >
     
- <div id="s1" >
-     <h3>1²=1</h3>
-     <h3>2²=4</h3>
-     <h3>3²=9</h3>
-     <h3>4²=16</h3>
-     <h3>5²=25</h3>
-     <h3>6²=36</h3>
-     <h3>7²=49</h3>
-     <h3>8²=64</h3>
-     <h3>9²=81</h3>
-     <h3>10²=100</h3>
-</div>
-     
-     
-   <div id="s2" >   
-     <h3>11²=121</h3>
-     <h3>12²=144</h3>
-     <h3>13²=169</h3>
-     <h3>14²=196</h3>
-     <h3>15²=225</h3>
-     <h3>16²=256</h3>
-     <h3>17²=289</h3>
-     <h3>18²=324</h3>
-     <h3>19²=361</h3>
-     <h3>20²=400</h3>
-  </div>   
-   
- <div id="s3" >  
-     <h3>21²=441</h3>
-     <h3>22²=484</h3>
-     <h3>23²=529</h3>
-     <h3>24²=576</h3>
-     <h3>25²=625</h3>
-     <h3>26²=676</h3>
-     <h3>27²=729</h3>
-     <h3>28²=784</h3>
-     <h3>29²=841</h3>
-     <h3>30²=900</h3>
-  </div>   
- 
-  
-</div>     
-<br>
-<br>
-<!--cubes-->
-
-<center><h1 style="text-decoration: underline; color: #2461c9;">cubes from 1 to 30</h1></center>
-     
-<div class="cto30" >
     
- <div id="s1" >
-     <h3>1³=1</h3>
-     <h3>2³=8</h3>
-     <h3>3³=27</h3>
-     <h3>4³=64</h3>
-     <h3>5³=125</h3>
-     <h3>6³=216</h3>
-     <h3>7³=343</h3>
-     <h3>8³=512</h3>
-     <h3>9³=729</h3>
-     <h3>10³=1000</h3>
-</div>
-     
-     
-   <div id="s2" >   
-     <h3>11³=1331</h3>
-     <h3>12³=1728</h3>
-     <h3>13³=2197</h3>
-     <h3>14³=2744</h3>
-     <h3>15³=3375</h3>
-     <h3>16³=4096</h3>
-     <h3>17³=4913</h3>
-     <h3>18³=5852</h3>
-     <h3>19³=6859</h3>
-     <h3>20³=8000</h3>
-  </div>   
-   
- <div id="s3" >  
-     <h3>21³=9261</h3>
-     <h3>22³=10648</h3>
-     <h3>23³=12167</h3>
-     <h3>24³=13824</h3>
-     <h3>25³=15625</h3>
-     <h3>26³=17576</h3>
-     <h3>27³=19683</h3>
-     <h3>28³=21952</h3>
-     <h3>29³=24389</h3>
-     <h3>30³=27000</h3>
-  </div>   
- 
-  
-</div>     
-
-
-
-
-
-<br>
-<br>
-<!--   pecentage fraction 
-
-<center><h2 style=" background-color: #fcd0ae;
-color: #144082; text-decoration: underline; "> percentage to fraction from 1 to 20</h2></center>
-     
-<div style="background-color: grey; padding: 5px 5px 5px 5px;" class="pto20" >
     
- <div id="s1" >
-   <center>  <h3>1/1=100%</h3>
-     <h3>1/2=50%</h3>
-     <h3>1/3=33.33%</h3>
-     <h3>1/4= 25%</h3>
-     <h3>1/5=20%</h3>
-     <h3>1/6=16.66%</h3>
-     <h3>1/7= 14.28%</h3>
-     <h3>1/8= 12.5%</h3>
-     <h3>1/9= 100/9%</h3>
-     <h3>1/10=10%</h3></center>
-</div>
-     
-     
-   <div id="s2" >   
-   <center>
-     <h3>1/11= 100/11%</h3>
-     <h3>1/12= 25/3%</h3>
-     <h3>1/13= </h3>
-     <h3>14³=2744</h3>
-     <h3>15³=3375</h3>
-     <h3>16³=4096</h3>
-     <h3>17³=4913</h3>
-     <h3>18³=5852</h3>
-     <h3>19³=6859</h3>
-     <h3>1/20= 5%</h3></center>
-  </div>   
-   
- 
+    
+      <div class="start_btn"><button>Start Test</button></div>
+
+      <br>
+      <br>
+
+    <!-- Info Box -->
+    <div class="info_box">
+        <div class="info-title"><span>terms & conditions</span></div>
+        <div class="info-list">
+          <h3><b>follow these steps:</b></h3>
+            <div class="info"><b>step 1.</b> क्विज में 50 Questions है। जिनमें से  40+ सही होना चाहिए।</div>
+            <div class="info"><b>step 2.</b> क्विज के last में रिजल्ट देखेगा। जिसका स्क्रीनशॉट लेकर दिए गए फॉर्म के साथ attached करके fill करना होगा।</div>
+            <div class="info"><b>step 3.</b> फॉर्म fill करने के 5 से 10 मिनट में  1GB डाटा मिल जाएगा। शेष 4 GB डाटा 5 friends को quiz link शेयर करने पर मिलेगा </div>
+            <div class="info"><b></b> </div>
+            <div class="info"><b></b> </div>
+        
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Test</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+        <audio  style="display: none;" class="read_que"  src="" type="audio/mpeg"
+        controls></audio>
+            <div class="title">SSC MATHS TEST : Profit & loss </div>
+            <div class="timer">
+                <div class="time_left_txt">Time Left</div>
+                <div class="timer_sec">120 Sec</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        
+        <section>
+          
+            <div class="que_text">
+                <!-- Here I've inserted question from JavaScript -->
+            </div>
+            
+            <button class="playAudio_btn" onclick="playAudio()"><img width="50px" height="50px" src="https://www.pngall.com/wp-content/uploads/8/Sound-Audio.png" /></button>
+            
+            <div class="option_list">
+                <!-- Here I've inserted options from JavaScript -->
+            </div>
+            <div class="solution"> <img style="display:none;" class="sol_img"   src="">  </div>
+          <div style="display: flex;">
+             
+           <button style="display: none;" class="back_btn">Back</button>
+              <button style="display:none;" onclick="showImage()" class="sol_btn"><b> Solution</b></button>
+                </div>
+        </section>
+
+        <!-- footer of Quiz Box -->
+        <footer>
+            <div class="total_que">
+                <!-- Here I've inserted Question Count Number from JavaScript -->
+            </div>
+            <button class="next_btn">Next Que</button>
+        </footer>
+    </div>
+
+    <!-- Result Box -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">You've completed the Quiz!</div>
+        <div class="score_text">
+            <!-- Here I've inserted Score Result from JavaScript -->
+        </div>
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+      
+        <h3> take screenshot and fill form</h3>
+      <a class="a" href="https://forms.gle/ZWQgBRfh4eWVGw6V7" > fill form</a>
+    </div>
+    
+    <h2 class="chap_name_txt"> Get 5GB data free</h2>
+    
+    <script src="https://archive.org/download/profit-loss/profit%20%26%20loss%29.js">
+    
+    
+    </script>
   
-</div>     
-
--->
-
-</body>
+    
+  
+    </body>
+    
+    </body>
 </html>
