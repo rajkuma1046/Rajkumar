@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale= 1">
-    <title>"SSC Exam Preparation: Mock Tests, Previous Year Papers and Resources"| credit: codenepali</title>
+    <title>SSC Exam Preparation: Mock Tests, Previous Year Papers and Resources | credit: codenepali</title>
     <meta http-equiv="Content-Type" content="text/html; " />
-    <meta name="description" content="Prepare for SSC exams with our comprehensive resources! Download topic-wise Maths questions for SSC CGL in Hindi. Practice with SSC MTS previous year papers and Hindi mock tests. Boost your preparation with free online SSC CGL mock tests in both Hindi and English, no registration required. Access SSC CGL and CHSL previous year papers in Hindi and English for 2023. Achieve success with our SSC exam-focused materials. Get ready for the challenge!" />
+    <meta name="description" content="Prepare for SSC exams with our comprehensive resources! Download topic-wise Maths questions for SSC CGL in Hindi. Practice with SSC MTS previous year papers and Hindi mock tests. Boost your preparation with free online SSC CGL mock tests in both Hindi and English, no registration required. Access SSC CGL and CHSL previous year papers in Hindi and English for 2023. Achieve success with our SSC exam-focused materials." />
     <meta name="keywords" content="SSC MTS Mock Test in Hindi, Free Online SSC CGL Mock Test without Registration (Hindi/English), SSC MTS Previous Year Paper Mock Test in Hindi, Free SSC CGL Mock Tests Online,Prepare for SSC Exams with Mock Tests and Previous Year Papers,SSC CHSL 2023 Exam Papers,Download SSC CGL Maths Questions in Hindi,SSC CHSL Previous Year Paper Hindi Medium PDF Download,SSC CGL Previous Year Paper in Hindi PDF Download" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
     <script src="https://cdn.examgoal.net/room-examgoal-com/v2.7/mathjax.js"></script>
@@ -841,7 +841,9 @@ function translatePage(targetLanguage) {
                             </h4>
                                <h4 class="skipQue_count">
                                    </h4>
-                                       <h4 id="timeSpent"> </h4>
+                                       <h4 class="unseen">
+                                         </h4>
+                                             <h4 id="timeSpent"> </h4>
                        <div class="buttons">
                            <button class="restart">Replay Quiz</button>
                                <button class="quit">Quit Quiz</button>
@@ -2898,11 +2900,14 @@ function translatePage(targetLanguage) {
     const scoreText = result_box.querySelector(".score_text");
     const scoreTextN = result_box.querySelector(".score_textN");  
     const skip_que = result_box.querySelector(".skipQue_count");
+    const unseenQue = result_box.querySelector(".unseen");
     
     scoreText.innerHTML = "correct : " + userScore;
     scoreTextN.innerHTML = "wrong : " + negativeScore;
     const  skip_que_txt =  (que_count+1) - (userScore + negativeScore);
     skip_que.innerHTML = "skiped : " + skip_que_txt;
+    const unseen = 143 - (userScore + negativeScore + skip_que_txt);
+    unseenQue.innerHTML = "unseen : " + unseen;
     }
     
     
