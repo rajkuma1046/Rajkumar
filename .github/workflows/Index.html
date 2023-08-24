@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<style type="text/css">
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  text-align: center;
+  border: 2px solid #ccc;
+  padding: 20px;
+  width: 300px;
+  background-color: #f9f9f9;
+}
+
+img {
+  max-width: 100%;
+  max-height: 200px;
+  margin: 10px 0;
+}
+
+
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Birthday Card</title>
+</head>
+<body>
+  <div class="card">
+    <h1>Happy Birthday!</h1>
+    <img id="userImage" src="" alt="User Image">
+    <p>Wishing you a day filled with joy and laughter.</p>
+  </div>
+  <input type="file" id="imageInput" accept="image/*">
+  <button id="generateButton">Generate Card</button>
+  <script >
+  
+  const imageInput = document.getElementById('imageInput');
+  const userImage = document.getElementById('userImage');
+  const generateButton = document.getElementById('generateButton');
+  
+  imageInput.addEventListener('change', (event) => {
+  const selectedImage = event.target.files[0];
+  if (selectedImage) {
+  userImage.src = URL.createObjectURL(selectedImage);
+  }
+  });
+  
+  generateButton.addEventListener('click', () => {
+  if (userImage.src) {
+  // Logic to generate and display the birthday card
+  // You can modify this part to customize the card content
+  const card = document.querySelector('.card');
+  card.style.display = 'block';
+  } else {
+  alert('Please select an image first.');
+  }
+  });
+  
+
+  generateButton.addEventListener('click', () => {
+  if (userImage.src) {
+  const card = document.querySelector('.card');
+  
+  // Use html2canvas to capture a screenshot of the card element
+  html2canvas(card).then(canvas => {
+  // Convert the canvas to a data URL
+  const screenshotUrl = canvas.toDataURL('image/png');
+  
+  // Display the screenshot
+  const screenshotImage = new Image();
+  screenshotImage.src = screenshotUrl;
+  document.body.appendChild(screenshotImage);
+  });
+  } else {
+  alert('Please select an image first.');
+  }
+  });
+  
+  
+  
+  
+  generateButton.addEventListener('click', () => {
+  if (userImage.src) {
+  const card = document.querySelector('.card');
+  
+  // Use html2canvas to capture a screenshot of the card element
+  html2canvas(card).then(canvas => {
+  // Convert the canvas to a data URL
+  const screenshotUrl = canvas.toDataURL('image/jpeg'); // Change to 'image/jpeg'
+  
+  // Create a link element to trigger the download
+  const link = document.createElement('a');
+  link.download = 'birthday_card.jpg';
+  link.href = screenshotUrl;
+  
+  // Trigger the download
+  link.click();
+  });
+  } else {
+  alert('Please select an image first.');
+  }
+  });
+  
+  </script>
+  
+  
+  
+</body>
+</html>
