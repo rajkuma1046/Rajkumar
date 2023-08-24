@@ -1,0 +1,2080 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ssc pyq portal</title>
+<link rel="stylesheet" href="app2.css"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+<style>
+bod{
+width:   ;
+height:  ;
+margin-top:  ;
+padding:   ;
+color:  ;
+border:   ;
+border-radius:   ;
+background:   ;
+box-shadow:    ;
+text-shadow:    ;
+font:           ;
+display:   ;
+position:  ;
+}
+
+</style>
+</head>
+<body>
+
+<!-- Exam list Box -->
+                   <div class="exam_list_box activeExamBox">
+                      <div class="exam_list"> 
+                        <h3 style="margin-left: 2vh;">Select Your Exam : </h3><hr>
+                          <div style="display: flex; margin-top: 2vh;">
+                                  <div id="chs" class="exam_name chsl"> 
+                                  <img  src="chsl.png">
+                                  
+                                  </div>
+                                  <div id="mts" class="exam_name mts">
+                                  
+                                   <img  src="mts.png">
+                                  </div>
+                          </div>  
+                          <div style="display: flex;">   
+                                  <div id="cgl" class="exam_name cgl">
+                                  <img  src="cgl.png">
+                                  
+                                  </div>
+                                  <div id="cpo" class="exam_name cpo">
+                                     <img  src="cpo.png">
+                                  
+                                  </div>
+                          </div>
+                          <div style="display: flex;">
+                                <div  id="gd" class="exam_name gd">
+                                  <img  src="gd.png">
+                                
+                                </div>
+                                <!-- next exam here-->
+                          <div style="display: flex;">
+                      </div>
+                  </div>
+                  </div></div>
+<!-- choose Subject chsl  -->
+                  <div id="chslSubList" class="sub_list_box_chsl ">
+                  <div class="sub_list_chsl"> 
+                  <h3 style="margin-left: 2vh;">Select Subject : </h3><hr>
+                  <div style="display: flex; margin-top: 2vh;">
+                  <div id="chsl-math" class="sub_name_chsl maths"> 
+                      <img class="math-icon" src="math.png">
+                  
+                  </div>
+                  <div id="chsl-reso" class="sub_name_chsl reson">
+                    <img class="reson-icon" src="reson.png">
+                  
+                  </div>
+                  </div>  
+                  <div style="display: flex;">   
+                  <div id="chsl-engl" class="sub_name_chsl english">
+                     <img class="engi-icon" src="english.png">
+                  
+                  </div>
+                  <div id="chsl-gk" class="sub_name_chsl gk">
+                  
+                    <img class="gk-icon" src="gk.png">
+                  </div>
+                  </div>
+                  <div style="display: flex;">
+                  <div id="chsl-comp" class="sub_name_chsl comp">
+                    <img class="comp-icon" src="comp.png">
+                  
+                  </div>
+                  <!-- next subject here-->
+                  </div>
+                   <button onclick="showExamBox()" class="change-exam chsl"> Change Exam </button>
+                  </div></div>
+<!-- choose Subject mts  -->
+                  <div id="mtsSubList" class="sub_list_box_mts ">
+                  <div class="sub_list_mts"> 
+                  <h3 style="margin-left: 2vh;">Select MTS Subject : </h3><hr>
+                  <div style="display: flex; margin-top: 2vh;">
+                  <div id="mts-math" class="sub_name_mts maths"> 
+                  <img class="math-icon" src="math.png">
+                  
+                  </div>
+                  <div id="mts-reso" class="sub_name_mts reson">
+                  
+                     <img class="reson-icon" src="reson.png">
+                  </div>
+                  </div>  
+                  <div style="display: flex;">   
+                  <div id="mts-engl" class="sub_name_mts english">
+                  
+                  <img class="engi-icon" src="english.png">
+                  </div>
+                  <div id="mts-gk" class="sub_name_mts gk">
+                  
+                    <img class="gk-icon" src="gk.png">
+                  </div>
+                  </div>
+                  <div style="display: flex;">
+                  <div id="mts-comp" class="sub_name_mts comp">
+                  
+                     <img class="comp-icon" src="comp.png">
+                  </div>
+                  <!-- next subject here-->
+                  </div>
+                   <button onclick="showExamBox()" class="change-exam mts"> Change Exam </button>
+                  </div></div>
+<!-- choose Subject cgl  -->
+                  <div id="cglSubList" class="sub_list_box_cgl ">
+                  <div class="sub_list_cgl"> 
+                  <h3 style="margin-left: 2vh;">Select CGL Subject : </h3><hr>
+                  <div style="display: flex; margin-top: 2vh;">
+                  <div id="cgl-math" class="sub_name_cgl maths"> 
+                  
+                    <img class="math-icon" src=" math.png">
+                  </div>
+                  <div id="cgl-reso" class="sub_name_cgl reson">
+                  
+                      <img class="reson-icon" src="reson.png">
+                  </div>
+                  </div>  
+                  <div style="display: flex;">   
+                  <div id="cgl-engl" class="sub_name_cgl english">
+                  
+                      <img class="engi-icon" src="english.png">
+                  </div>
+                  <div id="cgl-gk" class="sub_name_cgl gk">
+                  
+                     <img class="gk-icon" src="gk.png">
+                  </div>
+                  </div>
+                  <div style="display: flex;">
+                  <div id="cgl-comp" class="sub_name_cgl comp">
+                     <img class="comp-icon" src="comp.png">
+                  
+                  </div>
+                  <!-- next subject here-->
+                  </div>
+                   <button onclick="showExamBox()" class="change-exam cgl"> Change Exam </button>
+                  </div></div>
+<!-- choose Subject cpo  -->
+                  <div id="cpoSubList" class="sub_list_box_cpo ">
+                  <div class="sub_list_cpo"> 
+                  <h3 style="margin-left: 2vh;">Select CPO Subject : </h3><hr>
+                  <div style="display: flex; margin-top: 2vh;">
+                  <div id="cpo-math" class="sub_name_cpo maths"> 
+                  
+                      <img class="math-icon" src="math.png">
+                  </div>
+                  <div id="cpo-reso" class="sub_name_cpo reson">
+                  
+                      <img class="reson-icon" src="reson.png">
+                  </div>
+                  </div>  
+                  <div style="display: flex;">   
+                  <div id="cpo-engl" class="sub_name_cpo english">
+                  
+                     <img class="engi-icon" src="english.png">
+                  </div>
+                  <div id="cpo-gk" class="sub_name_cpo gk">
+                  
+                     <img class="gk-icon" src="gk.png">
+                  </div>
+                  </div>
+                  <div style="display: flex;">
+                  <div id="cpo-comp" class="sub_name_cpo comp">
+                     <img class="comp-icon" src="comp.png">
+                  
+                  </div>
+                  <!-- next subject here-->
+                  </div>
+                   <button onclick="showExamBox()" class="change-exam cpo"> Change Exam </button>
+                  </div></div>
+<!-- choose Subject gd  -->
+                  <div id="gdSubList" class="sub_list_box_gd ">
+                  <div class="sub_list_gd"> 
+                  <h3 style="margin-left: 2vh;">Select GD Subject : </h3><hr>
+                  <div style="display: flex; margin-top: 2vh;">
+                  <div id="gd-math" class="sub_name_gd maths"> 
+                  
+                      <img class="math-icon" src="math.png">
+                  </div>
+                  <div id="gd-reso" class="sub_name_gd reson">
+                  
+                      <img class="reson-icon" src="reson.png">
+                  </div>
+                  </div>  
+                  <div style="display: flex;">   
+                  <div id="gd-engl" class="sub_name_gd english">
+                  
+                     <img class="engi-icon" src="english.png">
+                  </div>
+                  <div id="gd-gk" class="sub_name_gd gk">
+                  
+                    <img class="gk-icon" src="gk.png">
+                  </div>
+                  </div>
+                  <div style="display: flex;">
+                  <div id="gd-comp" class="sub_name_gd comp">
+                    <img class="comp-icon" src="comp.png">
+                  
+                  </div>
+                  <!-- next subject here-->
+                  </div>
+                  <button onclick="showExamBox()" class="change-exam gd"> Change Exam </button>
+                  </div></div>
+                  
+<!--All exam maths chapter lists-->
+<div id="all-exam-chap-list">
+<!--chsl math chap-->
+                <div class="chsl-maths-chap-box">
+                       <div class="chsl-maths-chap-list">
+                           <h2 >Chapters:</h2><hr>
+                           
+                         
+                           <div class="chap-box chap1">
+                               <h3 class="chap-name">1. Profit & Loss</h3>
+                                  <div class="chap-box-btn">
+                                      <a href="https://jeementor.me/CHSL-MATHS-P&L-Practice.html" style="text-decoration:none;" >
+                                           <button id="p_btn-ch-m-1" class="Practice_btn"> Practice </button></a>
+                                       <a href="https://jeementor.me/CHSL-MATHS-P&L-Test.html" style="text-decoration:none;" >
+                                            <button id="t_btn-ch-m-1" class="test_btn">Give Test </button></a>
+                                      <!-- add more here-->
+                                  </div>
+                           </div>
+                      
+                 
+                          
+                           
+                           
+                           <div class="chap-box chap1">
+                           <h3 class="chap-name">2. Simplification</h3>
+                           <div class="chap-box-btn">
+                           <button id="p_btn-ch-m-2" class="Practice_btn"> Practice </button>
+                           <button id="t_btn-ch-m-2" class="test_btn"> Test </button>
+                           <!-- add more here-->
+                           </div>
+                           </div>
+                           
+                           
+                           <div class="chap-box chap1">
+                           <h3 class="chap-name">3. Number Series </h3>
+                           <div class="chap-box-btn">
+                           <button id="p_btn-ch-m-3" class="Practice_btn"> Practice </button>
+                           <button id="t_btn-ch-m-3" class="test_btn"> Test </button>
+                           <!-- add more here-->
+                           </div>
+                           </div>
+                           
+                           <div class="chap-box chap1">
+                           <h3 class="chap-name">4. Percentage</h3>
+                           <div class="chap-box-btn">
+                           <button id="p_btn-ch-m-4" class="Practice_btn"> Practice </button>
+                           <button id="t_btn-ch-m-4" class="test_btn"> Test </button>
+                           <!-- add more here-->
+                           </div>
+                           </div>
+                           
+                           <div class="chap-box chap1">
+                           <h3 class="chap-name">5. Ratio and Proportion</h3>
+                           <div class="chap-box-btn">
+                           <button id="p_btn-ch-m-5" class="Practice_btn"> Practice </button>
+                           <button id="t_btn-ch-m-5" class="test_btn"> Test </button>
+                           <!-- add more here-->
+                           </div>
+                           </div>
+                           <div class="chap-box chap1">
+                           <h3 class="chap-name">6. Time, Speed and Distance</h3>
+                           <div class="chap-box-btn">
+                           <button id="p_btn-ch-m-6" class="Practice_btn"> Practice </button>
+                           <button id="t_btn-ch-m-6" class="test_btn"> Test </button>
+                           <!-- add more here-->
+                           </div>
+                           </div>
+                           <div class="chap-box chap1">
+                           <h3 class="chap-name">7. Average</h3>
+                           <div class="chap-box-btn">
+                           <button id="p_btn-ch-m-7" class="Practice_btn"> Practice </button>
+                           <button id="t_btn-ch-m-7" class="test_btn"> Test </button>
+                           <!-- add more here-->
+                           </div>
+                           </div>
+                           <div class="chap-box chap1">
+                           <h3 class="chap-name">8. Geometry and Mensuration</h3>
+                           <div class="chap-box-btn">
+                           <button id="p_btn-ch-m-8" class="Practice_btn"> Practice </button>
+                           <button id="t_btn-ch-m-8" class="test_btn"> Test </button>
+                           <!-- add more here-->
+                           </div>
+                           </div>
+                           <div class="chap-box chap1">
+                           <h3 class="chap-name">9. Permutation and Combination</h3>
+                           <div class="chap-box-btn">
+                           <button id="p_btn-ch-m-9" class="Practice_btn"> Practice </button>
+                           <button id="t_btn-ch-m-9" class="test_btn"> Test </button>
+                           <!-- add more here-->
+                           </div>
+                           </div>
+                           <div class="chap-box chap1">
+                           <h3 class="chap-name">10. Bar Graph</h3>
+                           <div class="chap-box-btn">
+                           <button id="p_btn-ch-m-10" class="Practice_btn"> Practice </button>
+                           <button id="t_btn-ch-m-10" class="test_btn"> Test </button>
+                           <!-- add more here-->
+                           </div>
+                           </div>
+                           <div class="chap-box chap1">
+                           <h3 class="chap-name">11. Number Systems</h3>
+                           <div class="chap-box-btn">
+                           <button id="p_btn-ch-m-11" class="Practice_btn"> Practice </button>
+                           <button id="t_btn-ch-m-11" class="test_btn"> Test </button>
+                           <!-- add more here-->
+                           </div>
+                           </div>
+                           <div class="chap-box chap1">
+                           <h3 class="chap-name">12. Trigonometry</h3>
+                           <div class="chap-box-btn">
+                           <button id="p_btn-ch-m-12" class="Practice_btn"> Practice </button>
+                           <button id="t_btn-ch-m-12" class="test_btn"> Test </button>
+                           <!-- add more here-->
+                           </div>
+                           </div>
+                           <div class="chap-box chap1">
+                           <h3 class="chap-name">13. Square Root</h3>
+                           <div class="chap-box-btn">
+                           <button id="p_btn-ch-m-13" class="Practice_btn"> Practice </button>
+                           <button id="t_btn-ch-m-13" class="test_btn"> Test </button>
+                           <!-- add more here-->
+                           </div>
+                           </div>
+                           <div class="chap-box chap1">
+                           <h3 class="chap-name">14. Surd and Indices</h3>
+                           <div class="chap-box-btn">
+                           <button id="p_btn-ch-m-14" class="Practice_btn"> Practice </button>
+                           <button id="t_btn-ch-m-14" class="test_btn"> Test </button>
+                           <!-- add more here-->
+                           </div>
+                           </div>
+                           <div class="chap-box chap1">
+                           <h3 class="chap-name">15. Simple and Compound Interest</h3>
+                           <div class="chap-box-btn">
+                           <button id="p_btn-ch-m-15" class="Practice_btn"> Practice </button>
+                           <button id="t_btn-ch-m-15" class="test_btn"> Test </button>
+                           <!-- add more here-->
+                           </div>
+                           </div>
+                           <div class="chap-box chap1">
+                           <h3 class="chap-name">16. Time and Work</h3>
+                           <div class="chap-box-btn">
+                           <button id="p_btn-ch-m-16" class="Practice_btn"> Practice </button>
+                           <button id="t_btn-ch-m-16" class="test_btn"> Test </button>
+                           <!-- add more here-->
+                           </div>
+                           </div>
+                           <div class="chap-box chap1">
+                           <h3 class="chap-name">17. Pipes and Cisterns</h3>
+                           <div class="chap-box-btn">
+                           <button id="p_btn-ch-m-17" class="Practice_btn"> Practice </button>
+                           <button id="t_btn-ch-m-17" class="test_btn"> Test </button>
+                           <!-- add more here-->
+                           </div>
+                           </div>
+                           <div class="chap-box chap1">
+                           <h3 class="chap-name">18. Boats and Streams</h3>
+                           <div class="chap-box-btn">
+                           <button id="p_btn-ch-m-18" class="Practice_btn"> Practice </button>
+                           <button id="t_btn-ch-m-18" class="test_btn"> Test </button>
+                           <!-- add more here-->
+                           </div>
+                           </div>
+                           <div class="chap-box chap1">
+                           <h3 class="chap-name">19. Probability</h3>
+                           <div class="chap-box-btn">
+                           <button id="p_btn-ch-m-19" class="Practice_btn"> Practice </button>
+                           <button id="t_btn-ch-m-19" class="test_btn"> Test </button>
+                           <!-- add more here-->
+                           </div>
+                           </div>
+                           <div class="chap-box chap1">
+                           <h3 class="chap-name">20. Pie Chart</h3>
+                           <div class="chap-box-btn">
+                           <button id="p_btn-ch-m-20" class="Practice_btn"> Practice </button>
+                           <button id="t_btn-ch-m-20" class="test_btn"> Test </button>
+                           <!-- add more here-->
+                           </div>
+                           </div>
+                           <div class="chap-box chap1">
+                           <h3 class="chap-name">21. Line Graph</h3>
+                           <div class="chap-box-btn">
+                           <button id="p_btn-ch-m-21" class="Practice_btn"> Practice </button>
+                           <button id="t_btn-ch-m-21" class="test_btn"> Test </button>
+                           <!-- add more here-->
+                           </div>
+                           </div>
+                           <div class="chap-box chap1">
+                           <h3 class="chap-name">22. Linear Equations</h3>
+                           <div class="chap-box-btn">
+                           <button id="p_btn-ch-m-22" class="Practice_btn"> Practice </button>
+                           <button id="t_btn-ch-m-22" class="test_btn"> Test </button>
+                           <!-- add more here-->
+                           </div>
+                           </div>
+                           <div class="chap-box chap1">
+                           <h3 class="chap-name">23. Mixture and Allegation</h3>
+                           <div class="chap-box-btn">
+                           <button id="p_btn-ch-m-23" class="Practice_btn"> Practice </button>
+                           <button id="t_btn-ch-m-23" class="test_btn"> Test </button>
+                           <!-- add more here-->
+                           </div>
+                           </div>
+                           <div class="chap-box chap1">
+                           <h3 class="chap-name">24. Discount</h3>
+                           <div class="chap-box-btn">
+                           <button id="p_btn-ch-m-24" class="Practice_btn"> Practice </button>
+                           <button id="t_btn-ch-m-24" class="test_btn"> Test </button>
+                           <!-- add more here-->
+                           </div>
+                           </div>
+                           
+                           
+                           
+                       </div>
+                   </div>
+                   
+ <!--mts exam math chap-->                  
+          <div class="mts-maths-chap-box">
+              <div class="mts-maths-chap-list">
+                   
+                   <h2>Chapters:</h2><hr>
+                   
+                     <div class="chap-box chap1">
+                     <h3 class="chap-name">1. Number System</h3>
+                     <div class="chap-box-btn">
+                     <button id="p_btn" class="Practice_btn"> Practice </button>
+                     <button id="t_btn" class="test_btn"> Test </button>
+                     <!-- add more here-->
+                     </div>
+                     </div>
+                     
+                     <div class="chap-box chap2">
+                     <h3 class="chap-name">2. HCF/LCM</h3>
+                     <div class="chap-box-btn">
+                     <button id="p_btn" class="Practice_btn"> Practice </button>
+                     <button id="t_btn" class="test_btn"> Test </button>
+                     <!-- add more here-->
+                     </div>
+                     </div>
+                     
+                     <!-- Repeat the above structure for all chapters with appropriate numbers and titles -->
+                     
+                    <div class="chap-box chap3">
+                    <h3 class="chap-name">3. Percentage</h3>
+                    <div class="chap-box-btn">
+                    <button id="p_btn" class="Practice_btn"> Practice </button>
+                    <button id="t_btn" class="test_btn"> Test </button>
+                    <!-- add more here-->
+                    </div>
+                    </div>
+                    
+                    <div class="chap-box chap4">
+                    <h3 class="chap-name">4. Average</h3>
+                    <div class="chap-box-btn">
+                    <button id="p_btn" class="Practice_btn"> Practice </button>
+                    <button id="t_btn" class="test_btn"> Test </button>
+                    <!-- add more here-->
+                    </div>
+                    </div>
+                    
+                    <div class="chap-box chap5">
+                    <h3 class="chap-name">5. Time & Work</h3>
+                    <div class="chap-box-btn">
+                    <button id="p_btn" class="Practice_btn"> Practice </button>
+                    <button id="t_btn" class="test_btn"> Test </button>
+                    <!-- add more here-->
+                    </div>
+                    </div>
+                    
+                    <div class="chap-box chap6">
+                    <h3 class="chap-name">6. Profit & Loss</h3>
+                    <div class="chap-box-btn">
+                    <button id="p_btn" class="Practice_btn"> Practice </button>
+                    <button id="t_btn" class="test_btn"> Test </button>
+                    <!-- add more here-->
+                    </div>
+                    </div>
+                    
+                    <div class="chap-box chap7">
+                    <h3 class="chap-name">7. Ratio, Mixture & Alligation</h3>
+                    <div class="chap-box-btn">
+                    <button id="p_btn" class="Practice_btn"> Practice </button>
+                    <button id="t_btn" class="test_btn"> Test </button>
+                    <!-- add more here-->
+                    </div>
+                    </div>
+                    
+                    <div class="chap-box chap8">
+                    <h3 class="chap-name">8. Time Speed Distance</h3>
+                    <div class="chap-box-btn">
+                    <button id="p_btn" class="Practice_btn"> Practice </button>
+                    <button id="t_btn" class="test_btn"> Test </button>
+                    <!-- add more here-->
+                    </div>
+                    </div>
+                    
+                    <div class="chap-box chap9">
+                    <h3 class="chap-name">9. CI & SI</h3>
+                    <div class="chap-box-btn">
+                    <button id="p_btn" class="Practice_btn"> Practice </button>
+                    <button id="t_btn" class="test_btn"> Test </button>
+                    <!-- add more here-->
+                    </div>
+                    </div>
+                    
+                    <div class="chap-box chap10">
+                    <h3 class="chap-name">10. Mensuration</h3>
+                    <div class="chap-box-btn">
+                    <button id="p_btn" class="Practice_btn"> Practice </button>
+                    <button id="t_btn" class="test_btn"> Test </button>
+                    <!-- add more here-->
+                    </div>
+                    </div>
+                    
+                   
+                   
+                    <div class="chap-box chap11">
+                    <h3 class="chap-name">11. DI</h3>
+                    <div class="chap-box-btn">
+                    <button id="p_btn" class="Practice_btn"> Practice </button>
+                    <button id="t_btn" class="test_btn"> Test </button>
+                    <!-- add more here-->
+                    </div>
+                    </div>
+                    
+                   
+                   
+                 
+             </div>
+        </div>
+<!--cgl exam math chap -->    
+                 
+                   <div class="cgl-maths-chap-box">
+                   <div class="cgl-maths-chap-list">
+                   <h2>Chapters:</h2><hr>
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   
+                   
+                   </div>
+                   </div>
+   <!-- ssc cpo math chap-->   
+                   <div class="cpo-maths-chap-box">
+                   <div class="cpo-maths-chap-list">
+                   <h2>Chapters:</h2><hr>
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   
+                   
+                   </div>
+                   </div>
+ <!-- ssc gd math chap-->   
+                   <div class="gd-maths-chap-box">
+                   <div class="gd-maths-chap-list">
+                   <h2>Chapters:</h2><hr>
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. gd Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. gd Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. gd Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. gd Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. gd Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. gd Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. gd Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                       <button id="p_btn" class="Practice_btn"> Practice </button>
+                       <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   
+                   
+                   
+                   </div>
+                   </div>
+<!--All exam reasoning chapter lists-->
+<!--chsl reson chap-->  
+        <div class="chsl-reson-chap-box">
+            <div class="chsl-reson-chap-list">
+                <h2>Chapters:</h2><hr>
+                     
+                     <div class="chap-box chap1">
+                     <h3 class="chap-name">1. Analogies</h3>
+                     <div class="chap-box-btn">
+                     <button id="p_btn" class="Practice_btn">Practice</button>
+                     <button id="t_btn" class="test_btn">Test</button>
+                     </div>
+                     </div>
+                     
+                     <div class="chap-box chap2">
+                     <h3 class="chap-name">2. Similarities and Differences</h3>
+                     <div class="chap-box-btn">
+                     <button id="p_btn" class="Practice_btn">Practice</button>
+                     <button id="t_btn" class="test_btn">Test</button>
+                     </div>
+                     </div>
+                     
+                     <!-- Repeat the above format for each chapter -->
+                     
+                     <div class="chap-box chap3">
+                     <h3 class="chap-name">3. Space Visualization</h3>
+                     <div class="chap-box-btn">
+                     <button id="p_btn" class="Practice_btn">Practice</button>
+                     <button id="t_btn" class="test_btn">Test</button>
+                     </div>
+                     </div>
+                     
+                     <!-- Repeat the above format for the remaining chapters -->
+                     <!-- Chapter 4: Spatial Orientation -->
+                     <div class="chap-box chap4">
+                     <h3 class="chap-name">4. Spatial Orientation</h3>
+                     <div class="chap-box-btn">
+                     <button id="p_btn" class="Practice_btn">Practice</button>
+                     <button id="t_btn" class="test_btn">Test</button>
+                     </div>
+                     </div>
+                     
+                     <!-- Chapter 5: Problem-Solving -->
+                     <div class="chap-box chap5">
+                     <h3 class="chap-name">5. Problem-Solving</h3>
+                     <div class="chap-box-btn">
+                     <button id="p_btn" class="Practice_btn">Practice</button>
+                     <button id="t_btn" class="test_btn">Test</button>
+                     </div>
+                     </div>
+                     
+                     <!-- Chapter 6: Analysis -->
+                     <div class="chap-box chap6">
+                     <h3 class="chap-name">6. Analysis</h3>
+                     <div class="chap-box-btn">
+                     <button id="p_btn" class="Practice_btn">Practice</button>
+                     <button id="t_btn" class="test_btn">Test</button>
+                     </div>
+                     </div>
+                     
+                     <!-- Chapter 7: Judgment -->
+                     <div class="chap-box chap7">
+                     <h3 class="chap-name">7. Judgment</h3>
+                     <div class="chap-box-btn">
+                     <button id="p_btn" class="Practice_btn">Practice</button>
+                     <button id="t_btn" class="test_btn">Test</button>
+                     </div>
+                     </div>
+                     
+                     <!-- Chapter 8: Decision-Making -->
+                     <div class="chap-box chap8">
+                     <h3 class="chap-name">8. Decision-Making</h3>
+                     <div class="chap-box-btn">
+                     <button id="p_btn" class="Practice_btn">Practice</button>
+                     <button id="t_btn" class="test_btn">Test</button>
+                     </div>
+                     </div>
+                     
+                     <!-- Chapter 9: Visual Memory -->
+                     <div class="chap-box chap9">
+                     <h3 class="chap-name">9. Visual Memory</h3>
+                     <div class="chap-box-btn">
+                     <button id="p_btn" class="Practice_btn">Practice</button>
+                     <button id="t_btn" class="test_btn">Test</button>
+                     </div>
+                     </div>
+                     
+                     <!-- Chapter 10: Discrimination -->
+                     <div class="chap-box chap10">
+                     <h3 class="chap-name">10. Discrimination</h3>
+                     <div class="chap-box-btn">
+                     <button id="p_btn" class="Practice_btn">Practice</button>
+                     <button id="t_btn" class="test_btn">Test</button>
+                     </div>
+                     </div>
+                     <!-- Chapter 11: Observation -->
+                     <div class="chap-box chap11">
+                     <h3 class="chap-name">11. Observation</h3>
+                     <div class="chap-box-btn">
+                     <button id="p_btn" class="Practice_btn">Practice</button>
+                     <button id="t_btn" class="test_btn">Test</button>
+                     </div>
+                     </div>
+                     
+                     <!-- Chapter 12: Relationship Concepts -->
+                     <div class="chap-box chap12">
+                     <h3 class="chap-name">12. Relationship Concepts</h3>
+                     <div class="chap-box-btn">
+                     <button id="p_btn" class="Practice_btn">Practice</button>
+                     <button id="t_btn" class="test_btn">Test</button>
+                     </div>
+                     </div>
+                     
+                     <!-- Chapter 13: Arithmetical Reasoning -->
+                     <div class="chap-box chap13">
+                     <h3 class="chap-name">13. Arithmetical Reasoning</h3>
+                     <div class="chap-box-btn">
+                     <button id="p_btn" class="Practice_btn">Practice</button>
+                     <button id="t_btn" class="test_btn">Test</button>
+                     </div>
+                     </div>
+                     
+                     <!-- Chapter 14: Verbal and Figure -->
+                     <div class="chap-box chap14">
+                     <h3 class="chap-name">14. Verbal and Figure</h3>
+                     <div class="chap-box-btn">
+                     <button id="p_btn" class="Practice_btn">Practice</button>
+                     <button id="t_btn" class="test_btn">Test</button>
+                     </div>
+                     </div>
+                     
+                     <!-- Chapter 15: Classification -->
+                     <div class="chap-box chap15">
+                     <h3 class="chap-name">15. Classification</h3>
+                     <div class="chap-box-btn">
+                     <button id="p_btn" class="Practice_btn">Practice</button>
+                     <button id="t_btn" class="test_btn">Test</button>
+                     </div>
+                     </div>
+                     
+                     <!-- Chapter 16: Arithmetic Number Series -->
+                     <div class="chap-box chap16">
+                     <h3 class="chap-name">16. Arithmetic Number Series</h3>
+                     <div class="chap-box-btn">
+                     <button id="p_btn" class="Practice_btn">Practice</button>
+                     <button id="t_btn" class="test_btn">Test</button>
+                     </div>
+                     </div>
+                     
+                     <!-- Chapter 17: Non-Verbal Series -->
+                     <div class="chap-box chap17">
+                     <h3 class="chap-name">17. Non-Verbal Series</h3>
+                     <div class="chap-box-btn">
+                     <button id="p_btn" class="Practice_btn">Practice</button>
+                     <button id="t_btn" class="test_btn">Test</button>
+                     </div>
+                     </div>
+                     
+                     <!-- Chapter 18: Coding and Decoding -->
+                     <div class="chap-box chap18">
+                     <h3 class="chap-name">18. Coding and Decoding</h3>
+                     <div class="chap-box-btn">
+                     <button id="p_btn" class="Practice_btn">Practice</button>
+                     <button id="t_btn" class="test_btn">Test</button>
+                     </div>
+                     </div>
+                     
+                     <!-- Chapter 19: Statement Conclusion -->
+                     <div class="chap-box chap19">
+                     <h3 class="chap-name">19. Statement Conclusion</h3>
+                     <div class="chap-box-btn">
+                     <button id="p_btn" class="Practice_btn">Practice</button>
+                     <button id="t_btn" class="test_btn">Test</button>
+                     </div>
+                     </div>
+                     
+                     <!-- Chapter 20: Syllogism -->
+                     <div class="chap-box chap20">
+                     <h3 class="chap-name">20. Syllogism</h3>
+                     <div class="chap-box-btn">
+                     <button id="p_btn" class="Practice_btn">Practice</button>
+                     <button id="t_btn" class="test_btn">Test</button>
+                     </div>
+                     </div>
+                     
+             
+                
+                
+            </div>
+      </div>
+                
+<!--mts exam reson chap-->                  
+                <div class="mts-reson-chap-box">
+                <div class="mts-reson-chap-list">
+                <h2>Chapters:</h2><hr>
+                     
+                     <div class="chap-box chap1">
+                     <h3 class="chap-name">1. Number & Alphabetical Series</h3>
+                     <div class="chap-box-btn">
+                     <button id="p_btn" class="Practice_btn"> Practice </button>
+                     <button id="t_btn" class="test_btn"> Test </button>
+                     <!-- add more here -->
+                     </div>
+                     </div>
+                     
+                     <div class="chap-box chap2">
+                     <h3 class="chap-name">2. Coding-Decoding</h3>
+                     <div class="chap-box-btn">
+                     <button id="p_btn" class="Practice_btn"> Practice </button>
+                     <button id="t_btn" class="test_btn"> Test </button>
+                     <!-- add more here -->
+                     </div>
+                     </div>
+                     
+                     <div class="chap-box chap3">
+                     <h3 class="chap-name">3. Analogy</h3>
+                     <div class="chap-box-btn">
+                     <button id="p_btn" class="Practice_btn"> Practice </button>
+                     <button id="t_btn" class="test_btn"> Test </button>
+                     <!-- add more here -->
+                     </div>
+                     </div>
+                     
+                     <div class="chap-box chap4">
+                     <h3 class="chap-name">4. Odd one Out</h3>
+                     <div class="chap-box-btn">
+                     <button id="p_btn" class="Practice_btn"> Practice </button>
+                     <button id="t_btn" class="test_btn"> Test </button>
+                     <!-- add more here -->
+                     </div>
+                     </div>
+                     
+                     <div class="chap-box chap5">
+                     <h3 class="chap-name">5. Syllogism</h3>
+                     <div class="chap-box-btn">
+                     <button id="p_btn" class="Practice_btn"> Practice </button>
+                     <button id="t_btn" class="test_btn"> Test </button>
+                     <!-- add more here -->
+                     </div>
+                     </div>
+                     
+                     <div class="chap-box chap6">
+                     <h3 class="chap-name">6. Directions Sense</h3>
+                     <div class="chap-box-btn">
+                     <button id="p_btn" class="Practice_btn"> Practice </button>
+                     <button id="t_btn" class="test_btn"> Test </button>
+                     <!-- add more here -->
+                     </div>
+                     </div>
+                     
+                     <div class="chap-box chap7">
+                     <h3 class="chap-name">7. Ranking</h3>
+                     <div class="chap-box-btn">
+                     <button id="p_btn" class="Practice_btn"> Practice </button>
+                     <button id="t_btn" class="test_btn"> Test </button>
+                     <!-- add more here -->
+                     </div>
+                     </div>
+                     
+                     <div style="height: 20vh;" class="chap-box chap8">
+                     <h3 class="chap-name">8. Non-verbal: </h3>
+                          <h5 style="margin-top: -18px; color: blue;">Paper Folding & Cutting, Mirror Image, Embedded or Complete the Image, Counting Figure</h5>
+                     <div class="chap-box-btn">
+                     <button id="p_btn" class="Practice_btn"> Practice </button>
+                     <button id="t_btn" class="test_btn"> Test </button>
+                     <!-- add more here -->
+                     </div>
+                     </div>
+                     
+                     <div class="chap-box chap9">
+                     <h3 class="chap-name">9. Blood Relations</h3>
+                     <div class="chap-box-btn">
+                     <button id="p_btn" class="Practice_btn"> Practice </button>
+                     <button id="t_btn" class="test_btn"> Test </button>
+                     <!-- add more here -->
+                     </div>
+                     </div>
+                     
+                     <div class="chap-box chap10">
+                     <h3 class="chap-name">10. Matrix</h3>
+                     <div class="chap-box-btn">
+                     <button id="p_btn" class="Practice_btn"> Practice </button>
+                     <button id="t_btn" class="test_btn"> Test </button>
+                     <!-- add more here -->
+                     </div>
+                     </div>
+                     
+                     <div class="chap-box chap10">
+                     <h3 class="chap-name">10. Matrix</h3>
+                     <div class="chap-box-btn">
+                     <button id="p_btn" class="Practice_btn"> Practice </button>
+                     <button id="t_btn" class="test_btn"> Test </button>
+                     <!-- add more here -->
+                     </div>
+                     </div>
+                     
+                     <div class="chap-box chap11">
+                     <h3 class="chap-name">11. Mathematical Calculations</h3>
+                     <div class="chap-box-btn">
+                     <button id="p_btn" class="Practice_btn"> Practice </button>
+                     <button id="t_btn" class="test_btn"> Test </button>
+                     <!-- add more here -->
+                     </div>
+                     </div>
+                     
+                     <div class="chap-box chap12">
+                     <h3 class="chap-name">12. Dice</h3>
+                     <div class="chap-box-btn">
+                     <button id="p_btn" class="Practice_btn"> Practice </button>
+                     <button id="t_btn" class="test_btn"> Test </button>
+                     <!-- add more here -->
+                     </div>
+                     </div>
+                     
+                     <div class="chap-box chap13">
+                     <h3 class="chap-name">13. Statement and Conclusion</h3>
+                     <div class="chap-box-btn">
+                     <button id="p_btn" class="Practice_btn"> Practice </button>
+                     <button id="t_btn" class="test_btn"> Test </button>
+                     <!-- add more here -->
+                     </div>
+                     </div>
+                     
+                     <div class="chap-box chap14">
+                     <h3 class="chap-name">14. Puzzle</h3>
+                     <div class="chap-box-btn">
+                     <button id="p_btn" class="Practice_btn"> Practice </button>
+                     <button id="t_btn" class="test_btn"> Test </button>
+                     <!-- add more here -->
+                     </div>
+                     </div>
+                     
+                     <div class="chap-box chap15">
+                     <h3 class="chap-name">15. Age Related Problems</h3>
+                     <div class="chap-box-btn">
+                     <button id="p_btn" class="Practice_btn"> Practice </button>
+                     <button id="t_btn" class="test_btn"> Test </button>
+                     <!-- add more here -->
+                     </div>
+                     </div>
+                     
+                     <div class="chap-box chap16">
+                     <h3 class="chap-name">16. Venn Diagram</h3>
+                     <div class="chap-box-btn">
+                     <button id="p_btn" class="Practice_btn"> Practice </button>
+                     <button id="t_btn" class="test_btn"> Test </button>
+                     <!-- add more here -->
+                     </div>
+                     </div>
+                     
+                     <!-- Repeat the above structure for the remaining topics -->
+                     
+                     <div class="chap-box chap17">
+                     <h3 class="chap-name">17. Sitting Arrangement</h3>
+                     <div class="chap-box-btn">
+                     <button id="p_btn" class="Practice_btn"> Practice </button>
+                     <button id="t_btn" class="test_btn"> Test </button>
+                     <!-- add more here -->
+                     </div>
+                     </div>
+                     
+                
+                
+                
+                
+          </div>
+    </div>
+<!--cgl exam reson chap -->    
+                
+                <div class="cgl-reson-chap-box">
+                <div class="cgl-reson-chap-list">
+                <h2>Chapters:</h2><hr>
+                
+                
+                <div class="chap-box chap1">
+                <h3 class="chap-name">1.reson cgl Profit & Loss</h3>
+                <div class="chap-box-btn">
+                <button id="p_btn" class="Practice_btn"> Practice </button>
+                <button id="t_btn" class="test_btn"> Test </button>
+                <!-- add more here-->
+                </div>
+                </div>
+                
+                
+                <div class="chap-box chap1">
+                <h3 class="chap-name">1. reson Profit & Loss</h3>
+                <div class="chap-box-btn">
+                <button id="p_btn" class="Practice_btn"> Practice </button>
+                <button id="t_btn" class="test_btn"> Test </button>
+                <!-- add more here-->
+                </div>
+                </div>
+                
+                
+                <div class="chap-box chap1">
+                <h3 class="chap-name">1. Profit & Loss</h3>
+                <div class="chap-box-btn">
+                <button id="p_btn" class="Practice_btn"> Practice </button>
+                <button id="t_btn" class="test_btn"> Test </button>
+                <!-- add more here-->
+                </div>
+                </div>
+                
+                <div class="chap-box chap1">
+                <h3 class="chap-name">1. Profit & Loss</h3>
+                <div class="chap-box-btn">
+                <button id="p_btn" class="Practice_btn"> Practice </button>
+                <button id="t_btn" class="test_btn"> Test </button>
+                <!-- add more here-->
+                </div>
+                </div>
+                
+                
+                
+                </div>
+                </div>
+<!-- ssc cpo reson chap-->   
+                <div class="cpo-reson-chap-box">
+                <div class="cpo-reson-chap-list">
+                <h2>Chapters:</h2><hr>
+                <div class="chap-box chap1">
+                <h3 class="chap-name">1. cpo reson Profit & Loss</h3>
+                <div class="chap-box-btn">
+                <button id="p_btn" class="Practice_btn"> Practice </button>
+                <button id="t_btn" class="test_btn"> Test </button>
+                <!-- add more here-->
+                </div>
+                </div>
+                
+                
+                <div class="chap-box chap1">
+                <h3 class="chap-name">1. Profit & Loss</h3>
+                <div class="chap-box-btn">
+                <button id="p_btn" class="Practice_btn"> Practice </button>
+                <button id="t_btn" class="test_btn"> Test </button>
+                <!-- add more here-->
+                </div>
+                </div>
+                
+                
+                <div class="chap-box chap1">
+                <h3 class="chap-name">1. Profit & Loss</h3>
+                <div class="chap-box-btn">
+                <button id="p_btn" class="Practice_btn"> Practice </button>
+                <button id="t_btn" class="test_btn"> Test </button>
+                <!-- add more here-->
+                </div>
+                </div>
+                
+                <div class="chap-box chap1">
+                <h3 class="chap-name">1. Profit & Loss</h3>
+                <div class="chap-box-btn">
+                <button id="p_btn" class="Practice_btn"> Practice </button>
+                <button id="t_btn" class="test_btn"> Test </button>
+                <!-- add more here-->
+                </div>
+                </div>
+                
+                
+                
+                </div>
+                </div>
+<!-- ssc gd reson chap-->   
+                <div class="gd-reson-chap-box">
+                <div class="gd-reson-chap-list">
+                <h2>Chapters:</h2><hr>
+                <div class="chap-box chap1">
+                <h3 class="chap-name">1. gd  reson Profit & Loss</h3>
+                <div class="chap-box-btn">
+                <button id="p_btn" class="Practice_btn"> Practice </button>
+                <button id="t_btn" class="test_btn"> Test </button>
+                <!-- add more here-->
+                </div>
+                </div>
+                
+                
+                <div class="chap-box chap1">
+                <h3 class="chap-name">1. gd Profit & Loss</h3>
+                <div class="chap-box-btn">
+                <button id="p_btn" class="Practice_btn"> Practice </button>
+                <button id="t_btn" class="test_btn"> Test </button>
+                <!-- add more here-->
+                </div>
+                </div>
+                
+                
+                <div class="chap-box chap1">
+                <h3 class="chap-name">1. gd Profit & Loss</h3>
+                <div class="chap-box-btn">
+                <button id="p_btn" class="Practice_btn"> Practice </button>
+                <button id="t_btn" class="test_btn"> Test </button>
+                <!-- add more here-->
+                </div>
+                </div>
+                
+                <div class="chap-box chap1">
+                <h3 class="chap-name">1. gd Profit & Loss</h3>
+                <div class="chap-box-btn">
+                <button id="p_btn" class="Practice_btn"> Practice </button>
+                <button id="t_btn" class="test_btn"> Test </button>
+                <!-- add more here-->
+                </div>
+                </div>
+                
+                <div class="chap-box chap1">
+                <h3 class="chap-name">1. gd Profit & Loss</h3>
+                <div class="chap-box-btn">
+                <button id="p_btn" class="Practice_btn"> Practice </button>
+                <button id="t_btn" class="test_btn"> Test </button>
+                <!-- add more here-->
+                </div>
+                </div>
+                
+                
+                <div class="chap-box chap1">
+                <h3 class="chap-name">1. gd Profit & Loss</h3>
+                <div class="chap-box-btn">
+                <button id="p_btn" class="Practice_btn"> Practice </button>
+                <button id="t_btn" class="test_btn"> Test </button>
+                <!-- add more here-->
+                </div>
+                </div>
+                
+                <div class="chap-box chap1">
+                <h3 class="chap-name">1. gd Profit & Loss</h3>
+                <div class="chap-box-btn">
+                <button id="p_btn" class="Practice_btn"> Practice </button>
+                <button id="t_btn" class="test_btn"> Test </button>
+                <!-- add more here-->
+                </div>
+                </div>
+                
+                
+                
+                
+           </div>
+       </div>
+ <!--All exam english chapter lists-->
+      <!--chsl english chap-->  
+                  <div class="chsl-engl-chap-box">
+                  <div class="chsl-engl-chap-list">
+                  <h2>Chapters:</h2><hr>
+                  
+                  
+                  <div class="chap-box chap1">
+                  <h3 class="chap-name">1. reson Profit & Loss</h3>
+                  <div class="chap-box-btn">
+                  <button id="p_btn" class="Practice_btn"> Practice </button>
+                  <button id="t_btn" class="test_btn"> Test </button>
+                  <!-- add more here-->
+                  </div>
+                  </div>
+                  
+                  
+                  
+                  
+                  
+                  <div class="chap-box chap1">
+                  <h3 class="chap-name">1. chsl english Profit & Loss</h3>
+                  <div class="chap-box-btn">
+                  <button id="p_btn" class="Practice_btn"> Practice </button>
+                  <button id="t_btn" class="test_btn"> Test </button>
+                  <!-- add more here-->
+                  </div>
+                  </div>
+                  
+                  
+                  <div class="chap-box chap1">
+                  <h3 class="chap-name">1. Profit & Loss</h3>
+                  <div class="chap-box-btn">
+                  <button id="p_btn" class="Practice_btn"> Practice </button>
+                  <button id="t_btn" class="test_btn"> Test </button>
+                  <!-- add more here-->
+                  </div>
+                  </div>
+                  
+                  <div class="chap-box chap1">
+                  <h3 class="chap-name">1. Profit & Loss</h3>
+                  <div class="chap-box-btn">
+                  <button id="p_btn" class="Practice_btn"> Practice </button>
+                  <button id="t_btn" class="test_btn"> Test </button>
+                  <!-- add more here-->
+                  </div>
+                  </div>
+                  
+                  
+                  
+                  </div>
+                  </div>
+                  
+  <!--mts exam english chap-->                  
+                  <div class="mts-engl-chap-box">
+                  <div class="mts-engl-chap-list">
+                  <h2>Chapters:</h2><hr>
+                        
+                        <div class="chap-box chap1">
+                        <h3 class="chap-name">1. Spot the Error</h3>
+                        <div class="chap-box-btn">
+                        <button id="p_btn" class="Practice_btn"> Practice </button>
+                        <button id="t_btn" class="test_btn"> Test </button>
+                        <!-- add more here -->
+                        </div>
+                        </div>
+                        
+                        <div class="chap-box chap2">
+                        <h3 class="chap-name">2. Fill in the Blanks</h3>
+                        <div class="chap-box-btn">
+                        <button id="p_btn" class="Practice_btn"> Practice </button>
+                        <button id="t_btn" class="test_btn"> Test </button>
+                        <!-- add more here -->
+                        </div>
+                        </div>
+                        
+                        <div class="chap-box chap3">
+                        <h3 class="chap-name">3. Synonyms</h3>
+                        <div class="chap-box-btn">
+                        <button id="p_btn" class="Practice_btn"> Practice </button>
+                        <button id="t_btn" class="test_btn"> Test </button>
+                        <!-- add more here -->
+                        </div>
+                        </div>
+                        
+                        <div class="chap-box chap4">
+                        <h3 class="chap-name">4. Antonyms</h3>
+                        <div class="chap-box-btn">
+                        <button id="p_btn" class="Practice_btn"> Practice </button>
+                        <button id="t_btn" class="test_btn"> Test </button>
+                        <!-- add more here -->
+                        </div>
+                        </div>
+                        
+                        <div class="chap-box chap5">
+                        <h3 class="chap-name">5. Spelling/Detecting Mis-spelt Words</h3>
+                        <div class="chap-box-btn">
+                        <button id="p_btn" class="Practice_btn"> Practice </button>
+                        <button id="t_btn" class="test_btn"> Test </button>
+                        <!-- add more here -->
+                        </div>
+                        </div>
+                        
+                        <div class="chap-box chap6">
+                        <h3 class="chap-name">6. Idioms & Phrases</h3>
+                        <div class="chap-box-btn">
+                        <button id="p_btn" class="Practice_btn"> Practice </button>
+                        <button id="t_btn" class="test_btn"> Test </button>
+                        <!-- add more here -->
+                        </div>
+                        </div>
+                        
+                        <div class="chap-box chap7">
+                        <h3 class="chap-name">7. One Word Substitution</h3>
+                        <div class="chap-box-btn">
+                        <button id="p_btn" class="Practice_btn"> Practice </button>
+                        <button id="t_btn" class="test_btn"> Test </button>
+                        <!-- add more here -->
+                        </div>
+                        </div>
+                        
+                        <div class="chap-box chap8">
+                        <h3 class="chap-name">8. Improvement of Sentences</h3>
+                        <div class="chap-box-btn">
+                        <button id="p_btn" class="Practice_btn"> Practice </button>
+                        <button id="t_btn" class="test_btn"> Test </button>
+                        <!-- add more here -->
+                        </div>
+                        </div>
+                        
+                        <!-- Repeat the above structure for the remaining topics -->
+                        
+                        <div class="chap-box chap9">
+                        <h3 class="chap-name">9. Comprehension Passage</h3>
+                        <div class="chap-box-btn">
+                        <button id="p_btn" class="Practice_btn"> Practice </button>
+                        <button id="t_btn" class="test_btn"> Test </button>
+                        <!-- add more here -->
+                        </div>
+                        </div>
+                        
+                       
+                       
+               
+                  
+                  
+                  
+              </div>
+        </div>
+<!-- ssc cpo english chap-->   
+                  <div class="cpo-engl-chap-box">
+                  <div class="cpo-engl-chap-list">
+                  <h2>Chapters:</h2><hr>
+                  <div class="chap-box chap1">
+                  <h3 class="chap-name">1. cpo english Profit & Loss</h3>
+                  <div class="chap-box-btn">
+                  <button id="p_btn" class="Practice_btn"> Practice </button>
+                  <button id="t_btn" class="test_btn"> Test </button>
+                  <!-- add more here-->
+                  </div>
+                  </div>
+                  
+                  
+                  <div class="chap-box chap1">
+                  <h3 class="chap-name">1. Profit & Loss</h3>
+                  <div class="chap-box-btn">
+                  <button id="p_btn" class="Practice_btn"> Practice </button>
+                  <button id="t_btn" class="test_btn"> Test </button>
+                  <!-- add more here-->
+                  </div>
+                  </div>
+                  
+                  
+                  <div class="chap-box chap1">
+                  <h3 class="chap-name">1. Profit & Loss</h3>
+                  <div class="chap-box-btn">
+                  <button id="p_btn" class="Practice_btn"> Practice </button>
+                  <button id="t_btn" class="test_btn"> Test </button>
+                  <!-- add more here-->
+                  </div>
+                  </div>
+                  
+                  <div class="chap-box chap1">
+                  <h3 class="chap-name">1. Profit & Loss</h3>
+                  <div class="chap-box-btn">
+                  <button id="p_btn" class="Practice_btn"> Practice </button>
+                  <button id="t_btn" class="test_btn"> Test </button>
+                  <!-- add more here-->
+                  </div>
+                  </div>
+                  
+                  
+                  
+                  </div>
+                  </div>
+  <!-- ssc gd english chap-->   
+                  <div class="gd-engl-chap-box">
+                  <div class="gd-engl-chap-list">
+                  <h2>Chapters:</h2><hr>
+                  <div class="chap-box chap1">
+                  <h3 class="chap-name">1. gd enlish Profit & Loss</h3>
+                  <div class="chap-box-btn">
+                  <button id="p_btn" class="Practice_btn"> Practice </button>
+                  <button id="t_btn" class="test_btn"> Test </button>
+                  <!-- add more here-->
+                  </div>
+                  </div>
+                  
+                  
+                  <div class="chap-box chap1">
+                  <h3 class="chap-name">1. gd Profit & Loss</h3>
+                  <div class="chap-box-btn">
+                  <button id="p_btn" class="Practice_btn"> Practice </button>
+                  <button id="t_btn" class="test_btn"> Test </button>
+                  <!-- add more here-->
+                  </div>
+                  </div>
+                  
+                  
+                  <div class="chap-box chap1">
+                  <h3 class="chap-name">1. gd Profit & Loss</h3>
+                  <div class="chap-box-btn">
+                  <button id="p_btn" class="Practice_btn"> Practice </button>
+                  <button id="t_btn" class="test_btn"> Test </button>
+                  <!-- add more here-->
+                  </div>
+                  </div>
+                  
+                  <div class="chap-box chap1">
+                  <h3 class="chap-name">1. gd Profit & Loss</h3>
+                  <div class="chap-box-btn">
+                  <button id="p_btn" class="Practice_btn"> Practice </button>
+                  <button id="t_btn" class="test_btn"> Test </button>
+                  <!-- add more here-->
+                  </div>
+                  </div>
+                  
+                  <div class="chap-box chap1">
+                  <h3 class="chap-name">1. gd Profit & Loss</h3>
+                  <div class="chap-box-btn">
+                  <button id="p_btn" class="Practice_btn"> Practice </button>
+                  <button id="t_btn" class="test_btn"> Test </button>
+                  <!-- add more here-->
+                  </div>
+                  </div>
+                  
+                  
+                  <div class="chap-box chap1">
+                  <h3 class="chap-name">1. gd Profit & Loss</h3>
+                  <div class="chap-box-btn">
+                  <button id="p_btn" class="Practice_btn"> Practice </button>
+                  <button id="t_btn" class="test_btn"> Test </button>
+                  <!-- add more here-->
+                  </div>
+                  </div>
+                  
+                  <div class="chap-box chap1">
+                  <h3 class="chap-name">1. gd Profit & Loss</h3>
+                  <div class="chap-box-btn">
+                  <button id="p_btn" class="Practice_btn"> Practice </button>
+                  <button id="t_btn" class="test_btn"> Test </button>
+                  <!-- add more here-->
+                  </div>
+                  </div>
+                  
+                  
+                  
+                  
+               </div>
+       </div>     
+       
+                   
+                   
+<!--All exam gk chapter lists-->
+                   <!--chsl english chap-->  
+                   <div class="chsl-gk-chap-box">
+                   <div class="chsl-gk-chap-list">
+                   <h2>Chapters:</h2><hr>
+                   
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. reson Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   
+                   
+                   
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. chsl english Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   
+                   
+                   </div>
+                   </div>
+                   
+     <!--mts exam gk chap-->                  
+                   <div class="mts-gk-chap-box">
+                   <div class="mts-gk-chap-list">
+                   <h2>Chapters:</h2><hr>
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. english mts Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   
+                   
+                   </div>
+                   </div>
+ <!--cgl exam gk chap -->    
+                   
+                   <div class="cgl-gk-chap-box">
+                   <div class="cgl-gk-chap-list">
+                   <h2>Chapters:</h2><hr>
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1.reson cgl Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1.engli cgl Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   
+                   
+                   </div>
+                   </div>
+         <!-- ssc cpo gk chap-->   
+                   <div class="cpo-gk-chap-box">
+                   <div class="cpo-gk-chap-list">
+                   <h2>Chapters:</h2><hr>
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. cpo english Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   
+                   
+                   </div>
+                   </div>
+          <!-- ssc gd gk chap-->   
+                   <div class="gd-gk-chap-box">
+                   <div class="gd-gk-chap-list">
+                   <h2>Chapters:</h2><hr>
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. gd enlish Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. gd Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. gd Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. gd Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. gd Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. gd Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. gd Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   
+                   
+                   
+              </div>
+      </div>      
+      
+<!--All exam comp chapter lists-->
+          <!--chsl comp chap-->  
+                   <div class="chsl-comp-chap-box">
+                   <div class="chsl-comp-chap-list">
+                   <h2>Chapters:</h2><hr>
+                   
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. reson Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   
+                   
+                   
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. chsl english Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   
+                   
+                   </div>
+                   </div>
+                   
+<!--mts exam comp chap-->                  
+                   <div class="mts-comp-chap-box">
+                   <div class="mts-comp-chap-list">
+                   <h2>Chapters:</h2><hr>
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. english mts Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   
+                   
+                   </div>
+                   </div>
+<!--cgl exam comp chap -->    
+                   
+                   <div class="cgl-comp-chap-box">
+                   <div class="cgl-comp-chap-list">
+                   <h2>Chapters:</h2><hr>
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1.reson cgl Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1.engli cgl Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   
+                   
+                   </div>
+                   </div>
+  <!-- ssc cpo comp chap-->   
+                   <div class="cpo-comp-chap-box">
+                   <div class="cpo-comp-chap-list">
+                   <h2>Chapters:</h2><hr>
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. cpo english Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   
+                   
+                   </div>
+                   </div>
+   <!-- ssc gd comp chap-->   
+                   <div class="gd-comp-chap-box">
+                   <div class="gd-comp-chap-list">
+                   <h2>Chapters:</h2><hr>
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. gd enlish Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. gd Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. gd Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. gd Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. gd Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. gd Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   <div class="chap-box chap1">
+                   <h3 class="chap-name">1. gd Profit & Loss</h3>
+                   <div class="chap-box-btn">
+                   <button id="p_btn" class="Practice_btn"> Practice </button>
+                   <button id="t_btn" class="test_btn"> Test </button>
+                   <!-- add more here-->
+                   </div>
+                   </div>
+                   
+                   
+                   
+                   
+                  </div>
+           </div>
+                
+                    
+</div><!-- end all exam all sub  chapter list container -->
+
+<script src="app2.js"></script>
+
+</body>
+</html>
