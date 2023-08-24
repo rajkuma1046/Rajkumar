@@ -1,0 +1,1029 @@
+body .exam_list_box.activeExamBox, 
+.sub_list_box.activeSubBox
+ {
+opacity: 1;
+    pointer-events: auto;
+    transform: scale(1);
+
+}
+
+
+/* Exam list box css */
+             body .exam_list_box{
+             position: absolute;
+             padding: 7vh 1vh;
+             
+             }
+             
+             body .exam_list{
+             width: 48vh;
+             height: 100vh;
+             border:1px solid black ;
+             border-radius: 5px;
+             background: #f1e6ff;
+             box-shadow: 1px 1px 20px 1px #ababab;
+             
+             
+             }
+             .exam_list img{
+             width: 18vh;
+             height: 18vh;
+             }
+             .exam_list img:hover{
+             width: 18.5vh;
+             height: 18.5vh;
+             transition : all ease .1s;
+             }
+             body .exam_list .exam_name{
+             width: 18vh;
+             height: 18vh;
+           overflow: hidden;
+             border-radius: 10px;
+             background: green;
+             box-shadow: 1px 1px 20px 1px #ababab;
+             margin: 2vh 3vh;
+             
+             
+             }
+           
+             
+             .exam_list  .chsl{
+             
+             
+             }
+             .exam_list .chsl:hover{
+             
+           
+             }
+             .exam_list  #mts{
+             
+             
+             }.exam_list .exam_name cgl{
+             
+             
+             }.exam_list .exam_name cpo{
+             
+             
+             }.exam_list .exam_name gd{
+             
+             
+             }
+
+
+/* chsl subject list box css*/
+             body .sub_list_box_chsl{
+             position: absolute;
+             padding: 7vh 1vh;
+             display:none;
+             }
+             body .sub_list_chsl{
+             width: 48vh;
+             height: 100vh;
+             border:1px solid black ;
+             border-radius: 5px;
+             background: #f1e6ff;
+             box-shadow: 1px 1px 20px 1px #ababab;
+             
+             
+             }
+             body .sub_list_chsl .sub_name_chsl{
+             width: 18vh;
+             height: 18vh;
+             overflow:hidden;
+             border-radius: 10px;
+             background: orange;
+             box-shadow: 1px 1px 20px 1px #ababab;
+             margin: 2vh 3vh;
+             
+             
+             }
+             
+             body .sub_list_chsl .sub_name_chsl .maths{
+             
+             
+             }
+             body .sub_list_chsl .sub_name_chsl .reson{
+             
+             
+             }
+             body .sub_list_chsl .sub_name_chsl .english{
+             
+             
+             }
+             body .sub_list_chsl .sub_name_chsl .gk{
+             
+             
+             }
+             body .sub_list_chsl .sub_name_chsl .comp{
+             
+             
+             }
+             .sub_list_chsl .change-exam{
+              justify-content: center;
+              align-item: center;
+              color: white;
+              width: 30vh;
+              height: 5vh;
+              border:1px solid black ;
+              font-size:2.25vh;
+              font-weight: bold;
+              border-radius: 5px;
+              background: green;
+              box-shadow: 2px 2px 7px 2px grey;
+              margin: 4vh 9vh;
+             }
+             .sub_list_chsl .change-exam:hover{
+             justify-content: center;
+             align-item: center;
+             color: white;
+             width: 30vh;
+             height: 5vh;
+             font-size:2.25vh;
+             font-weight: bold;
+             border-radius: 5px;
+             background: green;
+             box-shadow: 0.4px 0.4px 4px 0.4px grey;
+             margin: 4vh 9vh;
+             }
+             
+
+/* mts subject list box css*/
+             body .sub_list_box_mts{
+             position: absolute;
+             padding: 7vh 1vh;
+             display:none;
+             }
+             body .sub_list_mts{
+             width: 48vh;
+             height: 100vh;
+             border:1px solid black ;
+             border-radius: 5px;
+             background: #f1e6ff;
+             box-shadow: 1px 1px 20px 1px #ababab;
+             
+             
+             }
+             body .sub_list_mts .sub_name_mts{
+             width: 18vh;
+             height: 18vh;
+             overflow: hidden;
+             border-radius: 10px;
+             background: brown;
+             box-shadow: 1px 1px 20px 1px #ababab;
+             margin: 2vh 3vh;
+             
+             
+             }
+             
+             body .sub_list_mts .sub_name_mts .maths{
+             
+             
+             }
+             body .sub_list_mts .sub_name_mts .reson{
+             
+             
+             }
+             body .sub_list_mts .sub_name_mts .english{
+             
+             
+             }
+             body .sub_list_mts .sub_name_mts .gk{
+             
+             
+             }
+             body .sub_list_mts .sub_name_mts comp{
+             color: white;
+             
+             }
+             
+             .sub_list_mts .change-exam{
+             justify-content: center;
+             align-item: center;
+             color: white;
+             width: 30vh;
+             height: 5vh;
+             border:1px solid black ;
+             font-size:2.25vh;
+             font-weight: bold;
+             border-radius: 5px;
+             background: brown;
+             box-shadow: 2px 2px 7px 2px grey;
+             margin: 4vh 9vh;
+             }
+             .sub_list_mts .change-exam:hover{
+             justify-content: center;
+             align-item: center;
+             color: white;
+             width: 30vh;
+             height: 5vh;
+             font-size:2.25vh;
+             font-weight: bold;
+             border-radius: 5px;
+             background: brown;
+             box-shadow: 0.4px 0.4px 4px 0.4px grey;
+             margin: 4vh 9vh;
+             }
+             
+
+/* cgl subject list box css*/
+             body .sub_list_box_cgl{
+             position: absolute;
+             padding: 7vh 1vh;
+             display:none;
+             }
+             body .sub_list_cgl{
+             width: 48vh;
+             height: 100vh;
+             border:1px solid black ;
+             border-radius: 5px;
+             background: #f1e6ff;
+             box-shadow: 1px 1px 20px 1px #ababab;
+             
+             
+             }
+             body .sub_list_cgl .sub_name_cgl{
+             width: 18vh;
+             height: 18vh;
+             
+             border-radius: 10px;
+             background: #f1e6ff;
+             box-shadow: 1px 1px 20px 1px #ababab;
+             margin: 2vh 3vh;
+             
+             
+             }
+             
+             body .sub_list_cgl .sub_name_cgl .maths{
+             
+             
+             }
+             body .sub_list_cgl .sub_name_cgl .reson{
+             
+             
+             }
+             body .sub_list_cgl .sub_name_cgl .english{
+             
+             
+             }
+             body .sub_list_cgl .sub_name_cgl .gk{
+             
+             
+             }
+             body .sub_list_cgl .sub_name_cgl .comp{
+             
+             
+             }
+             
+             .sub_list_cgl .change-exam{
+             justify-content: center;
+             align-item: center;
+             color: white;
+             width: 30vh;
+             height: 5vh;
+             border:1px solid black ;
+             font-size:2.25vh;
+             font-weight: bold;
+             border-radius: 5px;
+             background: blue;
+             box-shadow: 2px 2px 7px 2px grey;
+             margin: 4vh 9vh;
+             }
+             .sub_list_cgl .change-exam:hover{
+             justify-content: center;
+             align-item: center;
+             color: white;
+             width: 30vh;
+             height: 5vh;
+             font-size:2.25vh;
+             font-weight: bold;
+             border-radius: 5px;
+             background: blue;
+             box-shadow: 0.4px 0.4px 4px 0.4px grey;
+             margin: 4vh 9vh;
+             }
+             
+
+ /* cpo subject list box css*/
+             body .sub_list_box_cpo{
+             position: absolute;
+             padding: 7vh 1vh;
+             display:none;
+             }
+             body .sub_list_cpo{
+             width: 48vh;
+             height: 100vh;
+             border:1px solid black ;
+             border-radius: 5px;
+             background: #f1e6ff;
+             box-shadow: 1px 1px 20px 1px #ababab;
+             
+             
+             }
+             body .sub_list_cpo .sub_name_cpo{
+             width: 18vh;
+             height: 18vh;
+             
+             border-radius: 10px;
+             background: brown;
+             box-shadow: 1px 1px 20px 1px #ababab;
+             margin: 2vh 3vh;
+             
+             
+             }
+             
+             body .sub_list_cpo .sub_name_cpo .maths{
+             
+             
+             }
+             body .sub_list_cpo .sub_name_cpo .reson{
+             
+             
+             }
+             body .sub_list_cpo .sub_name_cpo .english{
+             
+             
+             }
+             body .sub_list_cpo .sub_name_cpo .gk{
+             
+             
+             }
+             body .sub_list_cpo .sub_name_cpo .comp{
+             
+             
+             }
+             .sub_list_cpo .change-exam{
+             justify-content: center;
+             align-item: center;
+             color: white;
+             width: 30vh;
+             height: 5vh;
+             border:1px solid black ;
+             font-size:2.25vh;
+             font-weight: bold;
+             border-radius: 5px;
+             background: red;
+             box-shadow: 2px 2px 7px 2px grey;
+             margin: 4vh 9vh;
+             }
+             .sub_list_cpo .change-exam:hover{
+             justify-content: center;
+             align-item: center;
+             color: white;
+             width: 30vh;
+             height: 5vh;
+             font-size:2.25vh;
+             font-weight: bold;
+             border-radius: 5px;
+             background: red;
+             box-shadow: 0.4px 0.4px 4px 0.4px grey;
+             margin: 4vh 9vh;
+             }
+             
+              
+              
+/* gd subject list box css*/
+              body .sub_list_box_gd{
+              position: absolute;
+              padding: 7vh 1vh;
+              display:none;
+              }
+              body .sub_list_gd{
+              width: 48vh;
+              height: 100vh;
+              border:1px solid black ;
+              border-radius: 5px;
+              background: #f1e6ff;
+              box-shadow: 1px 1px 20px 1px #ababab;
+              
+              
+              }
+              body .sub_list_gd .sub_name_gd{
+              width: 18vh;
+              height: 18vh;
+            
+              border-radius: 10px;
+              background: brown;
+              box-shadow: 1px 1px 20px 1px #ababab;
+              margin: 2vh 3vh;
+              
+              
+              }
+              
+              body .sub_list_gd .sub_name_gd .maths{
+              
+              
+              }
+              body .sub_list_gd .sub_name_gd .reson{
+              
+              
+              }
+              body .sub_list_gd .sub_name_gd .english{
+              
+              
+              }
+              body .sub_list_gd .sub_name_gd .gk{
+              
+              
+              }
+              body .sub_list_gd .sub_name_gd .comp{
+              
+              
+              }
+              .sub_list_gd .change-exam{
+              justify-content: center;
+              align-item: center;
+              color: white;
+              width: 30vh;
+              height: 5vh;
+              border:1px solid black ;
+              font-size:2.25vh;
+              font-weight: bold;
+              border-radius: 5px;
+              background: green;
+              box-shadow: 2px 2px 7px 2px grey;
+              margin: 4vh 9vh;
+              }
+              .sub_list_gd .change-exam:hover{
+              justify-content: center;
+              align-item: center;
+              color: white;
+              width: 30vh;
+              height: 5vh;
+              font-size:2.25vh;
+              font-weight: bold;
+              border-radius: 5px;
+              background: green;
+              box-shadow: 0.4px 0.4px 4px 0.4px grey;
+              margin: 4vh 9vh;
+              }
+              
+ /* all exam maths chap list*/ 
+            body div div .chap-box{
+              width: 45vh;
+              height: 15vh;
+              border:1px solid black ;
+              border-radius: 10px;
+              background: linear-gradient(to bottom, #befae7, #6cc4a8);
+              box-shadow: 2px 2px 10px 2px #ababab;
+              margin-top: 2vh;
+              padding: 0vh 1vh;
+            }
+            body div div .chap-box .chap-name{
+            font-size:2.3vh;
+            
+            }
+             body div div .chap-box .Practice_btn{
+             width: 18vh;
+             height: 5vh;
+             color: white;
+             font-size:2.3vh;
+             font-weight: bold;
+             border-radius: 10px;
+             background: linear-gradient(to bottom, #f514f5, #8026ed);
+             box-shadow: 2px 2px 7px 2px #ababab;
+             margin-left: 2vh;
+             }
+            body div div .chap-box  .test_btn{
+            width: 18vh;
+            height: 5vh;
+            font-size:2.3vh;
+            font-weight: bold;
+            margin-left: 2.5vh;
+            border-radius: 10px;
+            background: linear-gradient(to left, #48f0d4, #92f794);
+            box-shadow: 2px 2px 7px 2px #ababab;
+            
+            }
+  /* all exam maths chap list*/         
+ /* chsl exam */    monika
+            body .chsl-maths-chap-box{
+                position: absolute;
+                
+                display:none;
+                
+          }
+          .chsl-maths-chap-box .chsl-maths-chap-list{
+          width: 48vh;
+          height: 100vh;
+          border:1px solid black ;
+          border-radius: 5px;
+          background: #f1e6ff;
+          box-shadow: 1px 1px 20px 1px #ababab;
+          overflow: auto;
+          padding: 1vh 1vh;
+         }
+          .chsl-maths-chap-box{
+          position: absolute;
+          padding: 7vh 1vh;
+          display:none;
+          }
+          .chsl-maths-chap-box .chsl-maths-chap-list{
+          width: 48vh;
+          height: 100vh;
+          border:1px solid black ;
+          border-radius: 5px;
+          background: #f1e6ff;
+          box-shadow: 1px 1px 20px 1px #ababab;
+          overflow: auto;
+          padding: 7vh 1vh;
+          
+          }
+/* cgl exam */
+          .cgl-maths-chap-box{
+          position: absolute;
+          padding: 7vh 2vh;
+          display:none;
+          }
+          .cgl-maths-chap-box .cgl-maths-chap-list{
+          width: 48vh;
+          height: 100vh;
+          border:1px solid black ;
+          border-radius: 5px;
+          background: #f1e6ff;
+          box-shadow: 1px 1px 20px 1px #ababab;
+          overflow: auto;
+         
+          
+          }
+/* cpo exam */
+          .mts-maths-chap-box{
+          position: absolute;
+          padding: 7vh 1vh;
+          display:none;
+          }
+          .mts-maths-chap-box .mts-maths-chap-list{
+          width: 48vh;
+          height: 100vh;
+          border:1px solid black ;
+          border-radius: 5px;
+          background: #f1e6ff;
+          box-shadow: 1px 1px 20px 1px #ababab;
+          overflow: auto;
+          padding: 1vh 1vh;
+          
+          }
+/* cpo exam */
+          .cpo-maths-chap-box{
+          position: absolute;
+          padding: 7vh 1vh;
+          display:none;
+          }
+          .cpo-maths-chap-box .cpo-maths-chap-list{
+          width: 48vh;
+          height: 100vh;
+          border:1px solid black ;
+          border-radius: 5px;
+          background: #f1e6ff;
+          box-shadow: 1px 1px 20px 1px #ababab;
+          overflow: auto;
+          padding: 1vh 1vh;
+          
+          }
+ /* gd exam*/
+          .gd-maths-chap-box{
+          position: absolute;
+          padding: 7vh 1vh;
+          display:none;
+          }
+          .gd-maths-chap-box .gd-maths-chap-list{
+          width: 48vh;
+          height: 100vh;
+          border:1px solid black ;
+          border-radius: 5px;
+          background: #f1e6ff;
+          box-shadow: 1px 1px 20px 1px #ababab;
+          overflow: auto;
+          padding: 1vh 1vh;
+          
+          }
+          
+          
+/* all exam  reson chap list*/         
+  /* chsl exam */    monika
+          body .chsl-reson-chap-box{
+          position: absolute;
+          
+          display:none;
+          
+          }
+          .chsl-reson-chap-box .chsl-reson-chap-list{
+          width: 48vh;
+          height: 100vh;
+          border:1px solid black ;
+          border-radius: 5px;
+          background: #f1e6ff;
+          box-shadow: 1px 1px 20px 1px #ababab;
+          overflow: auto;
+          padding: 1vh 1vh;
+          }
+          .chsl-reson-chap-box{
+          position: absolute;
+          padding: 7vh 1vh;
+          display:none;
+          }
+          .chsl-reson-chap-box .chsl-reson-chap-list{
+          width: 48vh;
+          height: 100vh;
+          border:1px solid black ;
+          border-radius: 5px;
+          background: #f1e6ff;
+          box-shadow: 1px 1px 20px 1px #ababab;
+          overflow: auto;
+          padding: 7vh 1vh;
+          
+          }
+/* cgl exam */
+          .cgl-reson-chap-box{
+          position: absolute;
+          padding: 7vh 2vh;
+          display:none;
+          }
+          .cgl-reson-chap-box .cgl-reson-chap-list{
+          width: 48vh;
+          height: 100vh;
+          border:1px solid black ;
+          border-radius: 5px;
+          background: #f1e6ff;
+          box-shadow: 1px 1px 20px 1px #ababab;
+          overflow: auto;
+          
+          
+          }
+/* mts exam */
+          .mts-reson-chap-box{
+          position: absolute;
+          padding: 7vh 1vh;
+          display:none;
+          }
+          .mts-reson-chap-box .mts-reson-chap-list{
+          width: 48vh;
+          height: 100vh;
+          border:1px solid black ;
+          border-radius: 5px;
+          background: #f1e6ff;
+          box-shadow: 1px 1px 20px 1px #ababab;
+          overflow: auto;
+          padding: 1vh 1vh;
+          
+          }
+ /* cpo exam */
+          .cpo-reson-chap-box{
+          position: absolute;
+          padding: 7vh 1vh;
+          display:none;
+          }
+          .cpo-reson-chap-box .cpo-reson-chap-list{
+          width: 48vh;
+          height: 100vh;
+          border:1px solid black ;
+          border-radius: 5px;
+          background: #f1e6ff;
+          box-shadow: 1px 1px 20px 1px #ababab;
+          overflow: auto;
+          padding: 1vh 1vh;
+          
+          }
+/* gd exam*/
+          .gd-reson-chap-box{
+          position: absolute;
+          padding: 7vh 1vh;
+          display:none;
+          }
+          .gd-reson-chap-box .gd-reson-chap-list{
+          width: 48vh;
+          height: 100vh;
+          border:1px solid black ;
+          border-radius: 5px;
+          background: #f1e6ff;
+          box-shadow: 1px 1px 20px 1px #ababab;
+          overflow: auto;
+          padding: 1vh 1vh;
+          
+          }
+ /* all exam  english chap list*/         
+    /* chsl exam */    monika
+          body .chsl-engl-chap-box{
+          position: absolute;
+          
+          display:none;
+          
+          }
+          .chsl-engl-chap-box .chsl-engl-chap-list{
+          width: 48vh;
+          height: 100vh;
+          border:1px solid black ;
+          border-radius: 5px;
+          background: #f1e6ff;
+          box-shadow: 1px 1px 20px 1px #ababab;
+          overflow: auto;
+          padding: 1vh 1vh;
+          }
+          .chsl-engl-chap-box{
+          position: absolute;
+          padding: 7vh 1vh;
+          display:none;
+          }
+          .chsl-engl-chap-box .chsl-engl-chap-list{
+          width: 48vh;
+          height: 100vh;
+          border:1px solid black ;
+          border-radius: 5px;
+          background: #f1e6ff;
+          box-shadow: 1px 1px 20px 1px #ababab;
+          overflow: auto;
+          padding: 7vh 1vh;
+          
+          }
+/* cgl exam */
+          .cgl-engl-chap-box{
+          position: absolute;
+          padding: 7vh 2vh;
+          display:none;
+          }
+          .cgl-engl-chap-box .cgl-engl-chap-list{
+          width: 48vh;
+          height: 100vh;
+          border:1px solid black ;
+          border-radius: 5px;
+          background: #f1e6ff;
+          box-shadow: 1px 1px 20px 1px #ababab;
+          overflow: auto;
+          
+          
+          }
+/* mts exam */
+          .mts-engl-chap-box{
+          position: absolute;
+          padding: 7vh 1vh;
+          display:none;
+          }
+          .mts-engl-chap-box .mts-engl-chap-list{
+          width: 48vh;
+          height: 100vh;
+          border:1px solid black ;
+          border-radius: 5px;
+          background: #f1e6ff;
+          box-shadow: 1px 1px 20px 1px #ababab;
+          overflow: auto;
+          padding: 1vh 1vh;
+          
+          }
+/* cpo exam */
+          .cpo-engl-chap-box{
+          position: absolute;
+          padding: 7vh 1vh;
+          display:none;
+          }
+          .cpo-engl-chap-box .cpo-engl-chap-list{
+          width: 48vh;
+          height: 100vh;
+          border:1px solid black ;
+          border-radius: 5px;
+          background: #f1e6ff;
+          box-shadow: 1px 1px 20px 1px #ababab;
+          overflow: auto;
+          padding: 1vh 1vh;
+          
+          }
+/* gd exam*/
+          .gd-engl-chap-box{
+          position: absolute;
+          padding: 7vh 1vh;
+          display:none;
+          }
+          .gd-engl-chap-box .gd-engl-chap-list{
+          width: 48vh;
+          height: 100vh;
+          border:1px solid black ;
+          border-radius: 5px;
+          background: #f1e6ff;
+          box-shadow: 1px 1px 20px 1px #ababab;
+          overflow: auto;
+          padding: 1vh 1vh;
+          
+          }
+          
+ /* all exam  gk chap list*/         
+    /* chsl exam */    monika
+          body .chsl-gk-chap-box{
+          position: absolute;
+          
+          display:none;
+          
+          }
+          .chsl-gk-chap-box .chsl-gk-chap-list{
+          width: 48vh;
+          height: 100vh;
+          border:1px solid black ;
+          border-radius: 5px;
+          background: #f1e6ff;
+          box-shadow: 1px 1px 20px 1px #ababab;
+          overflow: auto;
+          padding: 1vh 1vh;
+          }
+          .chsl-gk-chap-box{
+          position: absolute;
+          padding: 7vh 1vh;
+          display:none;
+          }
+          .chsl-gk-chap-box .chsl-gk-chap-list{
+          width: 48vh;
+          height: 100vh;
+          border:1px solid black ;
+          border-radius: 5px;
+          background: #f1e6ff;
+          box-shadow: 1px 1px 20px 1px #ababab;
+          overflow: auto;
+          padding: 7vh 1vh;
+          
+          }
+          /* cgl exam */
+          .cgl-gk-chap-box{
+          position: absolute;
+          padding: 7vh 2vh;
+          display:none;
+          }
+          .cgl-gk-chap-box .cgl-gk-chap-list{
+          width: 48vh;
+          height: 100vh;
+          border:1px solid black ;
+          border-radius: 5px;
+          background: #f1e6ff;
+          box-shadow: 1px 1px 20px 1px #ababab;
+          overflow: auto;
+          
+          
+          }
+          /* mts exam */
+          .mts-gk-chap-box{
+          position: absolute;
+          padding: 7vh 1vh;
+          display:none;
+          }
+          .mts-gk-chap-box .mts-gk-chap-list{
+          width: 48vh;
+          height: 100vh;
+          border:1px solid black ;
+          border-radius: 5px;
+          background: #f1e6ff;
+          box-shadow: 1px 1px 20px 1px #ababab;
+          overflow: auto;
+          padding: 1vh 1vh;
+          
+          }
+          /* cpo exam */
+          .cpo-gk-chap-box{
+          position: absolute;
+          padding: 7vh 1vh;
+          display:none;
+          }
+          .cpo-gk-chap-box .cpo-gk-chap-list{
+          width: 48vh;
+          height: 100vh;
+          border:1px solid black ;
+          border-radius: 5px;
+          background: #f1e6ff;
+          box-shadow: 1px 1px 20px 1px #ababab;
+          overflow: auto;
+          padding: 1vh 1vh;
+          
+          }
+          /* gd exam*/
+          .gd-gk-chap-box{
+          position: absolute;
+          padding: 7vh 1vh;
+          display:none;
+          }
+          .gd-gk-chap-box .gd-gk-chap-list{
+          width: 48vh;
+          height: 100vh;
+          border:1px solid black ;
+          border-radius: 5px;
+          background: #f1e6ff;
+          box-shadow: 1px 1px 20px 1px #ababab;
+          overflow: auto;
+          padding: 1vh 1vh;
+          
+          }
+          
+  / * all exam  cimp chap list*/         
+          /* chsl exam */    monika
+          body .chsl-comp-chap-box{
+          position: absolute;
+          
+          display:none;
+          
+          }
+          .chsl-comp-chap-box .chsl-comp-chap-list{
+          width: 48vh;
+          height: 100vh;
+          border:1px solid black ;
+          border-radius: 5px;
+          background: #f1e6ff;
+          box-shadow: 1px 1px 20px 1px #ababab;
+          overflow: auto;
+          padding: 1vh 1vh;
+          }
+          .chsl-comp-chap-box{
+          position: absolute;
+          padding: 7vh 1vh;
+          display:none;
+          }
+          .chsl-comp-chap-box .chsl-comp-chap-list{
+          width: 48vh;
+          height: 100vh;
+          border:1px solid black ;
+          border-radius: 5px;
+          background: #f1e6ff;
+          box-shadow: 1px 1px 20px 1px #ababab;
+          overflow: auto;
+          padding: 7vh 1vh;
+          
+          }
+          /* cgl exam */
+          .cgl-comp-chap-box{
+          position: absolute;
+          padding: 7vh 2vh;
+          display:none;
+          }
+          .cgl-comp-chap-box .cgl-comp-chap-list{
+          width: 48vh;
+          height: 100vh;
+          border:1px solid black ;
+          border-radius: 5px;
+          background: #f1e6ff;
+          box-shadow: 1px 1px 20px 1px #ababab;
+          overflow: auto;
+          
+          
+          }
+          /* mts exam */
+          .mts-comp-chap-box{
+          position: absolute;
+          padding: 7vh 1vh;
+          display:none;
+          }
+          .mts-comp-chap-box .mts-comp-chap-list{
+          width: 48vh;
+          height: 100vh;
+          border:1px solid black ;
+          border-radius: 5px;
+          background: #f1e6ff;
+          box-shadow: 1px 1px 20px 1px #ababab;
+          overflow: auto;
+          padding: 1vh 1vh;
+          
+          }
+          /* cpo exam */
+          .cpo-comp-chap-box{
+          position: absolute;
+          padding: 7vh 1vh;
+          display:none;
+          }
+          .cpo-comp-chap-box .cpo-comp-chap-list{
+          width: 48vh;
+          height: 100vh;
+          border:1px solid black ;
+          border-radius: 5px;
+          background: #f1e6ff;
+          box-shadow: 1px 1px 20px 1px #ababab;
+          overflow: auto;
+          padding: 1vh 1vh;
+          
+          }
+          /* gd exam*/
+          .gd-comp-chap-box{
+          position: absolute;
+          padding: 7vh 1vh;
+          display:none;
+          }
+          .gd-comp-chap-box .gd-comp-chap-list{
+          width: 48vh;
+          height: 100vh;
+          border:1px solid black ;
+          border-radius: 5px;
+          background: #f1e6ff;
+          box-shadow: 1px 1px 20px 1px #ababab;
+          overflow: auto;
+          padding: 1vh 1vh;
+          
+          }
+          
+          
+          
+          
+
+
+
+
+/* icon img subject style */
+div div div div .math-icon,.engi-icon,.reson-icon,.gk-icon,.comp-icon{
+width: 18vh;
+height: 18vh;
+transition : all ease .2s;
+}
+div div div div .math-icon:hover,.engi-icon:hover,.reson-icon:hover,.gk-icon:hover,.comp-icon:hover{
+width: 18.5vh;
+height: 18.5vh;
+
+}
